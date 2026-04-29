@@ -1,6 +1,6 @@
 Στο zip βρίσκεται το τελικό μοντέλο.
 
-Τα αρχεία τρέχονται με την εξής σειρά (αν και δεν νομίζω να μπορούν να τρέξουν τοπικά, έχουν γραφτεί για το GCP):
+Τα αρχεία τρέχονται με την εξής σειρά (αν και δεν νομίζω να μπορούν να τρέξουν τοπικά, έχουν γραφτεί για το GCP), σε κατάλογο που περιέχει το embeddings_data_all.txt:
 prepare_model_for_default_training.py
 fine_tune_default_to_cypriot.py
 post_fine_tuning_default_cleanup.py
