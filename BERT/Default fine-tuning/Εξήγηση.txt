@@ -2,7 +2,7 @@
 
 Τα αρχεία τρέχονται με την εξής σειρά (αν και δεν νομίζω να μπορούν να τρέξουν τοπικά, έχουν γραφτεί για το GCP), σε κατάλογο που περιέχει το embeddings_data_all.txt:
 prepare_model_for_default_training.py
-fine_tune_default_to_cypriot.py
+fine_tune_default_to_cypriot.sh
 post_fine_tuning_default_cleanup.py
 
 Έχω προσθέσει σχόλια για να είναι κατανοητά. Αν έχετε κάποια ερώτηση πείτε μου.
