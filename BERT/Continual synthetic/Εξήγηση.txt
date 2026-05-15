@@ -1,0 +1,15 @@
+Στα zip βρίσκονται τα τελικά μοντέλα.
+
+cypriot-synthetic-base με continual training στα συνθετικά.
+
+cypriot-synthetic-finetuned με fine-tune του από πάνω στα κυπριακά.
+
+Τα αρχεία τρέχονται με την εξής σειρά (αν και δεν νομίζω να μπορούν να τρέξουν τοπικά, έχουν γραφτεί για το GCP), σε κατάλογο που περιέχει το embeddings_data_all.txt:
+stream_greek.py -> cypriotify.py
+prepare_model_for_synthetic_training.py
+continual_train.sh
+post_continual_cleanup.py
+fine_tune_synthetic_to_cypriot.sh
+post_fine_tuning_synthetic_cleanup.py
+
+Έχω προσθέσει σχόλια για να είναι κατανοητά. Αν έχετε κάποια ερώτηση πείτε μου.
