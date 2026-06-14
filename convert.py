@@ -28,9 +28,7 @@ def _align_mwt(cg_str, smg_str):
     """Resolve aligned (cg_parts, smg_parts) for a token pair.
 
     Returns the parts plus a flag indicating whether this is a multiword
-    token. When only one side splits, the multi side's parts are reused for
-    the single side. When both split into a different number of parts the
-    pair is left unsplit.
+    token. Handles misalignment cases by warning and returning the unsplit forms.
     """
     cg_parts = split_parts(cg_str)
     cg_length = len(cg_parts)
@@ -110,8 +108,7 @@ def convert_excel_to_conllu(excel_file, output_file):
             cg_str = str(cg_token).strip()
             smg_str = str(smg_token).strip()
 
-            # original Cypriot greek token added as misc field (10th column)
-            sentence_text += cg_str + " "
+            sentence_text += smg_str + " "
 
             cg_parts, smg_parts, is_mwt = _align_mwt(cg_str, smg_str)
 
