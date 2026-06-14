@@ -1,0 +1,18 @@
+# sent_id = 1
+# text = They buy and sell books.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur	2	nsubj	2:nsubj|4:nsubj	word1
+2	buy	buy	VERB	VBP	Number=Plur|Person=3|Tense=Pres	0	root	0:root	word2
+3	and	and	CCONJ	CC	_	4	cc	4:cc	word3
+4	sell	sell	VERB	VBP	Number=Plur|Person=3|Tense=Pres	2	conj	0:root|2:conj	word4
+5	books	book	NOUN	NNS	Number=Plur	2	obj	2:obj|4:obj	word5
+6	.	.	PUNCT	.	_	2	punct	2:punct	.
+
+# sent_id = 2
+# text = Τώρα στην πόλη πήγα.
+1	Τώρα	τώρα	ADV	_	_	_	_	_	word1
+2-3	στην	_	_	_	_	_	_	_	mwt
+2	σ	_	ADP	_	_	_	_	_	multi
+3	την	_	DET	_	_	_	_	_	wt
+4	πόλη	πόλη	NOUN	_	_	_	_	_	word4
+5	πήγα	πηγαίνω	VERB	_	_	_	_	_	word5
+6	.	.	_	_	_	_	_	_	.
