@@ -2,6 +2,77 @@ import argparse
 import conllu
 import pandas as pd
 
+from MWE_split_for_CONLLU import MWE_MAP
+
+
+def split_parts(token):
+    """Returns the word parts of a single surface token."""
+
+    # check for known MWE
+    parts = MWE_MAP.get(token.lower())
+    if parts is not None:
+        parts = list(parts)
+        # Preserve capitalization of the original surface form
+        if token[:1].isupper():
+            parts[0] = parts[0].capitalize()
+        return parts
+
+    # catch whitespace-separated words 
+    pieces = token.split()
+    if len(pieces) > 1:
+        return pieces
+    return [token]
+
+
+def _align_mwt(cg_str, smg_str):
+    """Resolve aligned (cg_parts, smg_parts) for a token pair.
+
+    Returns the parts plus a flag indicating whether this is a multiword
+    token. When only one side splits, the multi side's parts are reused for
+    the single side. When both split into a different number of parts the
+    pair is left unsplit.
+    """
+    cg_parts = split_parts(cg_str)
+    cg_length = len(cg_parts)
+
+    smg_parts = split_parts(smg_str)
+    smg_length = len(smg_parts)
+
+    if cg_length == 1 and smg_length == 1:
+        return [cg_str], [smg_str], False
+
+    if cg_length > 1 and smg_length > 1 and cg_length != smg_length:
+        print(f"WARNING: conflicting MWT split counts for "
+              f"CG={cg_str!r} ({cg_length}) / SMG={smg_str!r} ({smg_length}); left unsplit.")
+        return [cg_str], [smg_str], False
+
+    # If the SMG side splits but the CG side does not, warn and skip.
+    if cg_length == 1:
+        print(f"WARNING: SMG splits but CG does not for "
+              f"CG={cg_str!r} / SMG={smg_str!r}; left unsplit.")
+        return [cg_str], [smg_str], False
+
+    # if SMG did not split, reuse the CG parts
+    if smg_length == 1:
+        smg_parts = list(cg_parts)
+    return cg_parts, smg_parts, True
+
+
+def make_token(token_id, form, misc):
+    return {
+        'id': token_id,
+        'form': form,
+        'lemma': "_",
+        'upos': "_",
+        'xpos': "_",
+        'feats': "_",
+        'head': "_",
+        'deprel': "_",
+        'deps': "_",
+        'misc': misc
+    }
+
+
 def convert_excel_to_conllu(excel_file, output_file):
 
     df = pd.read_excel(excel_file, sheet_name=1)
@@ -28,28 +99,30 @@ def convert_excel_to_conllu(excel_file, output_file):
             if pd.isna(cg_token) and pd.isna(smg_token):
                 break
 
-            #TODO:handle case where one variant only is empty
-            
-            # original Cypriot greek token added as misc field (10th column) 
-            misc = cg_token
+            #if SMG token is empty, use CG token directly
+            if pd.isna(smg_token):
+                smg_token = cg_token
 
-            sentence_text += cg_token + " "
+            cg_str = str(cg_token).strip()
+            smg_str = str(smg_token).strip()
 
-            token = {
-                'id': token_id,
-                'form': smg_token,
-                'lemma': "_",
-                'upos': "_",
-                'xpos': "_",
-                'feats': "_",
-                'head': "_",
-                'deprel': "_",
-                'deps': "_",
-                'misc': misc
-            }
+            # original Cypriot greek token added as misc field (10th column)
+            sentence_text += cg_str + " "
 
-            sentence_tokens.append(token)
-            token_id += 1
+            cg_parts, smg_parts, is_mwt = _align_mwt(cg_str, smg_str)
+
+            if not is_mwt:
+                sentence_tokens.append(make_token(token_id, smg_str, cg_str))
+                token_id += 1
+                continue
+
+            # Multiword token: emit a range row followed by one row per word
+            n = len(cg_parts)
+            start, end = token_id, token_id + n - 1
+            sentence_tokens.append(make_token((start, '-', end), smg_str, cg_str))
+            for i in range(n):
+                sentence_tokens.append(make_token(start + i, smg_parts[i], cg_parts[i]))
+            token_id = end + 1
 
         if sentence_tokens:
             sentence = conllu.TokenList(sentence_tokens, metadata={"sent_id": str(sent_id), "text": sentence_text.strip()})
