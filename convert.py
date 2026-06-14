@@ -48,7 +48,7 @@ def _align_mwt(cg_str, smg_str):
     if cg_length == 1:
         # special case: "εννά" is interpreted as "είναι να"
         if cg_str.lower() == 'εννά' and smg_str.lower() == 'είναι να':
-            return ["εν’ να"], ["είναι", "να"], True
+            return ["εν’", "να"], ["είναι", "να"], True
         else: 
             print(f"WARNING: SMG splits but CG does not for "
                   f"CG={cg_str!r} / SMG={smg_str!r}; left unsplit.")
