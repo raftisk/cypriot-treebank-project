@@ -26,20 +26,19 @@ def swap_columns_and_update_text(input_file_path, output_file_path):
             old_form = token["form"]
             old_misc = token["misc"]
 
-            # If old_misc is a dictionary, convert it back to a CoNLL-U string (e.g., "Key=Val|Key2=Val2")
-            if isinstance(old_misc, dict):
-                misc_as_string = conllu.parser.serialize_field(old_misc)
+            # 1. Extract the text after "CypriotGreek="
+            # Check if old_misc is a dictionary and contains our target key
+            if isinstance(old_misc, dict) and "CypriotGreek" in old_misc:
+                extracted_word = old_misc["CypriotGreek"]
+            elif isinstance(old_misc, str) and "CypriotGreek=" in old_misc:
+                # Fallback string split just in case it didn't parse as a dict
+                extracted_word = old_misc.split("CypriotGreek=")[1].split("|")[0]
             else:
-                misc_as_string = str(old_misc) if old_misc is not None else "_"
+                # Fallback if the key isn't found
+                extracted_word = str(old_misc) if old_misc not in (None, "_") else ""
 
-            # If the original MISC was empty or '_', handle it gracefully for the text metadata
-            if misc_as_string == "_":
-                text_word = ""
-            else:
-                text_word = misc_as_string
-
-            token["form"] = misc_as_string
-            token["misc"] = old_form
+            token["form"] = extracted_word if extracted_word else "_"
+            token["misc"] = {"SMGTranslit": old_form}
 
             try:
                 current_id = int(token["id"])
@@ -49,7 +48,7 @@ def swap_columns_and_update_text(input_file_path, output_file_path):
             if current_id in ids_to_skip:
                 continue
             else:
-                new_words.append(text_word)
+                new_words.append(extracted_word)
 
         sentence.metadata["text"] = " ".join(new_words).strip()
 
