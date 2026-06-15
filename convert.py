@@ -60,7 +60,7 @@ def _align_mwt(cg_str, smg_str):
     return cg_parts, smg_parts, True
 
 
-def make_token(token_id, form, misc):
+def make_token(token_id, form, cg_form):
     return {
         'id': token_id,
         'form': form,
@@ -71,7 +71,7 @@ def make_token(token_id, form, misc):
         'head': "_",
         'deprel': "_",
         'deps': "_",
-        'misc': misc
+        'misc': f"CypriotGreek={cg_form}"
     }
 
 
@@ -133,7 +133,6 @@ def convert_excel_to_conllu(excel_file, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         for sentence in sentences:
             f.write(sentence.serialize())
-            f.write('\n\n')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert Excel file to CoNLL-U format.")
