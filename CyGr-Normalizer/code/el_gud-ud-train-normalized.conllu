@@ -113,7 +113,7 @@
 5	υπάρχει	υπάρχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	τίποτα	τίποτα	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	5	nsubj	_	_
 7	ύποπτο	ύποπτος	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
-8	σ’ 	σε	ADP	_	_	11	case	_	_
+8	σ'	σε	ADP	_	_	11	case	_	_
 9	αυτές	αυτός	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
 10	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	εταιρείες	εταιρεία	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
@@ -137,7 +137,7 @@
 14	,	,	PUNCT	_	_	20	punct	_	PunctType=Comm
 15	όπως	όπως	ADV	_	PronType=Rel	20	advmod	_	_
 16-17	στα	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	20	case	_	_
+16	σ	σε	ADP	_	_	20	case	_	_
 17	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
 18	παλιά	παλιός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	20	amod	_	_
 19	καλά	καλός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	20	amod	_	_
@@ -152,12 +152,12 @@
 3	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Κούλα	Κούλα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 5-6	στα	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
 7	κεντρικά	κεντρικός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	ρόλον	ρόλος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
 12	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -178,7 +178,7 @@
 10	που	που	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	11	nsubj	_	_
 11	μένει	μένω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
 12-13	στο	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	Χαλάνδρι	Χαλάνδρι	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
 15	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
@@ -238,7 +238,7 @@
 11	βγάλει	βγάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	xcomp	_	mwe=1:VID
 12	άλλα	άλλος	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	11	obj	_	_
 13-14	στην	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	mwe=1
+13	σ	σε	ADP	_	_	15	case	_	mwe=1
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	mwe=1
 15	φόρα	φόρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	mwe=1
 16	και	και	CCONJ	_	_	17	cc	_	_
@@ -329,7 +329,7 @@
 5	συνάντησα	συναντώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 6	κίνηση	κίνηση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	δρόμον	δρόμος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	_	PunctType=Comm
@@ -405,7 +405,7 @@
 3	χωράμε	χωρώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
 4	πια	πια	ADV	_	_	3	advmod	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	δυάριν	δυάριν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	PunctType=Comm
@@ -542,7 +542,7 @@
 11	άλλαξε	αλλάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 12	τίποτα	τίποτα	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	11	nsubj	_	_
 13-14	στην	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	πολιτική	πολιτική	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 16	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -656,14 +656,14 @@
 1	Το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	κίνητρο	κίνητρο	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	εποχή	εποχή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 6	μας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	_
 7	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 8	εννιά	εννέα	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	12	nummod	_	_
 9-10	στες	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	δέκα	δέκα	NUM	_	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	12	nmod	_	_
 12	φορές	φορά	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
@@ -702,7 +702,7 @@
 7	εσείς	εγώ	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	_
 8	είσαστεν	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	cop	_	_
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	12	case	_	_
+9	σ	σε	ADP	_	_	12	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 11	“	“	PUNCT	_	_	12	punct	_	PunctType=Quot|SpaceAfter=No
 12	καλομελέτα	καλομελετάω	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -835,7 +835,7 @@
 2	Θα	θα	AUX	_	Tense=Fut	3	aux	_	_
 3	πιούμεν	πίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 4-5	στην	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	υγεία	υγεία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 7	μας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No
@@ -881,7 +881,7 @@
 # text = Ανεβαίννω στο γραφείον μου και ετοιμάζουμαι να απολαύσω τον καφέν μου, αλλά με προλαβαίννει η Κούλα.
 1	Ανεβαίννω	ανεβαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2-3	στο	_	_	_	_	_	_	_	_
-2	σ’ 	σε	ADP	_	_	4	case	_	_
+2	σ	σε	ADP	_	_	4	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 5	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	_
@@ -908,7 +908,7 @@
 4	μια	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	ParsemeMWE=1
 5	ματιά	ματιά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	ParsemeMWE=1
 6-7	στο	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	διαμέρισμα	διαμέρισμα	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
@@ -922,7 +922,7 @@
 5	λέει	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	μετά	μετά	ADV	_	PronType=Dem	5	advmod	_	_
 7-8	στα	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	_
 9	αγγλικά	αγγλικά	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
@@ -966,7 +966,7 @@
 10	είχεν	έχω	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	βάλει	βάζω	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	mwe=1:VID
 12-13	στο	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	mwe=1
+12	σ	σε	ADP	_	_	14	case	_	mwe=1
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	mwe=1
 14	στόχαστρο	στόχαστρο	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	mwe=1
 15	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -983,7 +983,7 @@
 # text = Πάνε στα τυφλά και όπου τους βγάλει.
 1	Πάνε	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2-3	στα	_	_	_	_	_	_	_	_
-2	σ’ 	σε	ADP	_	_	4	case	_	_
+2	σ	σε	ADP	_	_	4	case	_	_
 3	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
 4	τυφλά	τυφλός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	_
 5	και	και	CCONJ	_	_	8	cc	_	_
@@ -1035,13 +1035,13 @@
 28	,	,	PUNCT	_	_	29	punct	_	PunctType=Comm
 29	δίπλα	δίπλα	ADV	_	_	27	appos	_	_
 30-31	στην	_	_	_	_	_	_	_	_
-30	σ’ 	σε	ADP	_	_	32	case	_	_
+30	σ	σε	ADP	_	_	32	case	_	_
 31	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	σκάλα	σκάλα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
 33	που	που	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	34	nsubj	_	_
 34	ανεβαίννει	ανεβαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
 35-36	στον	_	_	_	_	_	_	_	_
-35	σ’ 	σε	ADP	_	_	38	case	_	_
+35	σ	σε	ADP	_	_	38	case	_	_
 36	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 37	δεύτερον	δεύτερος	ADJ	_	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	38	amod	_	_
 38	όροφο	όροφος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
@@ -1118,7 +1118,7 @@
 3	Φάνης	Φάνης	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	συμμετέχει	συμμετέχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	ευφορία	ευφορία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	PunctType=Comm
@@ -1178,7 +1178,7 @@
 9	με	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 10	χτυπάει	χτυπώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 11-12	στην	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	πλάτη	πλάτη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 14	σαν	σαν	ADV	_	_	16	advmod	_	_
@@ -1226,7 +1226,7 @@
 3	εδώ	εδώ	ADV	_	PronType=Dem	1	advmod	_	_
 4	κύκλοι	κύκλος	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
 5-6	στες	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	8	case	_	_
+5	σ	σε	ADP	_	_	8	case	_	_
 6	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 7	ίδιες	ίδιος	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Emp	8	det	_	_
 8	μέρες	μέρα	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
@@ -1249,7 +1249,7 @@
 1	Έτρεξα	τρέχω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	αμέσως	αμέσως	ADV	_	_	1	advmod	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	μπαλκόνιν	μπαλκόνιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -1493,7 +1493,7 @@
 1	Ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	υπάλληλος	υπάλληλος	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	είσοδον	είσοδος	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 6	κουνά	κουνώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1529,7 +1529,7 @@
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 3	έδωσε	δίνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	_
-4	σ’ 	σε	ADP	_	_	5	case	_	_
+4	σ'	σε	ADP	_	_	5	case	_	_
 5	αυτούς	αυτός	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	3	obl	_	_
 6	που	που	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	8	nsubj	_	_
 7	τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
@@ -1565,7 +1565,7 @@
 5	ήδη	ήδη	ADV	_	_	4	advmod	_	_
 6	οδηγίες	οδηγία	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	συνεργείον	συνεργείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 10	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -1644,7 +1644,7 @@
 10	εταιρείες	εταιρεία	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
 11	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	10	nmod	_	_
 12-13	στην	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 15	»	»	PUNCT	_	_	6	punct	_	PunctType=Quot|SpaceAfter=No
@@ -1658,7 +1658,7 @@
 4	εταιρείας	εταιρεία	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6-7	στο	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	Λονδίνον	Λονδίνον	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
@@ -1865,7 +1865,7 @@
 15	επειδή	επειδή	SCONJ	_	_	16	mark	_	_
 16	μπλέκεται	μπλέκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	advcl	_	_
 17-18	στα	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	19	det	_	_
 19	πόδια	πόδιν	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	_
 20	τους	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	SpaceAfter=No
@@ -1878,7 +1878,7 @@
 27	και	και	CCONJ	_	_	28	cc	_	_
 28	προχωρά	προχωρώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	_
 29-30	στην	_	_	_	_	_	_	_	_
-29	σ’ 	σε	ADP	_	_	31	case	_	_
+29	σ	σε	ADP	_	_	31	case	_	_
 30	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	ερώτηση	ερώτηση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
 32	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod	_	SpaceAfter=No
@@ -1935,7 +1935,7 @@
 2	να	να	SCONJ	_	_	3	mark	_	_
 3	κρατηθώ	κρατώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Pass	1	ccomp	_	_
 4-5	στο	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	γενικώς	γεννικά	ADV	_	_	3	obl	_	_
 7	και	και	CCONJ	_	_	8	cc	_	_
@@ -1964,7 +1964,7 @@
 10	τελείωσε	τελειώννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 11	γύρω	γύρω	ADV	_	_	10	advmod	_	_
 12-13	στες	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	τρεις	τρεις	NUM	_	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	11	obl	_	SpaceAfter=No
 15	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
@@ -2005,7 +2005,7 @@
 1	Έχουμεν	έχω	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
 2	φτάσει	φθάννω	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 3-4	στα	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
 5	μισά	μισός	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	2	obl	_	_
 6	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
@@ -2021,7 +2021,7 @@
 16	να	να	SCONJ	_	_	17	mark	_	_
 17	μπαίννουν	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	xcomp	_	_
 18-19	στην	_	_	_	_	_	_	_	_
-18	σ’ 	σε	ADP	_	_	20	case	_	_
+18	σ	σε	ADP	_	_	20	case	_	_
 19	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	πλατεία	πλατεία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	PunctType=Comm
@@ -2060,7 +2060,7 @@
 10	και	και	CCONJ	_	_	14	cc	_	_
 11	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12-13	στην	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	φυλακή	φυλακή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
 15	»	»	PUNCT	_	_	17	punct	_	PunctType=Quot
@@ -2085,7 +2085,7 @@
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πότε	πότε	ADV	_	PronType=Int	5	advmod	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Ερέτρια	Ερέτρια	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
 6	από	από	ADP	_	_	7	case	_	_
@@ -2095,7 +2095,7 @@
 10	και	και	CCONJ	_	_	14	cc	_	_
 11	πότε	πότε	ADV	_	PronType=Int	14	advmod	_	_
 12-13	στα	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	14	det	_	_
 14	ανοιχτά	ανοιχτός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	PunctType=Comm
@@ -2132,7 +2132,7 @@
 1	Μπαίννω	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	πάλιν	πάλιν	ADV	_	_	1	advmod	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Σέατ	Σέατ	PROPN	_	Gender=Neut	1	obl	_	_
 6	και	και	CCONJ	_	_	7	cc	_	_
@@ -2227,7 +2227,7 @@
 16	άρα	άρα	CCONJ	_	_	17	cc	_	_
 17	ανήκει	ανήκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
 18-19	στα	_	_	_	_	_	_	_	_
-18	σ’ 	σε	ADP	_	_	20	case	_	_
+18	σ	σε	ADP	_	_	20	case	_	_
 19	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
 20	κορόιδα	κορόιδο	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
@@ -2310,7 +2310,7 @@
 15	υπολοίπων	υπόλοιπος	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 16	κολλημένα	κολλάω	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	11	xcomp	_	_
 17-18	στες	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	πλάτες	πλάτη	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	16	obl	_	_
 20	μας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod	_	SpaceAfter=No
@@ -2322,7 +2322,7 @@
 2	να	να	SCONJ	_	_	3	mark	_	_
 3	εμφανιστεί	εμφανίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	1	xcomp	_	_
 4-5	στην	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	δουλειά	δουλειά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 7	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	_
@@ -2385,7 +2385,7 @@
 12	να	να	SCONJ	_	_	13	mark	_	_
 13	καταφύγω	καταφεύγω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 14-15	στον	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Δημητράκο	Δημητράκος	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	PunctType=Comm
@@ -2413,13 +2413,13 @@
 3	χάννεις	χάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl:relcl	_	_
 4	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 5-6	στες	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	8	case	_	_
+5	σ	σε	ADP	_	_	8	case	_	_
 6	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 7	πλάγιες	πλάγιος	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	8	amod	_	_
 8	οδούς	οδός	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	0	root	_	_
 9	και	και	CCONJ	_	_	12	cc	_	_
 10-11	στα	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
 12	χτυπήματα	χτύπημα	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	_
 13	κάτω	κάτω	ADV	_	_	12	advmod	_	_
@@ -2497,7 +2497,7 @@
 5	και	και	CCONJ	_	_	6	cc	_	_
 6	ανεβαίννω	ανεβαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 7-8	στον	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	πέμπτο	πέμπτος	ADJ	_	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
@@ -2720,7 +2720,7 @@
 12	που	που	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
 13	γίνεται	γίνουμαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl:relcl	_	_
 14-15	στην	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	χώρα	χώρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 17	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
@@ -2811,7 +2811,7 @@
 17	για	για	ADP	_	_	18	case	_	_
 18	κατάθεση	κατάθεση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
 19-20	στην	_	_	_	_	_	_	_	_
-19	σ’ 	σε	ADP	_	_	21	case	_	_
+19	σ	σε	ADP	_	_	21	case	_	_
 20	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	αστυνομία	αστυνομία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	PunctType=Comm
@@ -2828,7 +2828,7 @@
 2	δύο	δύο	NUM	_	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	PunctType=Comm
 4-5	στην	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Ιταλία	Ιταλία	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -2930,7 +2930,7 @@
 10	αναρτήσεις	ανάρτηση	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 11	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod	_	_
 12-13	στο	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	διαδίκτυο	διαδίκτυο	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
 15	και	και	CCONJ	_	_	17	cc	_	_
@@ -2963,7 +2963,7 @@
 1	Δεν	δεν	PART	_	Polarity=Neg	2	advmod	_	_
 2	μπαίννω	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	συζήτηση	συζήτηση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
@@ -3073,7 +3073,7 @@
 12	»	»	PUNCT	_	_	13	punct	_	PunctType=Quot
 13	λέει	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 14-15	στον	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Γκίκα	Γκίκας	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	PunctType=Peri
@@ -3216,7 +3216,7 @@
 18	θέλησε	θέλω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
 19	να	να	SCONJ	_	_	20	mark	_	_
 20	έρθει	έρκουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	18	ccomp	_	_
-21	σ’ 	σε	ADP	_	_	22	case	_	_
+21	σ'	σε	ADP	_	_	22	case	_	_
 22	εμέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obl	_	_
 23	με	με	ADP	_	_	25	case	_	_
 24	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -3292,7 +3292,7 @@
 9	πρώτη	πρώτος	ADJ	_	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
 10	μέρα	ημέρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 11-12	στην	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	υπηρεσία	υπηρεσία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 14	»	»	PUNCT	_	_	7	punct	_	PunctType=Quot|SpaceAfter=No
@@ -3490,7 +3490,7 @@
 6	που	που	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	7	obj	_	_
 7	βρήκαμεν	βρίσκω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 8-9	στο	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
 11	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	nmod	_	_
@@ -3593,7 +3593,7 @@
 2	Γκίκας	Γκίκας	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	βυθίζεται	βυθίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4-5	στες	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	σκέψεις	σκέψη	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
@@ -3608,7 +3608,7 @@
 16	και	και	CCONJ	_	_	17	cc	_	_
 17	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	conj	_	_
 18-19	στην	_	_	_	_	_	_	_	_
-18	σ’ 	σε	ADP	_	_	20	case	_	_
+18	σ	σε	ADP	_	_	20	case	_	_
 19	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	ενδοσκόπηση	ενδοσκόπηση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	17	orphan	_	_
 21	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -3637,7 +3637,7 @@
 17	την	εγώ	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
 18	σέρβιραν	σερβίρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 19-20	στο	_	_	_	_	_	_	_	_
-19	σ’ 	σε	ADP	_	_	21	case	_	_
+19	σ	σε	ADP	_	_	21	case	_	_
 20	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
 21	πιάτον	πιάτον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
 22	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
@@ -3648,7 +3648,7 @@
 1	«	«	PUNCT	_	_	6	punct	_	PunctType=Quot|SpaceAfter=No
 2	Προχτές	προχθές	ADV	_	_	6	advmod	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 6	ρωτούσες	ρωτώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	14	ccomp	_	_
@@ -3738,7 +3738,7 @@
 14	οπότε	οπότε	SCONJ	_	_	15	mark	_	_
 15	μπήκες	μπαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
 16-17	στην	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	κατηγορία	κατηγορία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
 19	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -3828,7 +3828,7 @@
 10	,	,	PUNCT	_	_	19	punct	_	PunctType=Comm
 11	αλλά	αλλά	CCONJ	_	_	19	cc	_	_
 12-13	στην	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	πραγματικότητα	πραγματικότητα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
 15	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	19	obl	_	_
@@ -3869,7 +3869,7 @@
 2	Όπως	όπως	ADV	_	PronType=Rel	3	advmod	_	_
 3	περνάς	περνώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	_
 4-5	στην	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	φυλακή	φυλακή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 7	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
@@ -3911,7 +3911,7 @@
 11	ώσπου	ώσπου	SCONJ	_	_	12	mark	_	_
 12	φτάνουμεν	φτάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
 13-14	στον	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	κατάλογο	κατάλογος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -4052,7 +4052,7 @@
 8	περιμένω	περιμένω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	conj	_	_
 9	δίπλα	δίπλα	ADV	_	_	8	advmod	_	_
 10-11	στην	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	πόρτα	πόρτα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -4064,7 +4064,7 @@
 3	μας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
 4	περιμένει	περιμένω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	καθιστικόν	καθιστικόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -4074,7 +4074,7 @@
 1	Ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	πυροβολισμός	πυροβολισμός	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	dislocated	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	μέτωπον	μέτωπον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_
 6	μπορεί	μπορώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4119,7 +4119,7 @@
 22	και	και	CCONJ	_	_	23	cc	_	_
 23	ξαναμπαίννει	ξαναμπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
 24-25	στο	_	_	_	_	_	_	_	_
-24	σ’ 	σε	ADP	_	_	26	case	_	_
+24	σ	σε	ADP	_	_	26	case	_	_
 25	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
 26	φορτηγό	φορτηγό	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -4179,7 +4179,7 @@
 3	μόνοι	μόνος	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	advcl	_	_
 4	μας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
 5-6	στον	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Χαρδάκο	Χαρδάκος	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
@@ -4196,7 +4196,7 @@
 19	που	που	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	20	nsubj	_	_
 20	εσκοτώθηκεν	σκοτώννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	17	acl:relcl	_	_
 21-22	στο	_	_	_	_	_	_	_	_
-21	σ’ 	σε	ADP	_	_	23	case	_	_
+21	σ	σε	ADP	_	_	23	case	_	_
 22	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
 23	Thailand	Thailand	X	_	Foreign=Yes	20	obl	_	SpaceAfter=No
 24	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
@@ -4307,7 +4307,7 @@
 4	αμφιβολίες	αμφιβολία	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
 5	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	υπόθεση	υπόθεση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 9	Χαρδάκου	Χαρδάκος	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -4351,7 +4351,7 @@
 # text = Επιστρέφουμεν στο εξοχικόν της Τζέιν Όγκντεν και μπαίννουμεν σε κατάσταση αναμονής των λιμενικών.
 1	Επιστρέφουμεν	επιστρέφω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2-3	στο	_	_	_	_	_	_	_	_
-2	σ’ 	σε	ADP	_	_	4	case	_	_
+2	σ	σε	ADP	_	_	4	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	εξοχικόν	εξοχικός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 5	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -4555,7 +4555,7 @@
 47	ήταν	είμαι	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	48	cop	_	_
 48	στάχτη	στάχτη	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	41	conj	_	_
 49-50	στα	_	_	_	_	_	_	_	_
-49	σ’ 	σε	ADP	_	_	51	case	_	_
+49	σ	σε	ADP	_	_	51	case	_	_
 50	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	51	det	_	_
 51	μάτια	μμάτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	48	obl	_	_
 52	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
@@ -4603,7 +4603,7 @@
 3	με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
 4	καλέσουν	καλώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	advcl	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	δικαστήριον	δικαστήριον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	PunctType=Comm
@@ -4638,7 +4638,7 @@
 10	έναν	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	τραπέζι	τραπέζι	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
 12-13	στο	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	βάθος	βάθος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
 15	και	και	CCONJ	_	_	17	cc	_	_
@@ -4653,7 +4653,7 @@
 3	ανάσα	ανάσα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
 4	και	και	CCONJ	_	_	5	cc	_	_
 5	γυρίζει	γυρίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-6	σ’ 	σε	ADP	_	_	7	case	_	_
+6	σ'	σε	ADP	_	_	7	case	_	_
 7	εμάς	εγώ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
@@ -4751,7 +4751,7 @@
 16	τους	εγώ	PRON	_	Case=Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	_
 17	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 18-19	στα	_	_	_	_	_	_	_	_
-18	σ’ 	σε	ADP	_	_	20	case	_	_
+18	σ	σε	ADP	_	_	20	case	_	_
 19	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
 20	μαχαίρια	μαχαίριν	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	11	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	PunctType=Comm
@@ -4767,7 +4767,7 @@
 3	που	που	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
 4	μπαίννει	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	πλατεία	πλατεία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 8	περνά	περνώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4794,7 +4794,7 @@
 7	»	»	PUNCT	_	_	6	punct	_	PunctType=Quot
 8	εξηγεί	εξηγώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9-10	στον	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Φάνη	Φάνης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
@@ -4843,7 +4843,7 @@
 10	να	να	SCONJ	_	_	11	mark	_	_
 11	ξετρυπώσει	ξετρυπώννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	csubj	_	_
 12-13	στην	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Οδησσό	Οδησσός	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
@@ -4898,7 +4898,7 @@
 3	εμφανίστηκαν	εμφανίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	πάλιν	πάλιν	ADV	_	_	3	advmod	_	_
 5-6	στους	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	τους	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	δρόμους	δρόμος	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	PunctType=Comm
@@ -4975,7 +4975,7 @@
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Είμαι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	κουζίνα	κουζίνα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
@@ -4999,7 +4999,7 @@
 4	τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	είχεν	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	ασφάλεια	ασφάλεια	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
@@ -5039,7 +5039,7 @@
 8	όταν	όταν	SCONJ	_	_	9	mark	_	_
 9	βρίσκω	βρίσκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
 10-11	στο	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	καθιστικόν	καθιστικόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 13	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -5059,7 +5059,7 @@
 4	να	να	SCONJ	_	_	5	mark	_	_
 5	ξέρω	ξέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 6	τι	τι	SCONJ	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	8	nsubj	_	_
-7	σ’ 	εγώ	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	obj	_	_
+7	σ'	εγώ	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	obj	_	_
 8	έκανεν	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	_	_
 9	να	να	SCONJ	_	_	10	mark	_	_
 10	πάρεις	παίρνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	8	xcomp	_	_
@@ -5147,7 +5147,7 @@
 11	και	και	CCONJ	_	_	12	cc	_	_
 12	φύτευαν	φυτεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 13-14	στον	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	κηπάκο	κήπος	NOUN	_	Case=Acc|Degree=Dim|Gender=Masc|Number=Sing	12	obl	_	_
 16	τους	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	_
@@ -5229,7 +5229,7 @@
 8	»	»	PUNCT	_	_	9	punct	_	PunctType=Quot
 9	λέω	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10-11	στον	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Ούλιν	Ούλιν	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
@@ -5299,7 +5299,7 @@
 3	να	να	SCONJ	_	_	4	mark	_	_
 4	μπουκάρουν	μπουκάρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 8	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod	_	_
@@ -5393,7 +5393,7 @@
 7	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod	_	_
 8	πήγαν	πηγαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9-10	στα	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 11	πεθερικά	πεθερικά	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
 12	της	εγώ	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod	_	SpaceAfter=No
@@ -5432,7 +5432,7 @@
 6	η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Κούλα	Κούλα	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 8-9	στα	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
 10	αγγλικά	αγγλικά	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
@@ -5479,7 +5479,7 @@
 14	ή	ή	CCONJ	_	_	15	cc	_	_
 15	ψαρεύει	ψαρεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 16-17	στα	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	18	det	_	_
 18	θολά	θολός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	PunctType=Comm
@@ -5499,13 +5499,13 @@
 6	που	που	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	7	obj	_	_
 7	ερευνώ	ερευνώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 8-9	στο	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	17	punct	_	PunctType=Comm
 12	και	και	CCONJ	_	_	17	cc	_	_
 13-14	στο	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
 16	να	να	SCONJ	_	_	17	mark	_	_
@@ -5513,7 +5513,7 @@
 18	είτε	είτε	CCONJ	_	_	19	cc	_	_
 19	μπροστά	μπροστά	ADV	_	_	17	advmod	_	_
 20-21	στην	_	_	_	_	_	_	_	_
-20	σ’ 	σε	ADP	_	_	22	case	_	_
+20	σ	σε	ADP	_	_	22	case	_	_
 21	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	τηλεόραση	τηλεόραση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
 23	είτε	είτε	CCONJ	_	_	24	cc	_	_
@@ -5544,7 +5544,7 @@
 20	ναυτιλιακών	ναυτιλιακός	ADJ	_	Case=Gen|Gender=Fem|Number=Plur	21	amod	_	_
 21	εταιρειών	εταιρεία	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
 22-23	στην	_	_	_	_	_	_	_	_
-22	σ’ 	σε	ADP	_	_	24	case	_	_
+22	σ	σε	ADP	_	_	24	case	_	_
 23	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	μητέρα	μητέρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	_
 25	πατρίδα	πατρίδα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
@@ -5604,7 +5604,7 @@
 3	έπιπλα	έπιπλο	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
 4	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	κουζίνα	κουζίνα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	:	:	PUNCT	_	_	7	punct	_	PunctType=Colo
@@ -5642,7 +5642,7 @@
 14	κάνει	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
 15	νόημαν	νόημαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
 16-17	στους	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	τους	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	άλλους	άλλος	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	14	obl	_	_
 19	να	να	SCONJ	_	_	20	mark	_	_
@@ -5738,7 +5738,7 @@
 7	των	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	εταιρειών	εταιρεία	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
 9-10	στον	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Πειραιά	Πειραιάς	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 12	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
@@ -5763,7 +5763,7 @@
 7	να	να	SCONJ	_	_	8	mark	_	_
 8	κάνει	κάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	conj	_	_
 9-10	στην	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	ασπρομάλλα	ασπρομάλλης	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 12	διάφορες	διάφορος	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	13	amod	_	_
@@ -5830,7 +5830,7 @@
 34	κάποια	κάποιος	DET	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	35	det	_	_
 35	κίνητρα	κίνητρο	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	32	nsubj:pass	_	_
 36-37	στες	_	_	_	_	_	_	_	_
-36	σ’ 	σε	ADP	_	_	39	case	_	_
+36	σ	σε	ADP	_	_	39	case	_	_
 37	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
 38	ναυτιλιακές	ναυτιλιακός	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	39	amod	_	_
 39	εταιρείες	εταιρεία	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No
@@ -5839,7 +5839,7 @@
 42	να	να	SCONJ	_	_	43	mark	_	_
 43	συνέβαλαν	συμβάλλω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	35	acl:relcl	_	_
 44-45	στην	_	_	_	_	_	_	_	_
-44	σ’ 	σε	ADP	_	_	47	case	_	_
+44	σ	σε	ADP	_	_	47	case	_	_
 45	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 46	τελική	τελικός	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	47	amod	_	_
 47	απόφαση	απόφαση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	43	obl	_	_
@@ -5847,7 +5847,7 @@
 49	να	να	SCONJ	_	_	50	mark	_	_
 50	επιστρέφουν	επιστρέφω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	47	acl	_	_
 51-52	στην	_	_	_	_	_	_	_	_
-51	σ’ 	σε	ADP	_	_	53	case	_	_
+51	σ	σε	ADP	_	_	53	case	_	_
 52	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	50	obl	_	SpaceAfter=No
 54	»	»	PUNCT	_	_	32	punct	_	PunctType=Quot|SpaceAfter=No
@@ -5883,7 +5883,7 @@
 11	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	εφοπλιστές	εφοπλιστής	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 13-14	στην	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 16	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest
@@ -5969,13 +5969,13 @@
 10	ταιριάζει	ταιριάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	περισσότερον	πολύ	ADV	_	Degree=Cmp|PronType=Ind	10	advmod	_	_
 12-13	στον	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Δημητράκο	Δημητράκος	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 15	και	και	CCONJ	_	_	19	cc	_	_
 16	λιγότερο	λλίγον	ADV	_	Degree=Cmp|PronType=Ind	19	orphan	_	_
 17-18	στο	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
 19	σήμμερα	σήμμερα	ADV	_	_	14	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
@@ -6141,7 +6141,7 @@
 12	μπαίννουν	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 13	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	ψύλλοι	ψύλλος	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	τ’ 	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
 17	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -6199,7 +6199,7 @@
 9	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	φτυάριν	φτυάριν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
 11-12	στο	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	χέριν	χέριν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 14	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
@@ -6217,7 +6217,7 @@
 8	λεφτά	λεφτά	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
 9	τους	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod	_	_
 10-11	στην	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 13	από	από	ADP	_	_	15	case	_	_
@@ -6234,7 +6234,7 @@
 3	με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
 4	παρασύρουν	παρασύρω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	κραιπάλη	κραιπάλη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 8	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
@@ -6253,13 +6253,13 @@
 9	βρίσκεται	βρίσκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	2	conj	_	_
 10	τώρα	τώρα	ADV	_	PronType=Dem	9	advmod	_	_
 11-12	στην	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Ιταλία	Ιταλία	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 14	»	»	PUNCT	_	_	15	punct	_	PunctType=Quot
 15	λέω	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 16-17	στον	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Δερμιτζάκη	Δερμιτζάκης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	PunctType=Peri
@@ -6284,7 +6284,7 @@
 16	την	εγώ	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
 17	αράξω	αράζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	11	csubj	_	_
 18-19	στο	_	_	_	_	_	_	_	_
-18	σ’ 	σε	ADP	_	_	20	case	_	_
+18	σ	σε	ADP	_	_	20	case	_	_
 19	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
 21	και	και	CCONJ	_	_	23	cc	_	_
@@ -6427,7 +6427,7 @@
 1	Εγώ	εγώ	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	ξανακάθουμαι	ξανακάθουμαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	θέση	θέση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 6	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	_
@@ -6520,7 +6520,7 @@
 8	πατέρα	πατέρας	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 9	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	8	nmod	_	_
 10-11	στο	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	Λονδίνον	Λονδίνον	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 13	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
@@ -6564,7 +6564,7 @@
 8	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
 9	είπες	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
 10	και	και	CCONJ	_	_	12	cc	_	_
-11	σ’ 	σε	ADP	_	_	12	case	_	_
+11	σ'	σε	ADP	_	_	12	case	_	_
 12	εμέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
 13	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
 14	με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
@@ -6669,7 +6669,7 @@
 4	νηστεία	νηστεία	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 5	περιοριζόταν	περιορίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	9	case	_	_
+6	σ	σε	ADP	_	_	9	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	Μεγάλη	μεγάλος	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
 9	Εβδομάδα	εβδομάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
@@ -6755,7 +6755,7 @@
 19	πλοίων	πλοίον	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
 20	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	19	nmod	_	_
 21-22	στην	_	_	_	_	_	_	_	_
-21	σ’ 	σε	ADP	_	_	23	case	_	_
+21	σ	σε	ADP	_	_	23	case	_	_
 22	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Ταϊλάνδη	Ταϊλάνδη	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
 24	και	και	CCONJ	_	_	26	cc	_	_
@@ -6802,13 +6802,13 @@
 3	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Ρηγίλλης	Ρηγίλλης	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	Σύνταγμα	Σύνταγμα	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 8	και	και	CCONJ	_	_	9	cc	_	_
 9	μπαίννω	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 10-11	στην	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Πανεπιστημίου	Πανεπιστημίου	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -6838,7 +6838,7 @@
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	βάρος	βάρος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	9	case	_	_
+6	σ	σε	ADP	_	_	9	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	ιδιωτική	ιδιωτικός	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
 9	οικονομία	οικονομία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
@@ -6869,7 +6869,7 @@
 1	Όταν	όταν	SCONJ	_	_	2	mark	_	_
 2	φτάννω	φτάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
@@ -6932,7 +6932,7 @@
 3	τρώνε	τρώω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	κάθε	κάθε	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	5	det	_	_
 5	βράδυν	βράδυν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
-6	σ’ 	σε	ADP	_	_	7	case	_	_
+6	σ'	σε	ADP	_	_	7	case	_	_
 7	εμάς	εγώ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	_
 8	και	και	CCONJ	_	_	23	cc	_	_
 9	τώρα	τώρα	ADV	_	PronType=Dem	23	advmod	_	SpaceAfter=No
@@ -6942,7 +6942,7 @@
 13	λλίγον	λίγος	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	14	det	_	_
 14	φως	φως	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
 15-16	στην	_	_	_	_	_	_	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	άκρη	άκρη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 18	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
@@ -7051,7 +7051,7 @@
 20	φρέσκιες	φρέσκιος	ADJ	_	Case=Nom|Gender=Fem|Number=Plur	21	amod	_	_
 21	πατημασιές	πατημασιά	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
 22-23	στο	_	_	_	_	_	_	_	_
-22	σ’ 	σε	ADP	_	_	24	case	_	_
+22	σ	σε	ADP	_	_	24	case	_	_
 23	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
 24	πάτωμαν	πάτωμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
 25	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
@@ -7178,7 +7178,7 @@
 7	έξω	έξω	ADV	_	_	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	καφέ	καφές	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	PunctType=Comm
@@ -7230,7 +7230,7 @@
 # text = Πηγαίννω στο γραφείον μου και κάθουμαι σε αναμμένα κάρβουνα.
 1	Πηγαίννω	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2-3	στο	_	_	_	_	_	_	_	_
-2	σ’ 	σε	ADP	_	_	4	case	_	_
+2	σ	σε	ADP	_	_	4	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 5	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	_
@@ -7275,7 +7275,7 @@
 10	μία	ένας	NUM	_	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	11	nummod	_	_
 11	ώρα	ώρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 12-13	στον	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	προθάλαμο	προθάλαμος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 15	και	και	CCONJ	_	_	17	cc	_	_
@@ -7356,7 +7356,7 @@
 12	δώσει	δίνω	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	acl:relcl	_	_
 13	και	και	CCONJ	_	_	16	cc	_	_
 14-15	στον	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Γκίκα	Γκίκας	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -7482,7 +7482,7 @@
 11	που	που	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
 12	μιλά	μιλώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 13-14	στο	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	κινητό	κινητό	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
 16	της	εγώ	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	SpaceAfter=No
@@ -7583,7 +7583,7 @@
 2	μπήκα	μπαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
 3	όμως	όμως	CCONJ	_	_	2	cc	_	_
 4-5	στο	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	διαμέρισμα	διαμέρισμα	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
@@ -7601,7 +7601,7 @@
 19	μπήκαν	μπαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	mwe=1:VID
 20	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	mwe=1
 21	ψύλλοι	ψύλλος	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	mwe=1
-22	σ’ 	σε	ADP	_	_	24	case	_	mwe=1
+22	σ	σε	ADP	_	_	24	case	_	mwe=1
 23	τ’ 	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	mwe=1
 24	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	mwe=1|SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	PunctType=Comm
@@ -7619,7 +7619,7 @@
 4	είχαν	έχω	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	5	aux	_	_
 5	μαζευτεί	μαζεύω	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Pass	0	root	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	γωνία	γωνία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 9	και	και	CCONJ	_	_	10	cc	_	_
@@ -7702,11 +7702,11 @@
 24	ύπνος	ύπνος	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 25	πάνω	πάνω	ADV	_	_	22	advmod	_	_
 26-27	στο	_	_	_	_	_	_	_	_
-26	σ’ 	σε	ADP	_	_	28	case	_	_
+26	σ	σε	ADP	_	_	28	case	_	_
 27	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
 28	τιμόνιν	τιμόνιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	25	obl	_	_
 29-30	στην	_	_	_	_	_	_	_	_
-29	σ’ 	σε	ADP	_	_	31	case	_	_
+29	σ	σε	ADP	_	_	31	case	_	_
 30	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	επιστροφή	επιστροφή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
@@ -7746,7 +7746,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	PunctType=Comm
 3	καταλήγω	καταλήγω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4-5	στο	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	συμπέρασμαν	συμπέρασμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 7	ότι	ότι	SCONJ	_	_	9	mark	_	_
@@ -7839,7 +7839,7 @@
 13	και	και	CCONJ	_	_	14	cc	_	_
 14	γυρίζω	γυρίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 15-16	στον	_	_	_	_	_	_	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Βλασόπουλλον	Βλασόπουλος	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -7979,7 +7979,7 @@
 # text = Επιστρέφω στο γραφείον μου και προσπαθώ να βάλω σε τάξη τες σκέψεις μου, για να ορίσω τες προτεραιότητες.
 1	Επιστρέφω	επιστρέφω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2-3	στο	_	_	_	_	_	_	_	_
-2	σ’ 	σε	ADP	_	_	4	case	_	_
+2	σ	σε	ADP	_	_	4	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 5	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	_
@@ -8115,7 +8115,7 @@
 5	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	expl	_	_
 6	φόρτωννε	φορτώννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	όλα	όλος	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	6	obj	_	_
-8	σ’ 	σε	ADP	_	_	9	case	_	_
+8	σ'	σε	ADP	_	_	9	case	_	_
 9	εσάς	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
 11	τους	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -8739,7 +8739,7 @@
 11	θα	θα	AUX	_	Tense=Fut	12	aux	_	_
 12	πήγαιννε	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	advcl	_	_
 13-14	στο	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	κακόν	κακός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -8793,7 +8793,7 @@
 15	συγκεντρωμένοι	συγκεντρωμένος	VERB	_	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
 16	μπροστά	μπροστά	ADV	_	_	15	advmod	_	_
 17-18	στην	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	εκκλησία	εκκλησία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	15	punct	_	PunctType=Comm
@@ -8832,7 +8832,7 @@
 1	Φτάννω	φτάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	σερνάμενος	σερνάμενος	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	advcl	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 6	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	SpaceAfter=No
@@ -8941,7 +8941,7 @@
 3	και	και	CCONJ	_	_	4	cc	_	_
 4	σωριάζουμαι	σωριάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	καρέκλα	καρέκλα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 8	απέναντι	απέναντι	ADV	_	_	2	advmod	_	_
@@ -9129,7 +9129,7 @@
 11	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	σακίδιο	σακίδιο	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 13-14	στον	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	ώμο	ώμος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 16	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	SpaceAfter=No
@@ -9140,7 +9140,7 @@
 1	Βγαίννω	βγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	αριστερά	αριστερά	ADV	_	_	1	advmod	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Αλεξάνδρας	Αλεξάνδρας	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
@@ -9153,7 +9153,7 @@
 13	που	που	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
 14	οδηγεί	οδηγώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 15-16	στο	_	_	_	_	_	_	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 17	γκαράζ	γκαράζ	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
 18	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -9161,7 +9161,7 @@
 20	και	και	CCONJ	_	_	21	cc	_	_
 21	συνεχίζω	συνεχίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
 22-23	στην	_	_	_	_	_	_	_	_
-22	σ’ 	σε	ADP	_	_	24	case	_	_
+22	σ	σε	ADP	_	_	24	case	_	_
 23	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	κάθοδο	κάθοδος	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -9247,7 +9247,7 @@
 8	εταιρεία	εταιρεία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 9	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod	_	_
 10-11	στην	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	PunctType=Comm
@@ -9269,7 +9269,7 @@
 29	να	να	SCONJ	_	_	30	mark	_	_
 30	επιστρέφει	επιστρέφω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	ccomp	_	_
 31-32	στην	_	_	_	_	_	_	_	_
-31	σ’ 	σε	ADP	_	_	33	case	_	_
+31	σ	σε	ADP	_	_	33	case	_	_
 32	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -9303,7 +9303,7 @@
 6	με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
 7	οδηγεί	οδηγώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 8-9	στο	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	δωμάτιον	δωμάτιον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
 11	των	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -9394,7 +9394,7 @@
 3	όμως	όμως	CCONJ	_	_	2	cc	_	_
 4	Σεργκέι	Σεργκέι	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Ταϊλάνδη	Ταϊλάνδη	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 8	και	και	CCONJ	_	_	9	cc	_	_
@@ -9425,13 +9425,13 @@
 15	«	«	PUNCT	_	_	19	punct	_	PunctType=Quot|SpaceAfter=No
 16	εσύ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
 17-18	στο	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
 19	χώμαν	χώμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	14	appos	_	_
 20	τζ̆’	και	CCONJ	_	_	24	cc	_	_
 21	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
 22-23	στην	_	_	_	_	_	_	_	_
-22	σ’ 	σε	ADP	_	_	24	case	_	_
+22	σ	σε	ADP	_	_	24	case	_	_
 23	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	φυλακή	φυλακή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
 25	»	»	PUNCT	_	_	14	punct	_	PunctType=Quot|SpaceAfter=No
@@ -9504,7 +9504,7 @@
 8	να	να	SCONJ	_	_	9	mark	_	_
 9	γυρίσει	γυρίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	ccomp	_	_
 10-11	στην	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	18	punct	_	PunctType=Comm
@@ -9576,13 +9576,13 @@
 8	παρόν	παρόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	PunctType=Comm
 10-11	στην	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	κόρη	κόρη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 13	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod	_	_
 14	ή	ή	CCONJ	_	_	17	cc	_	_
 15-16	στον	_	_	_	_	_	_	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Ζήση	Ζήσης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -9659,7 +9659,7 @@
 12	και	και	CCONJ	_	_	13	cc	_	_
 13	καταφεύγω	καταφεύγω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 14-15	στον	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Στεργιάδη	Στεργιάδης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	PunctType=Comm
@@ -9669,7 +9669,7 @@
 21	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
 22	σωσίβιο	σωσίβιο	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	20	xcomp	_	_
 23	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod	_	_
-24	σ’ 	σε	ADP	_	_	27	case	_	_
+24	σ'	σε	ADP	_	_	27	case	_	_
 25	αυτήν	αυτός	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
 26	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	υπόθεση	υπόθεση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
@@ -9685,7 +9685,7 @@
 6	και	και	CCONJ	_	_	7	cc	_	_
 7	επικεντρώνουνται	επικεντρώννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
 8-9	στην	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	ανάπτυξη	ανάπτυξη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
@@ -9749,7 +9749,7 @@
 7	ούτε	ούτε	CCONJ	_	_	8	cc	_	_
 8	έγγραφα	έγγραφο	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	_
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	τζιπ	τζιπ	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 12	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -9786,7 +9786,7 @@
 6	να	να	SCONJ	_	_	7	mark	_	_
 7	στέκεται	στέκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
 8-9	στην	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	πόρτα	πόρτα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 11	με	με	ADP	_	_	12	case	_	_
@@ -9812,7 +9812,7 @@
 1	Όταν	όταν	SCONJ	_	_	2	mark	_	_
 2	φτάνουμεν	φτάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	ιταλικόν	ιταλικός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
@@ -9943,7 +9943,7 @@
 1	Με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 2	ανεβάζει	ανεβάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στον	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	6	case	_	_
+3	σ	σε	ADP	_	_	6	case	_	_
 4	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	πρώτον	πρώτος	ADJ	_	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
 6	όροφο	όροφος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
@@ -10001,7 +10001,7 @@
 9	επαφής	επαφή	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
 10	μέσα	μέσα	ADV	_	_	7	advmod	_	_
 11-12	στο	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	αμάξι	αμάξι	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
 14	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod	_	SpaceAfter=No
@@ -10009,7 +10009,7 @@
 16	χτες	χθες	ADV	_	_	7	advmod	_	_
 17	γύρω	γύρω	ADV	_	_	7	advmod	_	_
 18-19	στα	_	_	_	_	_	_	_	_
-18	σ’ 	σε	ADP	_	_	20	case	_	_
+18	σ	σε	ADP	_	_	20	case	_	_
 19	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
 20	μεσάνυχτα	μεσάνυχτα	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
@@ -10022,7 +10022,7 @@
 4	λάβει	λαμβάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 5	χώρα	χώρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 6-7	στο	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	ιταλικόν	ιταλικός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	PunctType=Comm
@@ -10031,7 +10031,7 @@
 12	φάει	τρώω	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	acl:relcl	_	_
 13	και	και	CCONJ	_	_	17	cc	_	_
 14-15	στην	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	17	case	_	_
+14	σ	σε	ADP	_	_	17	case	_	_
 15	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 16	προηγούμενη	προηγούμενος	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	_
 17	έξοδον	έξοδος	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
@@ -10047,7 +10047,7 @@
 5	έβαζαν	βάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	ψαλίδι	ψαλίδι	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
 7-8	στους	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	τους	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	μισθούς	μισθός	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
 10	μας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod	_	_
@@ -10093,7 +10093,7 @@
 11	παιδικόν	παιδικός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	12	amod	_	_
 12	δωμάτιον	δωμάτιον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
 13-14	στην	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	16	case	_	_
+13	σ	σε	ADP	_	_	16	case	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	καινούρια	καινούριος	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
 16	κατοικία	κατοικία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
@@ -10188,7 +10188,7 @@
 31	να	να	SCONJ	_	_	32	mark	_	_
 32	παραμείνουν	παραμένω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	30	acl	_	ParsemeMWE=1:VID
 33-34	στο	_	_	_	_	_	_	_	_
-33	σ’ 	σε	ADP	_	_	35	case	_	ParsemeMWE=1
+33	σ	σε	ADP	_	_	35	case	_	ParsemeMWE=1
 34	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	35	det	_	ParsemeMWE=1
 35	σκοτάδιν	σκοτάδιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	32	obl	_	ParsemeMWE=1|SpaceAfter=No
 36	.	.	PUNCT	_	_	13	punct	_	PunctType=Peri
@@ -10206,7 +10206,7 @@
 # text = Κάθουμαι στο Σέατ, αλλά δε βάζω μπρος.
 1	Κάθουμαι	κάθουμαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2-3	στο	_	_	_	_	_	_	_	_
-2	σ’ 	σε	ADP	_	_	4	case	_	_
+2	σ	σε	ADP	_	_	4	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Σέατ	Σέατ	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
@@ -10267,7 +10267,7 @@
 9	πιο	πιο	ADV	_	Degree=Cmp	10	advmod	_	_
 10	κοντά	κοντά	ADV	_	_	5	advcl	_	_
 11-12	στον	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Πειραιά	Πειραιάς	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
@@ -10291,7 +10291,7 @@
 15	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 16	λέω	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 17-18	στον	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Σπυριδάκη	Σπυριδάκης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	16	punct	_	PunctType=Peri
@@ -10363,7 +10363,7 @@
 7	θυγατρικές	θυγατρικός	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	8	amod	_	_
 8	εταιρείες	εταιρεία	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 9-10	στην	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
@@ -10419,7 +10419,7 @@
 11	και	και	CCONJ	_	_	12	cc	_	_
 12	πηγαίννω	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 13-14	στην	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	υπηρεσία	υπηρεσία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 16	με	με	ADP	_	_	18	case	_	_
@@ -10461,7 +10461,7 @@
 19	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Ζήση	Ζήσης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
 21-22	στο	_	_	_	_	_	_	_	_
-21	σ’ 	σε	ADP	_	_	23	case	_	_
+21	σ	σε	ADP	_	_	23	case	_	_
 22	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
 23	Άσυλο	Άσυλο	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
 24	Αστέγων	Άστεγος	PROPN	_	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
@@ -10519,7 +10519,7 @@
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	σφαίρα	σφαίρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 16-17	στο	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
 18	μέτωπον	μέτωπον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -10578,7 +10578,7 @@
 10	είναι	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	εγκατεστημένη	εγκατεστημένος	VERB	_	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	_
 12-13	στους	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	16	case	_	_
+12	σ	σε	ADP	_	_	16	case	_	_
 13	τους	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 14	δύο	δύο	NUM	_	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	16	nummod	_	_
 15	τελευταίους	τελευταίος	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	16	amod	_	_
@@ -10694,7 +10694,7 @@
 3	δεύτερη	δεύτερος	ADJ	_	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
 4	φορά	φορά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	λεωφόρον	λεωφόρος	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
 8	Αθηνών	Αθήνα	PROPN	_	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
@@ -10837,7 +10837,7 @@
 7	απόμερο	απόμερος	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	_
 8	τραπεζάκιν	τραπέζι	NOUN	_	Case=Acc|Degree=Dim|Gender=Neut|Number=Sing	4	obl	_	_
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	κυλικείον	κυλικείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -10872,7 +10872,7 @@
 2	όμως	όμως	CCONJ	_	_	1	cc	_	_
 3	ότι	ότι	SCONJ	_	_	8	mark	_	_
 4-5	στα	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
 6	νησιά	νησί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
 7	Καϊμάν	Καϊμάν	PROPN	_	_	6	flat	_	_
@@ -10891,7 +10891,7 @@
 5	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Ούλιν	Ούλιν	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
 10	δουλεύκουμεν	δουλεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -10956,7 +10956,7 @@
 4	ως	ως	ADP	_	_	5	case	_	_
 5	μέλος	μέλος	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	xcomp	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	9	case	_	_
+6	σ	σε	ADP	_	_	9	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	χαρούμενη	χαρούμενος	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
 9	παρέα	παρέα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
@@ -10977,7 +10977,7 @@
 1	Πιέστηκεν	πιέζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	πολύ	πολύ	ADV	_	PronType=Ind	1	advmod	_	_
 3-4	στα	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
 5	χρόνια	χρόνια	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	_
 6	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -11025,7 +11025,7 @@
 13	έχουν	έχω	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 14	επιστρέψει	επιστρέφω	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 15-16	στην	_	_	_	_	_	_	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Αθήνα	Αθήνα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	14	punct	_	PunctType=Peri
@@ -11037,7 +11037,7 @@
 3	δείτε	βλέπω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 4	που	που	SCONJ	_	_	9	mark	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	ExtPos=ADV	9	advmod	_	_
+5	σ	σε	ADP	_	ExtPos=ADV	9	advmod	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	fixed	_	_
 7	τέλος	τέλος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	fixed	_	_
 8	θα	θα	AUX	_	Tense=Fut	9	aux	_	_
@@ -11068,7 +11068,7 @@
 4	μιαν	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	επίσκεψη	επίσκεψη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 6-7	στον	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	9	case	_	_
+6	σ	σε	ADP	_	_	9	case	_	_
 7	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	κύριον	κύριος	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
 9	Φίλιππο	Φίλιππος	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
@@ -11217,7 +11217,7 @@
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Είδα	βλέπω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	τηλεόραση	τηλεόραση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 6	αυτούς	αυτός	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
@@ -11240,7 +11240,7 @@
 3	την	εγώ	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	δώσει	δίνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 5-6	στον	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Γονατά	Γονατάς	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -11260,7 +11260,7 @@
 11	πρωίν	πρωίν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 12	μπροστά	μπροστά	ADV	_	_	9	advmod	_	_
 13-14	στην	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	τηλεόραση	τηλεόραση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 16	να	να	SCONJ	_	_	17	mark	_	_
@@ -11391,7 +11391,7 @@
 1	Όταν	όταν	SCONJ	_	_	2	mark	_	_
 2	φτάννει	φθάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	κλειδαριά	κλειδαριά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 6	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
@@ -11404,7 +11404,7 @@
 13	και	και	CCONJ	_	_	15	cc	_	_
 14	μετά	μετά	ADV	_	PronType=Dem	15	advmod	_	_
 15	γυρίζει	γυρίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
-16	σ’ 	σε	ADP	_	_	17	case	_	_
+16	σ'	σε	ADP	_	_	17	case	_	_
 17	εμάς	εγώ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
 
@@ -11419,7 +11419,7 @@
 7	μας	εγώ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
 8	οδηγεί	οδηγώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	καθιστικόν	καθιστικόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
@@ -11457,7 +11457,7 @@
 14	άντρα	άντρας	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 15	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod	_	_
 16-17	στην	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	οδόν	οδός	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 19	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -11516,7 +11516,7 @@
 7	γνωστόν	γνωστός	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 8	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod	_	_
 9-10	στην	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	τροχαία	τροχαία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -11557,7 +11557,7 @@
 14	και	και	CCONJ	_	_	15	cc	_	_
 15	πηγαίννει	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
 16-17	στην	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	κουζίνα	κουζίνα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	13	punct	_	PunctType=Peri
@@ -11730,7 +11730,7 @@
 6	να	να	SCONJ	_	_	7	mark	_	_
 7	πηγαίννει	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 8-9	στην	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	κουζίνα	κουζίνα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 11	και	και	CCONJ	_	_	12	cc	_	_
@@ -11790,7 +11790,7 @@
 # text = Ακόμα και σ’ εμάς, που δεν είμαστεν ειδικοί, φαίνεται ότι είναι πανάκριβο, από χρυσόν είκοσι τεσσάρων καρατίων.
 1	Ακόμα	ακόμα	ADV	_	ExtPos=CCONJ	4	cc	_	_
 2	και	και	CCONJ	_	_	1	fixed	_	_
-3	σ’ 	σε	ADP	_	_	4	case	_	_
+3	σ'	σε	ADP	_	_	4	case	_	_
 4	εμάς	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
 6	που	που	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	9	nsubj	_	_
@@ -11839,7 +11839,7 @@
 6	με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
 7	παίρνει	παίρνω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8-9	στο	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	ενδιάμεσο	ενδιάμεσος	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
 11	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -12092,7 +12092,7 @@
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	_	5	cc	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Οδησσό	Οδησσός	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
@@ -12113,7 +12113,7 @@
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πέστε	λέω	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στον	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Δερμιτζάκη	Δερμιτζάκης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
 6	να	να	SCONJ	_	_	7	mark	_	_
@@ -12121,7 +12121,7 @@
 8	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Ασιάτη	Ασιάτης	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 10-11	στο	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	δωμάτιον	δωμάτιον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
 13	ανακρίσεων	ανάκριση	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
@@ -12156,7 +12156,7 @@
 4	μπαμπάς	μπαμπάς	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 5	εμεταφέρθηκεν	μεταφέρω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	advcl	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	δευτέρα	δεύτερη	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
 9	παρουσία	παρουσία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
@@ -12168,7 +12168,7 @@
 15	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	επιχείρηση	επιχείρηση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 17-18	στην	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	11	punct	_	PunctType=Peri
@@ -12353,7 +12353,7 @@
 12	που	που	SCONJ	_	_	13	obl	_	_
 13	γύρισα	γυρίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 14-15	στο	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
 17	και	και	CCONJ	_	_	18	cc	_	_
@@ -12412,7 +12412,7 @@
 2	ενδιαφέρον	ενδιαφέρον	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	επικεντρώννεται	επικεντρώννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4-5	στα	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
 6	επαγγελματικά	επαγγελματικός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	_
 7	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No
@@ -12584,7 +12584,7 @@
 5	να	να	SCONJ	_	_	6	mark	_	_
 6	κάνουμεν	κάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	διαμέρισμα	διαμέρισμα	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 10	και	και	CCONJ	_	_	12	cc	_	_
@@ -12600,12 +12600,12 @@
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πήγα	πηγαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στα	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
 5	παιδιά	παιδίν	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
 6	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	_
 7-8	στην	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Εύβοια	Εύβοια	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 10	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
@@ -12643,7 +12643,7 @@
 2	κόβει	κόβω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	βόλτες	βόλτα	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
 4-5	στην	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	γειτονιά	γειτονιά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
@@ -12667,7 +12667,7 @@
 5	έναν	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	ραντεβού	ραντεβού	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	dislocated	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	υπουργείον	υπουργείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 10	Ναυτιλίας	ναυτιλία	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -12680,7 +12680,7 @@
 17	δεν	δεν	PART	_	Polarity=Neg	18	advmod	_	_
 18	επέστρεψα	επιστρέφω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
 19-20	στο	_	_	_	_	_	_	_	_
-19	σ’ 	σε	ADP	_	_	21	case	_	_
+19	σ	σε	ADP	_	_	21	case	_	_
 20	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
 21	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -12699,7 +12699,7 @@
 10	πω	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	csubj	_	_
 11	τίποτα	τίποτα	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	10	obj	_	_
 12-13	στην	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	μάνα	μάνα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 15	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	14	nmod	_	SpaceAfter=No
@@ -12744,7 +12744,7 @@
 12	μαζίν	μαζίν	ADV	_	_	11	advmod	_	_
 13	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
 14-15	στην	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Ερέτρια	Ερέτρια	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -12778,7 +12778,7 @@
 5	άμεσα	άμεσα	ADV	_	_	6	advmod	_	_
 6	εμπλεκόμενος	εμπλεκόμενος	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 7-8	στην	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	υπόθεση	υπόθεση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 10	λόγω	λόγω	ADP	_	_	12	case	_	_
@@ -12802,7 +12802,7 @@
 1	Σηκώθηκα	σηκώννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	γύρω	γύρω	ADV	_	_	1	advmod	_	_
 3-4	στες	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	οκτώ	οκτώ	NUM	_	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
@@ -12810,13 +12810,13 @@
 8	να	να	SCONJ	_	_	7	fixed	_	_
 9	μεταφερθώ	μεταφέρω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Pass	1	advcl	_	_
 10-11	στο	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	καθιστικόν	καθιστικόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	PunctType=Comm
 14	δίπλα	δίπλα	ADV	_	_	12	advmod	_	_
 15-16	στην	_	_	_	_	_	_	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Αδριανή	Αδριανή	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	PunctType=Comm
@@ -12826,7 +12826,7 @@
 22	από	από	ADP	_	ExtPos=ADV	21	advmod	_	_
 23	κοινού	κοινός	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	22	fixed	_	_
 24-25	στο	_	_	_	_	_	_	_	_
-24	σ’ 	σε	ADP	_	_	26	case	_	_
+24	σ	σε	ADP	_	_	26	case	_	_
 25	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
 26	γυαλί	γυαλί	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
 27	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	28	det	_	_
@@ -12868,7 +12868,7 @@
 4	γνωριμία	γνωριμία	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 5	περιοριζόταν	περιορίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6-7	στα	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
 8	τυπικά	τυπικός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	_
 9	και	και	CCONJ	_	_	12	cc	_	_
@@ -12918,7 +12918,7 @@
 5	πεις	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 6	τίποτα	τίποτα	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	5	obj	_	_
 7-8	στην	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Κατερίνα	Κατερίνα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 10	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
@@ -12935,7 +12935,7 @@
 7	πείραξαν	πειράζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	καθόλου	καθόλου	ADV	_	PronType=Neg	7	advmod	_	_
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	στομάχι	στομάχι	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 12	;	;	PUNCT	_	_	7	punct	_	PunctType=Qest|SpaceAfter=No
@@ -13000,7 +13000,7 @@
 15	μπω	μπαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	12	ccomp	_	_
 16	καλλύττερα	καλά	ADV	_	Degree=Cmp	15	advmod	_	_
 17-18	στο	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
 19	κλίμαν	κλίμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	PunctType=Comm
@@ -13063,7 +13063,7 @@
 4	σκάφη	σκάφος	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
 5	αγκυροβολούσαν	αγκυροβολώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
 6-7	στες	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	μαρίνες	μαρίνα	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
@@ -13148,7 +13148,7 @@
 2	τα	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
 3	καΐκια	καΐκι	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
 4	φέρνουν	φέρνω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	σ’ 	σε	ADP	_	_	6	case	_	_
+5	σ'	σε	ADP	_	_	6	case	_	_
 6	εμάς	εγώ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
 7	ψάρια	ψάριν	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
@@ -13156,12 +13156,12 @@
 10	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	11	expl	_	_
 11	πουλάνε	πουλώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 12-13	στο	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	μόλον	μόλος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 15	και	και	CCONJ	_	_	18	cc	_	_
 16-17	στην	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	παραλία	παραλία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -13255,7 +13255,7 @@
 4	Αδριανή	Αδριανή	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
 5	μπροστά	μπροστά	ADV	_	_	1	advmod	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	οθόνη	οθόνη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 9	και	και	CCONJ	_	_	10	cc	_	_
@@ -13269,7 +13269,7 @@
 17	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	obl	_	_
 18	που	που	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	28	dislocated	_	_
 19-20	στα	_	_	_	_	_	_	_	_
-19	σ’ 	σε	ADP	_	_	21	case	_	_
+19	σ	σε	ADP	_	_	21	case	_	_
 20	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	21	det	_	_
 21	χρόνια	χρόνια	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	28	obl	_	_
 22	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -13358,7 +13358,7 @@
 5	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	βράδυν	βράδυν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 7-8	στην	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	τηλεόραση	τηλεόραση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -13384,7 +13384,7 @@
 7	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
 8	αυτοκίνητα	αυτοκίνητον	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
 9-10	στα	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	12	case	_	_
+9	σ	σε	ADP	_	_	12	case	_	_
 10	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
 11	δέκα	δέκα	NUM	_	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	12	nummod	_	_
 12	δάχτυλα	δάχτυλον	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
@@ -13411,7 +13411,7 @@
 3	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	όμως	όμως	CCONJ	_	_	7	advmod	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	μπορεί	μπορώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
@@ -13449,11 +13449,11 @@
 9	είχεν	έχω	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	απαντήσει	απαντώ	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	acl:relcl	_	_
 11-12	στον	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Σωτηρόπουλλον	Σωτηρόπουλος	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 14-15	στην	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	συνέντευξη	συνέντευξη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 17	τύπου	τύπος	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
@@ -13495,7 +13495,7 @@
 3	συχνά	συχνά	ADV	_	_	2	advmod	_	_
 4	μόνος	μόνος	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	2	advcl	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
 8	μετά	μετά	ADV	_	PronType=Dem	10	case	_	_
@@ -13590,7 +13590,7 @@
 16	έχω	έχω	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	συγκεντρωμένα	συγκεντρωμένος	VERB	_	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
 18-19	στο	_	_	_	_	_	_	_	_
-18	σ’ 	σε	ADP	_	_	20	case	_	_
+18	σ	σε	ADP	_	_	20	case	_	_
 19	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	κεφάλιν	κεφάλιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
 21	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod	_	SpaceAfter=No
@@ -13640,7 +13640,7 @@
 6	έναν	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	εξοχικόν	εξοχικός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
 8-9	στο	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Δήλεσι	Δήλεσι	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
 11	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
@@ -13790,7 +13790,7 @@
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	κοπέλλα	κοπέλλα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 6-7	στο	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	δρόμον	δρόμος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 9	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
@@ -13845,7 +13845,7 @@
 1	Τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	βρίσκουμεν	βρίσκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	μέση	μέση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 6	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -13874,7 +13874,7 @@
 3	το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	στείλουμεν	στέλλω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	αστυνομία	αστυνομία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 8	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
@@ -13977,7 +13977,7 @@
 4	να	να	SCONJ	_	_	3	fixed	_	_
 5	μάθω	μαθαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	advcl	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Αδριανή	Αδριανή	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 9	να	να	SCONJ	_	_	10	mark	_	_
@@ -14012,7 +14012,7 @@
 9	δε	δεν	PART	_	Polarity=Neg	10	advmod	_	_
 10	δουλεύκει	δουλεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 11-12	στην	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	πολεοδομία	πολεοδομία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	PunctType=Comm
@@ -14023,7 +14023,7 @@
 19	στραβά	στραβός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	20	amod	_	_
 20	μάτια	μμάτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
 21-22	στην	_	_	_	_	_	_	_	_
-21	σ’ 	σε	ADP	_	_	24	case	_	_
+21	σ	σε	ADP	_	_	24	case	_	_
 22	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 23	παράνομη	παράνομος	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	24	amod	_	_
 24	δόμηση	δόμηση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
@@ -14238,7 +14238,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	PunctType=Comm
 8	γύρω	γύρω	ADV	_	_	6	advmod	_	_
 9-10	στα	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 11	πενήντα	πενήντα	NUM	_	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
@@ -14278,7 +14278,7 @@
 # text = Πίσω στο γραφείον, προσπαθώ να βάλω σε τάξη τες σκέψεις μου.
 1	Πίσω	πίσω	ADV	_	_	6	advmod	_	_
 2-3	στο	_	_	_	_	_	_	_	_
-2	σ’ 	σε	ADP	_	_	4	case	_	_
+2	σ	σε	ADP	_	_	4	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	PunctType=Comm
@@ -14400,13 +14400,13 @@
 3	μια	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	χαμοκέλα	χαμοκέλα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Κόρακα	Κόρακα	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
 9	κοντά	κοντά	ADV	_	_	7	appos	_	_
 10-11	στο	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	σταθμό	σταθμός	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 13	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -14423,14 +14423,14 @@
 5	τι	τι	SCONJ	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	6	nsubj	_	_
 6	έγινεν	γίνουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	2	ccomp	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	φαστφουντάδικο	φαστφουντάδικο	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 10	και	και	CCONJ	_	_	12	cc	_	_
 11	πώς	πώς	ADV	_	PronType=Int	12	advmod	_	_
 12	φτάσατε	φθάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
 13-14	στην	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	συμπλοκή	συμπλοκή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
 16	»	»	PUNCT	_	_	18	punct	_	PunctType=Quot
@@ -14475,7 +14475,7 @@
 6	να	να	SCONJ	_	_	7	mark	_	_
 7	μιλήσω	μιλώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	4	acl	_	_
 8	πρώτα	πρώτα	ADV	_	_	7	advmod	_	_
-9	σ’ 	σε	ADP	_	_	10	case	_	_
+9	σ'	σε	ADP	_	_	10	case	_	_
 10	εσάς	εγώ	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No
 11	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
@@ -14555,7 +14555,7 @@
 10	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	αστυνομικοί	αστυνομικός	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 12-13	στο	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	Κερατσίνι	Κερατσίνι	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 15	και	και	CCONJ	_	_	18	cc	_	_
@@ -14564,7 +14564,7 @@
 18	βρήκαμεν	βρίσκω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 19	ούτε	ούτε	CCONJ	_	_	22	cc	_	_
 20-21	στο	_	_	_	_	_	_	_	_
-20	σ’ 	σε	ADP	_	_	22	case	_	_
+20	σ	σε	ADP	_	_	22	case	_	_
 21	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
 22	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
 23	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	22	nmod	_	SpaceAfter=No
@@ -14584,7 +14584,7 @@
 1	Μαζίν	μαζίν	ADV	_	_	6	advmod	_	_
 2	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obl	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	περιπολικόν	περιπολικόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 6	κάθουνται	κάθουμαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -14627,7 +14627,7 @@
 10	και	και	CCONJ	_	_	11	cc	_	_
 11	μπαίννω	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 12-13	στο	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	Σέατ	Σέατ	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -14749,7 +14749,7 @@
 3	δε	δεν	PART	_	Polarity=Neg	4	advmod	_	_
 4	στρίβει	στρίβω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Πατησίων	Πατησίων	PROPN	_	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	PunctType=Comm
@@ -14770,7 +14770,7 @@
 23	βγάλει	βγάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
 24	απευθείας	απευθείας	ADV	_	_	23	advmod	_	_
 25-26	στην	_	_	_	_	_	_	_	_
-25	σ’ 	σε	ADP	_	_	27	case	_	_
+25	σ	σε	ADP	_	_	27	case	_	_
 26	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Πειραιώς	Πειραιάς	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -14801,7 +14801,7 @@
 13	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	κυβέρνησης	κυβέρνηση	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 15-16	στον	_	_	_	_	_	_	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	αέρα	αέρας	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
@@ -14817,7 +14817,7 @@
 7	να	να	SCONJ	_	_	6	fixed	_	_
 8	φτάσουμεν	φθάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	3	advcl	_	_
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	χώρον	χώρος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 12	όπου	όπου	ADV	_	PronType=Ind	13	advmod	_	_
@@ -14867,7 +14867,7 @@
 2	Δημητρίου	Δημητρίου	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	μπαίννει	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4-5	στο	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	7	case	_	_
+4	σ	σε	ADP	_	_	7	case	_	_
 5	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 6	παιδικόν	παιδικός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	_
 7	δωμάτιον	δωμάτιον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
@@ -14875,7 +14875,7 @@
 9	πηγαίννει	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 10	κατευθείαν	κατευθείαν	ADV	_	_	9	advmod	_	_
 11-12	στο	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	κρεβατάκιν	κρεβάτιν	NOUN	_	Case=Acc|Degree=Dim|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	PunctType=Comm
@@ -14960,7 +14960,7 @@
 3	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
 4	αν	αν	SCONJ	_	_	8	mark	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	μέλλον	μέλλον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
 8	προκύψει	προκύπτω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	advcl	_	_
@@ -14987,7 +14987,7 @@
 9	όρου	όρος	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
 10	ζωής	ζωή	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 11-12	στο	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	Ανθρωποκτονιών	ανθρωποκτονία	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -15113,7 +15113,7 @@
 10	ξένων	ξένος	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 11	πάνω	πάνω	ADV	_	_	6	advmod	_	_
 12-13	στην	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	χώρα	χώρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 15	και	και	CCONJ	_	_	19	cc	_	_
@@ -15215,7 +15215,7 @@
 5	ζούσεν	ζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 6	μόνος	μόνος	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	advcl	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Χαλάνδρι	Χαλάνδρι	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
 10	και	και	CCONJ	_	_	11	cc	_	_
@@ -15235,7 +15235,7 @@
 6	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	πειράματος	πείραμαν	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 8-9	στην	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
@@ -15259,7 +15259,7 @@
 3	το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	άκουσα	ακούω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	λαχαναγορά	λαχαναγορά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 8	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
@@ -15301,7 +15301,7 @@
 7	για	για	ADP	_	_	8	case	_	_
 8	έρευνα	έρευνα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 12	τους	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod	_	SpaceAfter=No
@@ -15312,7 +15312,7 @@
 1	«	«	PUNCT	_	_	11	punct	_	PunctType=Quot|SpaceAfter=No
 2	Είναι	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	κουζίνα	κουζίνα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	ccomp	_	_
 6	και	και	CCONJ	_	_	8	cc	_	_
@@ -15382,7 +15382,7 @@
 13	έδρα	έδρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 14	τους	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod	_	_
 15-16	στην	_	_	_	_	_	_	_	_
-15	σ’ 	σε	ADP	_	_	17	case	_	_
+15	σ	σε	ADP	_	_	17	case	_	_
 16	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
@@ -15432,7 +15432,7 @@
 9	τελείως	τελείως	ADV	_	_	10	advmod	_	_
 10	μόνος	μόνος	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	ccomp	_	_
 11-12	στο	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
 14	»	»	PUNCT	_	_	6	punct	_	PunctType=Quot|SpaceAfter=No
@@ -15468,7 +15468,7 @@
 7	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	σημείωμαν	σημείωμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
 9-10	στο	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	διαδίκτυο	διαδίκτυο	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -15551,7 +15551,7 @@
 7	Ζαχαράκης	Ζαχαράκης	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	βρισκόταν	βρίσκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	ccomp	_	_
 9-10	στα	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 11	πρόθυρα	πρόθυρο	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
 12	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -15601,7 +15601,7 @@
 17	περιστατικόν	περιστατικόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 18	μέσα	μέσα	ADV	_	_	11	advmod	_	_
 19-20	στην	_	_	_	_	_	_	_	_
-19	σ’ 	σε	ADP	_	_	21	case	_	_
+19	σ	σε	ADP	_	_	21	case	_	_
 20	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	φασαρία	φασαρία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
 22	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -15632,7 +15632,7 @@
 11	την	εγώ	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 12	έβαλεν	βάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 13-14	στην	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	άκρη	άκρη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
 16	και	και	CCONJ	_	_	17	cc	_	_
@@ -15709,7 +15709,7 @@
 4	ζει	ζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
 5	χρόνια	χρόνια	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
@@ -15737,7 +15737,7 @@
 14	συμβολή	συμβολή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 15	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_
 16-17	στην	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	ανοικοδόμηση	ανοικοδόμηση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
 19	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -15772,7 +15772,7 @@
 3	Μπερέτα	Μπερέτα	X	_	Foreign=Yes	1	obj	_	_
 4	μπροστά	μπροστά	ADV	_	_	1	advmod	_	_
 5-6	στον	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Ασιάτη	Ασιάτης	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -15814,19 +15814,19 @@
 4	μερικά	μερικός	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	_
 5	ευρώπουλα	ευρώ	NOUN	_	Case=Acc|Degree=Dim|Gender=Neut|Number=Plur	3	obj	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	τσέπη	τσέπη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 9	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	PunctType=Comm
 11	τρέχει	τρέχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12-13	στες	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	θάλασσες	θάλασσα	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
 15	και	και	CCONJ	_	_	18	cc	_	_
 16-17	στες	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	εξοχές	εξοχή	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
 19	»	»	PUNCT	_	_	11	punct	_	PunctType=Quot|SpaceAfter=No
@@ -15878,7 +15878,7 @@
 5	μια	ένας	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	επίσκεψη	επίσκεψη	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	χώρον	χώρος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 10	εργασίας	εργασία	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -16103,7 +16103,7 @@
 5	και	και	CCONJ	_	_	6	cc	_	_
 6	πηγαίννω	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	καθιστικόν	καθιστικόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	PunctType=Comm
@@ -16139,7 +16139,7 @@
 5	δίνω	δίνω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ParsemeMWE=1:VID
 6	τόσον	τόσος	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
 7	βάρος	βάρος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	ParsemeMWE=1
-8	σ’ 	σε	ADP	_	_	9	case	_	_
+8	σ'	σε	ADP	_	_	9	case	_	_
 9	αυτά	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	5	obl	_	_
 10	που	που	PRON	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	11	obj	_	_
 11	είπεν	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
@@ -16182,7 +16182,7 @@
 4	αντρόγυνου	αντρόγυνον	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	οικογένεια	οικογένεια	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 9	μας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod	_	_
@@ -16203,7 +16203,7 @@
 5	να	να	SCONJ	_	_	6	mark	_	_
 6	δουλεύεις	δουλεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	xcomp	_	_
 7-8	στο	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 10	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	nmod	_	_
@@ -16236,7 +16236,7 @@
 12	την	εγώ	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	κρατά	κρατώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 14-15	στα	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
 16	γόνατα	γόνατον	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	_
 17	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod	_	SpaceAfter=No
@@ -16266,7 +16266,7 @@
 1	Μόλις	μόλις	SCONJ	_	_	2	mark	_	_
 2	ανεβαίννω	ανεβαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
@@ -16324,7 +16324,7 @@
 8	θα	θα	AUX	_	Tense=Fut	9	aux	_	_
 9	επιμείνει	επιμένω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	conj	_	_
 10-11	στην	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	κατάθεση	κατάθεση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 13	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
@@ -16355,7 +16355,7 @@
 4	από	από	ADP	_	_	5	case	_	_
 5	έκρηξη	έκρηξη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Οδησσό	Οδησσός	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
@@ -16424,7 +16424,7 @@
 6	στέκεται	στέκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
 7	δίπλα	δίπλα	ADV	_	_	6	advmod	_	_
 8-9	στην	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	είσοδον	είσοδος	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 11	και	και	CCONJ	_	_	12	cc	_	_
@@ -16526,7 +16526,7 @@
 14	να	να	SCONJ	_	_	15	mark	_	_
 15	ππέσει	ππέφτω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	csubj	_	_
 16-17	στα	_	_	_	_	_	_	_	_
-16	σ’ 	σε	ADP	_	_	18	case	_	_
+16	σ	σε	ADP	_	_	18	case	_	_
 17	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	18	det	_	_
 18	χέρια	χέριν	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	_
 19	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -16544,7 +16544,7 @@
 2	Λαλόπουλος	Λαλόπουλος	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	δούλευκε	δουλεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4-5	στες	_	_	_	_	_	_	_	_
-4	σ’ 	σε	ADP	_	_	6	case	_	_
+4	σ	σε	ADP	_	_	6	case	_	_
 5	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	μαρίνες	μαρίνα	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
 7	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
@@ -16612,7 +16612,7 @@
 2	Θα	θα	AUX	_	Tense=Fut	4	aux	_	_
 3	το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	δώσω	δίνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ'	σε	ADP	_	_	7	case	_	_
 6	έναν	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	φίλον	φίλος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 8	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No
@@ -16622,7 +16622,7 @@
 12	που	που	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	_
 13	δουλεύκει	δουλεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 14-15	στην	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	17	case	_	_
+14	σ	σε	ADP	_	_	17	case	_	_
 15	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 16	γερμανική	γερμανικός	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	_
 17	πρεσβεία	πρεσβεία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
@@ -16675,7 +16675,7 @@
 3	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	έρευνα	έρευνα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 5-6	στον	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Παπαδάκη	Παπαδάκης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	PunctType=Comm
@@ -16729,7 +16729,7 @@
 6	πλατείας	πλατεία	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 7	και	και	CCONJ	_	_	10	cc	_	_
 8-9	στην	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	10	case	_	_
+8	σ	σε	ADP	_	_	10	case	_	_
 9	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Φιλελλήνων	Φιλελλήνων	PROPN	_	Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
 11	τα	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
@@ -16819,7 +16819,7 @@
 1	Η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	κίνηση	κίνηση	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	στην	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Αλεξάνδρας	Αλεξάνδρας	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 6	είναι	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -16852,7 +16852,7 @@
 3	αντρόγυνον	αντρόγυνον	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	κοιμόταν	τζ̆οιμούμαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 5-6	στο	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	δάπεδο	δάπεδο	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 8	με	με	ADP	_	_	10	case	_	_
@@ -16907,7 +16907,7 @@
 9	και	και	CCONJ	_	_	10	cc	_	_
 10	θύματα	θύμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	_
 11-12	στο	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 14	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod	_	SpaceAfter=No
@@ -16923,13 +16923,13 @@
 6	γης	γη	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
 8-9	στους	_	_	_	_	_	_	_	_
-8	σ’ 	σε	ADP	_	_	11	case	_	_
+8	σ	σε	ADP	_	_	11	case	_	_
 9	τους	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 10	απλούς	απλός	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	11	amod	_	_
 11	ανθρώπους	άνθρωπος	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	_
 12	και	και	CCONJ	_	_	15	cc	_	_
 13-14	στους	_	_	_	_	_	_	_	_
-13	σ’ 	σε	ADP	_	_	15	case	_	_
+13	σ	σε	ADP	_	_	15	case	_	_
 14	τους	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	τίμιους	τίμιος	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
@@ -16941,7 +16941,7 @@
 3	μια	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	καφετέρια	καφετέρια	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
 5-6	στην	_	_	_	_	_	_	_	_
-5	σ’ 	σε	ADP	_	_	7	case	_	_
+5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Κηφισίας	Κηφισίας	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -17213,7 +17213,7 @@
 5	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	PunctType=Comm
 7-8	στην	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	ExtPos=ADV	3	advmod	_	_
+7	σ	σε	ADP	_	ExtPos=ADV	3	advmod	_	_
 8	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	fixed	_	_
 9	ζούλα	ζούλα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	fixed	_	_
 10	που	που	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	11	obj	_	_
@@ -17262,7 +17262,7 @@
 20	που	που	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	22	nsubj	_	_
 21	με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
 22	οδήγησαν	οδηγώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
-23	σ’ 	σε	ADP	_	_	24	case	_	_
+23	σ'	σε	ADP	_	_	24	case	_	_
 24	αυτήν	αυτός	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	22	obl	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
@@ -17356,7 +17356,7 @@
 4	μπλέξω	μπλέκω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 5	μέσα	μέσα	ADV	_	_	4	advmod	_	_
 6-7	στην	_	_	_	_	_	_	_	_
-6	σ’ 	σε	ADP	_	_	8	case	_	_
+6	σ	σε	ADP	_	_	8	case	_	_
 7	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	κίνηση	κίνηση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 9	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -17376,14 +17376,14 @@
 23	να	να	SCONJ	_	_	22	fixed	_	_
 24	μπω	μπαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	12	advcl	_	_
 25-26	στο	_	_	_	_	_	_	_	_
-25	σ’ 	σε	ADP	_	_	27	case	_	_
+25	σ	σε	ADP	_	_	27	case	_	_
 26	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
 27	Σχιστό	Σχιστό	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	24	obl	_	_
 28	και	και	CCONJ	_	_	33	cc	_	_
 29	από	από	ADP	_	ExtPos=ADV	33	advmod	_	_
 30	εκεί	εκεί	ADV	_	PronType=Dem	29	fixed	_	_
 31-32	στην	_	_	_	_	_	_	_	_
-31	σ’ 	σε	ADP	_	_	33	case	_	_
+31	σ	σε	ADP	_	_	33	case	_	_
 32	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Γρηγορίου	Γρηγορίου	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	24	conj	_	_
 34	Λαμπράκη	Λαμπράκη	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	33	flat	_	SpaceAfter=No
@@ -17427,7 +17427,7 @@
 10	κάτι	κάτι	DET	_	PronType=Ind	9	obj	_	_
 11	διαφορετικόν	διαφορετικός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	_
 12-13	στην	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	συμπεριφορά	συμπεριφορά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 15	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	SpaceAfter=No
@@ -17453,7 +17453,7 @@
 15	μπαίννω	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	_
 16	φουλαριστός	φουλαριστός	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	15	xcomp	_	_
 17-18	στον	_	_	_	_	_	_	_	_
-17	σ’ 	σε	ADP	_	_	19	case	_	_
+17	σ	σε	ADP	_	_	19	case	_	_
 18	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	προθάλαμο	προθάλαμος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
@@ -17498,7 +17498,7 @@
 8	να	να	SCONJ	_	_	9	mark	_	_
 9	έχει	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	csubj	_	_
 10-11	στο	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	μυαλόν	μυαλόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 13	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
@@ -17540,7 +17540,7 @@
 5	τους	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 6	μεταφέρουμεν	μεταφέρω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	3	csubj	_	_
 7-8	στην	_	_	_	_	_	_	_	_
-7	σ’ 	σε	ADP	_	_	9	case	_	_
+7	σ	σε	ADP	_	_	9	case	_	_
 8	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Ασφάλεια	Ασφάλεια	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 10	για	για	ADP	_	_	11	case	_	_
@@ -17548,7 +17548,7 @@
 12	»	»	PUNCT	_	_	13	punct	_	PunctType=Quot
 13	λέω	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 14-15	στον	_	_	_	_	_	_	_	_
-14	σ’ 	σε	ADP	_	_	16	case	_	_
+14	σ	σε	ADP	_	_	16	case	_	_
 15	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	διοικητή	διοικητής	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	PunctType=Peri
@@ -17588,7 +17588,7 @@
 1	Ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	πυροβολισμός	πυροβολισμός	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	στο	_	_	_	_	_	_	_	_
-3	σ’ 	σε	ADP	_	_	5	case	_	_
+3	σ	σε	ADP	_	_	5	case	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	δοξαπατρί	δοξαπατρί	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_
 6	ταιριάζει	ταιριάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -17683,7 +17683,7 @@
 10	μπάζει	μπάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 11	αμέσως	αμέσως	ADV	_	_	10	advmod	_	_
 12-13	στο	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
 15	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	SpaceAfter=No
@@ -17860,7 +17860,7 @@
 8	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Μαχμούντ	Μαχμούντ	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 10-11	στον	_	_	_	_	_	_	_	_
-10	σ’ 	σε	ADP	_	_	12	case	_	_
+10	σ	σε	ADP	_	_	12	case	_	_
 11	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Σωτηρόπουλλον	Σωτηρόπουλος	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
@@ -17869,7 +17869,7 @@
 # text = Μπαίννω στο γραφείον μου με την δυσάρεστη αίσθηση ότι η δολοφονία του Σωτηρόπουλου είναι έναν βήμαν από το αδιέξοδο.
 1	Μπαίννω	μπαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2-3	στο	_	_	_	_	_	_	_	_
-2	σ’ 	σε	ADP	_	_	4	case	_	_
+2	σ	σε	ADP	_	_	4	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	γραφείον	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 5	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	_
@@ -17957,7 +17957,7 @@
 9	ζωή	ζωή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 10	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod	_	_
 11-12	στην	_	_	_	_	_	_	_	_
-11	σ’ 	σε	ADP	_	_	13	case	_	_
+11	σ	σε	ADP	_	_	13	case	_	_
 12	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	σύνταξη	σύνταξη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 14	με	με	ADP	_	_	16	case	_	_
@@ -17971,7 +17971,7 @@
 22	με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	obj	_	_
 23	στείλει	στέλλω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	xcomp	_	_
 24-25	στο	_	_	_	_	_	_	_	_
-24	σ’ 	σε	ADP	_	_	26	case	_	_
+24	σ	σε	ADP	_	_	26	case	_	_
 25	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
 26	σπίτιν	σπίτιν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
 27	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod	_	SpaceAfter=No
@@ -18030,7 +18030,7 @@
 10	να	να	SCONJ	_	_	11	mark	_	_
 11	χρησιμοποιήσει	χρησιμοποιώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 12-13	στην	_	_	_	_	_	_	_	_
-12	σ’ 	σε	ADP	_	_	14	case	_	_
+12	σ	σε	ADP	_	_	14	case	_	_
 13	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 15	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
@@ -18103,7 +18103,7 @@
 19	λλίγον	λίγος	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	20	det	_	_
 20	φως	φως	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
 21-22	στην	_	_	_	_	_	_	_	_
-21	σ’ 	σε	ADP	_	_	23	case	_	_
+21	σ	σε	ADP	_	_	23	case	_	_
 22	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	άγνοια	άγνοια	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
 24	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod	_	SpaceAfter=No
@@ -18141,7 +18141,7 @@
 19	της	εγώ	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod	_	_
 20	μέσα	μέσα	ADV	_	_	16	advmod	_	_
 21-22	στο	_	_	_	_	_	_	_	_
-21	σ’ 	σε	ADP	_	_	23	case	_	_
+21	σ	σε	ADP	_	_	23	case	_	_
 22	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
 23	κτίριο	κτίριο	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	_
 24	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -18180,7 +18180,7 @@
 7	και	και	CCONJ	_	_	8	cc	_	_
 8	καταλήγει	καταλήγω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 9-10	στην	_	_	_	_	_	_	_	_
-9	σ’ 	σε	ADP	_	_	11	case	_	_
+9	σ	σε	ADP	_	_	11	case	_	_
 10	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	μαφία	μαφία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
@@ -18292,7 +18292,7 @@
 18	ξαπλωμένα	ξαπλωμένος	VERB	_	Case=Acc|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	17	amod	_	_
 19	ανάμεσα	ανάμεσα	ADV	_	_	18	advmod	_	_
 20-21	στα	_	_	_	_	_	_	_	_
-20	σ’ 	σε	ADP	_	_	22	case	_	_
+20	σ	σε	ADP	_	_	22	case	_	_
 21	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	22	det	_	_
 22	πούπουλα	πούπουλο	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
