@@ -6142,7 +6142,7 @@
 13	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	ψύλλοι	ψύλλος	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 15	σ	σε	ADP	_	_	17	case	_	_
-16	τ’ 	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
+16	τ’	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
 17	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
@@ -7602,7 +7602,7 @@
 20	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	mwe=1
 21	ψύλλοι	ψύλλος	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	mwe=1
 22	σ	σε	ADP	_	_	24	case	_	mwe=1
-23	τ’ 	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	mwe=1
+23	τ’	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	mwe=1
 24	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	mwe=1|SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	PunctType=Comm
 26	γιατί	γιατί	SCONJ	_	_	28	mark	_	_
@@ -7873,7 +7873,7 @@
 12	να	να	SCONJ	_	_	14	mark	_	_
 13	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
 14	τρυπάει	τρυπώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	_
-15	τ’ 	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
+15	τ’	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
 16	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
@@ -8227,10 +8227,10 @@
 4	που	που	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	dislocated	_	_
 5	αξίζει	αξίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 6	να	να	SCONJ	_	_	8	mark	_	_
-7	τ’ 	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	τ’	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 8	ακούσετε	ακούω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	csubj	_	_
 9	με	με	ADP	_	_	11	case	_	_
-10	τ’ 	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
+10	τ’	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 11	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
 12	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	11	nmod	_	SpaceAfter=No
 13	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
@@ -10275,7 +10275,7 @@
 # sent_id = train-GUD-593
 # text = «Σ’ ευχαριστώ, που ξόδεψες το χρόνον σου, για να με διαφωτίσεις» λέω στον Σπυριδάκη.
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
-2	Σ’ 	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+2	Σ’	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
 3	ευχαριστώ	ευχαριστώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	PunctType=Comm
 5	που	που	SCONJ	_	_	6	mark	_	_
@@ -17840,7 +17840,7 @@
 10	δεν	δεν	PART	_	Polarity=Neg	11	advmod	_	_
 11	έπρεπεν	πρέπει	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 12	να	να	SCONJ	_	_	14	mark	_	_
-13	τ’ 	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	14	obl	_	_
+13	τ’	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	14	obl	_	_
 14	ακούσει	ακούω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	csubj	_	_
 15	κανέναν	κανένας	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	17	det	_	_
 16	ξένον	ξένος	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	17	amod	_	_
