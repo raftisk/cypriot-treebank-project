@@ -43,7 +43,7 @@
 32	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-3
-# text = Και τι είχεν ανακαλύψει ο Σωτηρόπουλος, για να φτάσουν στο σημείον να τον δολοφονήσουν και να πάρουν τον υπολογιστή του;
+# text = Και τι είχεν ανακαλύψει ο Σωτηρόπουλος, για να φτάσουν στο σημείον να τον δολοφονήσουν και να πάρουν τον υπολογιστή του;
 1	Και	και	CCONJ	_	_	4	cc	_	_
 2	τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
 3	είχεν	έχω	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
@@ -67,7 +67,7 @@
 20	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	υπολογιστή	υπολογιστής	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
 22	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod	_	SpaceAfter=No
-23	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest
+23	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-4
 # text = «Συγχαρητήρια».
@@ -284,7 +284,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-16
-# text = «Καλά, την γυναίκα σου και τα παιδιά σου δεν τα σκέφτηκες;»
+# text = «Καλά, την γυναίκα σου και τα παιδιά σου δεν τα σκέφτηκες;»
 1	«	«	PUNCT	_	_	13	punct	_	PunctType=Quot|SpaceAfter=No
 2	Καλά	καλά	INTJ	_	_	13	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
@@ -298,7 +298,7 @@
 11	δεν	δεν	PART	_	Polarity=Neg	13	advmod	_	_
 12	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	13	expl	_	_
 13	σκέφτηκες	σκέφτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-14	;	;	PUNCT	_	_	13	punct	_	PunctType=Qest|SpaceAfter=No
+14	;	;	PUNCT	_	_	13	punct	_	PunctType=Qest|SpaceAfter=No
 15	»	»	PUNCT	_	_	13	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-17
@@ -409,7 +409,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-23
-# text = “Θέλετε να πάθετε αυτόν που έπαθε ο εφοπλιστής;
+# text = “Θέλετε να πάθετε αυτόν που έπαθε ο εφοπλιστής;
 1	“	“	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Θέλετε	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	SCONJ	_	_	4	mark	_	_
@@ -419,7 +419,7 @@
 7	έπαθε	παθθαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 8	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	εφοπλιστής	εφοπλιστής	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
-10	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
+10	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-24
 # text = Το κατάλαβα, όταν μου είπεν εκείνον το “καλλύττερα να μην ξέρεις”.
@@ -558,12 +558,12 @@
 7	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-30
-# text = «Έχετε οικογενειακό συμβούλιο;»
+# text = «Έχετε οικογενειακό συμβούλιο;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Έχετε	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	οικογενειακό	οικογενειακός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
 4	συμβούλιο	συμβούλιο	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-31
@@ -671,12 +671,12 @@
 17	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-36
-# text = Αλλά για την δουλειάν;
+# text = Αλλά για την δουλειάν;
 1	Αλλά	αλλά	CCONJ	_	_	4	cc	_	_
 2	για	για	ADP	_	_	4	case	_	_
 3	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	δουλειά	δουλειά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-37
 # text = Σηκώνουμαι από την θέση μου και πηγαίννω κατευθείαν στην πόρτα.
@@ -705,7 +705,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-39
-# text = Το πρώτον ερώτημαν είναι: το λέω στην Αδριανή και πώς το λέω;
+# text = Το πρώτον ερώτημαν είναι: το λέω στην Αδριανή και πώς το λέω;
 1	Το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	πρώτον	πρώτος	ADJ	_	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	3	amod	_	_
 3	ερώτημαν	ερώτημαν	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
@@ -721,7 +721,7 @@
 12	πώς	πώς	ADV	_	PronType=Int	14	advmod	_	_
 13	το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 14	λέω	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
-15	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+15	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-40
 # text = «Σας ευχαριστώ» του απαντώ ψυχρά και πηγαίννω στην πόρτα, γιατί είμαι έναν βήμαν από το να χάσω την ψυχραιμία μου.
@@ -822,11 +822,11 @@
 8	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-45
-# text = «Γονείς υπάρχουν;»
+# text = «Γονείς υπάρχουν;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Γονείς	γονέας	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	υπάρχουν	υπάρχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+4	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 5	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-46
@@ -1327,12 +1327,12 @@
 12	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-73
-# text = «Υπάρχουν άλλες λεπτομέρειες;»
+# text = «Υπάρχουν άλλες λεπτομέρειες;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Υπάρχουν	υπάρχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	άλλες	άλλος	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
 4	λεπτομέρειες	λεπτομέρεια	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-74
@@ -1359,10 +1359,10 @@
 9	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-76
-# text = «Όπως;»
+# text = «Όπως;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Όπως	όπως	ADV	_	PronType=Rel	0	root	_	SpaceAfter=No
-3	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+3	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 4	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-77
@@ -1487,7 +1487,7 @@
 20	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-84
-# text = «Και τα δυο καράβια του που βουλιάξαν;»
+# text = «Και τα δυο καράβια του που βουλιάξαν;»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	_	5	cc	_	_
 3	τα	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
@@ -1496,7 +1496,7 @@
 6	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod	_	_
 7	που	που	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	8	nsubj	_	_
 8	βουλιάξαν	βουλιάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
-9	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
+9	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 10	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-85
@@ -1863,12 +1863,12 @@
 9	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-105
-# text = «Όχι, τι;»
+# text = «Όχι, τι;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Όχι	όχι	INTJ	_	Polarity=Neg	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	PunctType=Comm
 4	τι	τι	ADV	_	PronType=Int	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-106
@@ -1993,13 +1993,13 @@
 33	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-111
-# text = «Πού είναι η Κατερίνα;»
+# text = «Πού είναι η Κατερίνα;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πού	πού	ADV	_	PronType=Int	0	root	_	_
 3	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Κατερίνα	Κατερίνα	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-112
@@ -2059,12 +2059,12 @@
 16	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-115
-# text = Αλλά τι να πεις;
+# text = Αλλά τι να πεις;
 1	Αλλά	αλλά	CCONJ	_	_	4	cc	_	_
 2	τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
 3	να	να	AUX	_	_	4	aux	_	_
 4	πεις	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-116
 # text = τον ρωτάω από αίσθηση καθήκοντος.
@@ -2076,7 +2076,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-117
-# text = «Ακόμα και αν το εκάμαμεν, πόσον αξιόπιστη θα εθεωρούσεν το δικαστήριον την αστυνομία του Ιράκ;»
+# text = «Ακόμα και αν το εκάμαμεν, πόσον αξιόπιστη θα εθεωρούσεν το δικαστήριον την αστυνομία του Ιράκ;»
 1	«	«	PUNCT	_	_	6	punct	_	PunctType=Quot|SpaceAfter=No
 2	Ακόμα	ακόμα	ADV	_	ExtPos=SCONJ	6	mark	_	_
 3	και	και	CCONJ	_	_	2	fixed	_	_
@@ -2094,7 +2094,7 @@
 15	αστυνομία	αστυνομία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 16	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 17	Ιράκ	Ιράκ	PROPN	_	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
-18	;	;	PUNCT	_	_	11	punct	_	PunctType=Qest|SpaceAfter=No
+18	;	;	PUNCT	_	_	11	punct	_	PunctType=Qest|SpaceAfter=No
 19	»	»	PUNCT	_	_	11	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-118
@@ -2169,13 +2169,13 @@
 16	.	.	PUNCT	_	_	15	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-121
-# text = «Πότε πάω άντρα μου;»
+# text = «Πότε πάω άντρα μου;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πότε	πότε	ADV	_	PronType=Int	3	advmod	_	_
 3	πάω	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	άντρα	άντρας	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 5	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-122
@@ -2191,7 +2191,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-123
-# text = «Τι λέμεν στον υπαρχηγό;»
+# text = «Τι λέμεν στον υπαρχηγό;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_
 3	λέμεν	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2199,7 +2199,7 @@
 4	σ	σε	ADP	_	_	6	case	_	_
 5	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	υπαρχηγό	υπαρχηγός	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
-7	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+7	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 8	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-124
@@ -2355,11 +2355,11 @@
 7	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-133
-# text = «Βρήκατε όπλον;»
+# text = «Βρήκατε όπλον;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Βρήκατε	βρίσκω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	όπλον	όπλον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+4	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 5	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-134
@@ -2410,13 +2410,13 @@
 16	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-138
-# text = «Και αν τα καταφέρουμεν;»
+# text = «Και αν τα καταφέρουμεν;»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	ExtPos=SCONJ	5	mark	_	_
 3	αν	αν	SCONJ	_	_	2	fixed	_	_
 4	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	καταφέρουμεν	καταφέρνω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-139
@@ -2429,13 +2429,13 @@
 6	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-140
-# text = «Ξέρεις αν είχεν εχθρούς;»
+# text = «Ξέρεις αν είχεν εχθρούς;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Ξέρεις	ξέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	αν	αν	SCONJ	_	_	4	mark	_	_
 4	είχεν	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 5	εχθρούς	εχθρός	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-141
@@ -2723,11 +2723,11 @@
 24	.	.	PUNCT	_	_	17	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-158
-# text = Ποιος ήταν αυτός;
+# text = Ποιος ήταν αυτός;
 1	Ποιος	ποιος	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	3	nsubj	_	_
 2	ήταν	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	αυτός	αυτός	DET	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+4	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-159
 # text = Όλοι προτιμούν να αννοίξουν συζήτηση για τες επερχόμενες αυξήσεις, που είναι μονίμως επερχόμενες αλλά ποτέ δε φτάνουν.
@@ -2821,7 +2821,7 @@
 15	.	.	PUNCT	_	_	14	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-164
-# text = Γιατί αποφάσισαν λοιπόν, έτσι ξαφνικά, να επιστρέφουν στα πάτρια εδάφη;
+# text = Γιατί αποφάσισαν λοιπόν, έτσι ξαφνικά, να επιστρέφουν στα πάτρια εδάφη;
 1	Γιατί	γιατί	ADV	_	PronType=Int	2	advmod	_	_
 2	αποφάσισαν	αποφασίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	λοιπόν	λοιπόν	INTJ	_	_	2	discourse	_	SpaceAfter=No
@@ -2836,7 +2836,7 @@
 11	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	13	det	_	_
 12	πάτρια	πάτριος	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	13	amod	_	_
 13	εδάφη	έδαφος	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
-14	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
+14	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-165
 # text = Οι τσέπες είναι ελάχιστες και σε πέντε λεπτά έχουν τελειώσει.
@@ -2853,7 +2853,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-166
-# text = «Πιστεύετε ότι ήταν κάτι παραπάνω από μια απλή δολοφονία;»
+# text = «Πιστεύετε ότι ήταν κάτι παραπάνω από μια απλή δολοφονία;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πιστεύετε	πιστεύκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ότι	ότι	SCONJ	_	_	5	mark	_	_
@@ -2864,7 +2864,7 @@
 8	μια	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	απλή	απλός	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
 10	δολοφονία	δολοφονία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
-11	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+11	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 12	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-167
@@ -2912,7 +2912,7 @@
 29	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-169
-# text = Τρελοί είναι και ο Πακιστανός με τον Αφγανόν και οι δύο Γεωργιανοί να ομολογήσουν δολοφονίες που δε διέπραξαν;
+# text = Τρελοί είναι και ο Πακιστανός με τον Αφγανόν και οι δύο Γεωργιανοί να ομολογήσουν δολοφονίες που δε διέπραξαν;
 1	Τρελοί	τρελός	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 2	είναι	είμαι	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	και	και	CCONJ	_	_	5	cc	_	_
@@ -2931,7 +2931,7 @@
 16	που	που	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	18	obj	_	_
 17	δε	δεν	PART	_	Polarity=Neg	18	advmod	_	_
 18	διέπραξαν	διαπράττω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	SpaceAfter=No
-19	;	;	PUNCT	_	_	1	punct	_	PunctType=Qest
+19	;	;	PUNCT	_	_	1	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-170
 # text = Αυτόν φαίνεται εκ πρώτης όψεως να ταιριάζει και στην περίπτωση του Λαλόπουλου, αλλά και στην δολοφονία του Χαρδάκου.
@@ -2974,13 +2974,13 @@
 10	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-172
-# text = “Δε σας τα ’λεγα;” επαναλάμβανε.
+# text = “Δε σας τα ’λεγα;” επαναλάμβανε.
 1	“	“	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Δε	δεν	PART	_	Polarity=Neg	5	advmod	_	_
 3	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
 4	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	’λεγα	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 7	”	”	PUNCT	_	_	5	punct	_	PunctType=Quot
 8	επαναλάμβανε	επαναλαμβάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
@@ -3157,13 +3157,13 @@
 4	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-185
-# text = «Πού δούλευκε ο Σωτηρόπουλος;»
+# text = «Πού δούλευκε ο Σωτηρόπουλος;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πού	πού	ADV	_	PronType=Int	3	advmod	_	_
 3	δούλευκε	δουλεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Σωτηρόπουλος	Σωτηρόπουλος	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-186
@@ -3189,7 +3189,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-187
-# text = «Γιατί έπρεπεν να πεθάνει ο Χαρδάκος;»
+# text = «Γιατί έπρεπεν να πεθάνει ο Χαρδάκος;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Γιατί	γιατί	ADV	_	PronType=Int	3	advmod	_	_
 3	έπρεπεν	πρέπει	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -3197,7 +3197,7 @@
 5	πεθάνει	πεθαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	csubj	_	_
 6	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Χαρδάκος	Χαρδάκος	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+8	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 9	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-188
@@ -3223,7 +3223,7 @@
 19	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-189
-# text = Δεν ήταν αυτός που έκανεν ερωτήσεις στην press conference του υπουργού Ναυτιλίας;
+# text = Δεν ήταν αυτός που έκανεν ερωτήσεις στην press conference του υπουργού Ναυτιλίας;
 1	Δεν	δεν	PART	_	Polarity=Neg	3	advmod	_	_
 2	ήταν	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	αυτός	αυτός	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
@@ -3238,7 +3238,7 @@
 11	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	υπουργού	υπουργός	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 13	Ναυτιλίας	ναυτιλία	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-14	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+14	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-190
 # text = Νναι, αν δει κανείς έτσι αυτόν που μου είπεν.
@@ -3516,12 +3516,12 @@
 17	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-203
-# text = «Πώς σας ’φάνηκεν;»
+# text = «Πώς σας ’φάνηκεν;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πώς	πώς	ADV	_	PronType=Int	4	advmod	_	_
 3	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	obl	_	_
 4	’φάνηκεν	φαίνουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-204
@@ -3901,13 +3901,13 @@
 14	.	.	PUNCT	_	_	11	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-222
-# text = «Και τώρα τι κάνουμεν;»
+# text = «Και τώρα τι κάνουμεν;»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	_	5	cc	_	_
 3	τώρα	τώρα	ADV	_	PronType=Dem	5	advmod	_	_
 4	τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	_
 5	κάνουμεν	κάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-223
@@ -4029,14 +4029,14 @@
 30	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-228
-# text = «Καλά, πώς έγινεν αυτόν;»
+# text = «Καλά, πώς έγινεν αυτόν;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Καλά	καλά	INTJ	_	_	5	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
 4	πώς	πώς	ADV	_	PronType=Int	5	advmod	_	_
 5	έγινεν	γίνουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	αυτόν	αυτός	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
-7	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
+7	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 8	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-229
@@ -4371,14 +4371,14 @@
 20	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-247
-# text = «Τι ακριβώς θέλετε να ψάξω;»
+# text = «Τι ακριβώς θέλετε να ψάξω;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
 3	ακριβώς	ακριβώς	ADV	_	_	4	advmod	_	_
 4	θέλετε	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	να	να	SCONJ	_	_	6	mark	_	_
 6	ψάξω	ψάχνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	4	ccomp	_	SpaceAfter=No
-7	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+7	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 8	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-248
@@ -4545,13 +4545,13 @@
 40	.	.	PUNCT	_	_	36	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-255
-# text = «Τι να σας τάξω;»
+# text = «Τι να σας τάξω;»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	_
 3	να	να	AUX	_	_	5	aux	_	_
 4	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
 5	τάξω	τάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-256
@@ -4821,14 +4821,14 @@
 13	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-271
-# text = «Είδατε πού πήγαινναν τα κιβώτια;»
+# text = «Είδατε πού πήγαινναν τα κιβώτια;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Είδατε	βλέπω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	πού	πού	ADV	_	PronType=Int	4	advmod	_	_
 4	πήγαινναν	πηγαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 5	τα	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
 6	κιβώτια	κιβώτιο	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	SpaceAfter=No
-7	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+7	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 8	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-272
@@ -5234,7 +5234,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-291
-# text = «Αλήθεια, ρε μαμμά, τι τα ήθελες τα ορεκτικά;»
+# text = «Αλήθεια, ρε μαμμά, τι τα ήθελες τα ορεκτικά;»
 1	«	«	PUNCT	_	_	9	punct	_	PunctType=Quot|SpaceAfter=No
 2	Αλήθεια	αλήθεια	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
@@ -5246,7 +5246,7 @@
 9	ήθελες	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 10	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 11	ορεκτικά	ορεκτικός	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
-12	;	;	PUNCT	_	_	9	punct	_	PunctType=Qest|SpaceAfter=No
+12	;	;	PUNCT	_	_	9	punct	_	PunctType=Qest|SpaceAfter=No
 13	»	»	PUNCT	_	_	9	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-292
@@ -5428,7 +5428,7 @@
 18	.	.	PUNCT	_	_	16	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-300
-# text = «Μπορείς να μου βρεις σε ποιον ανήκει έναν φορτηγό με αριθμό κυκλοφορίας ΙΚΙ 5522;»
+# text = «Μπορείς να μου βρεις σε ποιον ανήκει έναν φορτηγό με αριθμό κυκλοφορίας ΙΚΙ 5522;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μπορείς	μπορώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	SCONJ	_	_	5	mark	_	_
@@ -5444,7 +5444,7 @@
 13	κυκλοφορίας	κυκλοφορία	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 14	ΙΚΙ	ΙΚΙ	SYM	_	Abbr=Yes	12	nmod	_	_
 15	5522	5522	NUM	_	NumType=Card	14	nmod	_	SpaceAfter=No
-16	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+16	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 17	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-301
@@ -5471,7 +5471,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-303
-# text = «Παραβιάσατε την πόρταν ή κάποιον παράθυρον;»
+# text = «Παραβιάσατε την πόρταν ή κάποιον παράθυρον;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Παραβιάσατε	παραβιάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5479,7 +5479,7 @@
 5	ή	ή	CCONJ	_	_	7	cc	_	_
 6	κάποιον	κάποιος	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
 7	παράθυρον	παράθυρον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+8	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 9	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-304
@@ -5504,25 +5504,25 @@
 18	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-305
-# text = «Μάθατε τίποτα;»
+# text = «Μάθατε τίποτα;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μάθατε	μαθαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	τίποτα	τίποτα	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	2	obj	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+4	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 5	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-306
-# text = «Πού είναι το ταξί;»
+# text = «Πού είναι το ταξί;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πού	πού	ADV	_	PronType=Int	0	root	_	_
 3	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	ταξί	ταξί	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-307
-# text = «Ξέρετε γιατί είχεν έρθει τώρα στην Ελλάδα;»
+# text = «Ξέρετε γιατί είχεν έρθει τώρα στην Ελλάδα;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Ξέρετε	ξέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	γιατί	γιατί	SCONJ	_	_	5	mark	_	_
@@ -5533,7 +5533,7 @@
 7	σ	σε	ADP	_	_	9	case	_	_
 8	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-10	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+10	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 11	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-308
@@ -5607,7 +5607,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-311
-# text = Και μήπως ο Χαρδάκος επιλέχτηκεν, γιατί τους ήταν το μεγαλύτερο εμπόδιο, και το πλήρωσε με την ζωή του;
+# text = Και μήπως ο Χαρδάκος επιλέχτηκεν, γιατί τους ήταν το μεγαλύτερο εμπόδιο, και το πλήρωσε με την ζωή του;
 1	Και	και	CCONJ	_	_	5	cc	_	_
 2	μήπως	μήπως	ADV	_	_	5	advmod	_	_
 3	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5628,7 +5628,7 @@
 18	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	ζωή	ζωή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 20	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	SpaceAfter=No
-21	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest
+21	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-312
 # text = Η οικονόμος έχει ακούσει επίσης την πόρταν και πετάγεται από την κουζίνα.
@@ -5906,7 +5906,7 @@
 7	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-330
-# text = «Κατάφερες τελικά να ανακρίνεις τους δολοφόνους του Λαλόπουλου;»
+# text = «Κατάφερες τελικά να ανακρίνεις τους δολοφόνους του Λαλόπουλου;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Κατάφερες	καταφέρνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	τελικά	τελικά	ADV	_	_	2	advmod	_	_
@@ -5916,7 +5916,7 @@
 7	δολοφόνους	δολοφόνος	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
 8	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Λαλόπουλου	Λαλόπουλος	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
-10	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+10	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 11	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-331
@@ -6184,7 +6184,7 @@
 22	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-346
-# text = «Και το πλοίον στην Ταϊλάνδη;»
+# text = «Και το πλοίον στην Ταϊλάνδη;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	_	4	cc	_	_
 3	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -6193,7 +6193,7 @@
 5	σ	σε	ADP	_	_	7	case	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Ταϊλάνδη	Ταϊλάνδη	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+8	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 9	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-347
@@ -6263,17 +6263,17 @@
 17	.	.	PUNCT	_	_	16	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-351
-# text = Έχουμεν κάτι δυσάρεστο;
+# text = Έχουμεν κάτι δυσάρεστο;
 1	Έχουμεν	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	κάτι	κάτι	DET	_	PronType=Ind	1	obj	_	_
 3	δυσάρεστο	δυσάρεστος	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	2	xcomp	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	1	punct	_	PunctType=Qest
+4	;	;	PUNCT	_	_	1	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-352
-# text = «Ποιον;»
+# text = «Ποιον;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Ποιον	ποιος	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
-3	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+3	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 4	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-353
@@ -6347,7 +6347,7 @@
 13	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-356
-# text = Ή μήπως πρόκειται για μια παπαριά, που κάποιος πέταξε στο πτυελοδοχείον του διαδικτύου;
+# text = Ή μήπως πρόκειται για μια παπαριά, που κάποιος πέταξε στο πτυελοδοχείον του διαδικτύου;
 1	Ή	ή	CCONJ	_	_	3	cc	_	_
 2	μήπως	μήπως	ADV	_	_	3	advmod	_	_
 3	πρόκειται	πρόκειται	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -6364,7 +6364,7 @@
 13	πτυελοδοχείον	πτυελοδοχείον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
 14	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	διαδικτύου	διαδίκτυο	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
-16	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+16	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-357
 # text = Στείλαμεν έναν περιπολικόν.
@@ -6452,7 +6452,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-361
-# text = «Και στην Ηλιούπολη, τι γύρευες;»
+# text = «Και στην Ηλιούπολη, τι γύρευες;»
 1	«	«	PUNCT	_	_	8	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	_	5	cc	_	_
 3-4	στην	_	_	_	_	_	_	_	_
@@ -6462,7 +6462,7 @@
 6	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
 7	τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	8	obj	_	_
 8	γύρευες	γυρεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-9	;	;	PUNCT	_	_	8	punct	_	PunctType=Qest|SpaceAfter=No
+9	;	;	PUNCT	_	_	8	punct	_	PunctType=Qest|SpaceAfter=No
 10	»	»	PUNCT	_	_	8	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-362
@@ -6559,7 +6559,7 @@
 39	.	.	PUNCT	_	_	11	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-365
-# text = Ευτυχώς δεν κάνει την κλασική ερώτηση, που κάνουμεν όλοι οι Έλληνες όταν αργούμεν πάνω από ώρα: «άργησα;», αλλά μας λέει:
+# text = Ευτυχώς δεν κάνει την κλασική ερώτηση, που κάνουμεν όλοι οι Έλληνες όταν αργούμεν πάνω από ώρα: «άργησα;», αλλά μας λέει:
 1	Ευτυχώς	ευτυχώς	ADV	_	_	3	advmod	_	_
 2	δεν	δεν	PART	_	Polarity=Neg	3	advmod	_	_
 3	κάνει	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6580,7 +6580,7 @@
 18	:	:	PUNCT	_	_	20	punct	_	PunctType=Colo
 19	«	«	PUNCT	_	_	20	punct	_	PunctType=Quot|SpaceAfter=No
 20	άργησα	αργώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	appos	_	SpaceAfter=No
-21	;	;	PUNCT	_	_	20	punct	_	PunctType=Qest|SpaceAfter=No
+21	;	;	PUNCT	_	_	20	punct	_	PunctType=Qest|SpaceAfter=No
 22	»	»	PUNCT	_	_	20	punct	_	PunctType=Quot|SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	PunctType=Comm
 24	αλλά	αλλά	CCONJ	_	_	26	cc	_	_
@@ -6781,7 +6781,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-380
-# text = «Μπορείς να πεις στην κυρία Μάνια ότι είμαι εδώ;»
+# text = «Μπορείς να πεις στην κυρία Μάνια ότι είμαι εδώ;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μπορείς	μπορώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	SCONJ	_	_	4	mark	_	_
@@ -6794,11 +6794,11 @@
 9	ότι	ότι	SCONJ	_	_	11	mark	_	_
 10	είμαι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	εδώ	εδώ	ADV	_	PronType=Dem	4	ccomp	_	SpaceAfter=No
-12	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+12	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 13	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-381
-# text = «Θ ’ αφήσεις κανέναν γερό αυγόν μπας και τσουγκρίσουμεν τζ̆’ αύριον;»
+# text = «Θ ’ αφήσεις κανέναν γερό αυγόν μπας και τσουγκρίσουμεν τζ̆’ αύριον;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Θ	θα	AUX	_	Tense=Fut	4	aux	_	_
 3	’	’	PUNCT	_	_	2	punct	_	_
@@ -6811,7 +6811,7 @@
 10	τσουγκρίσουμεν	τσουγκρίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	4	advcl	_	_
 11	τζ̆’	και	CCONJ	_	_	12	cc	_	_
 12	αύριον	αύριον	ADV	_	_	10	advmod	_	SpaceAfter=No
-13	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+13	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 14	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-382
@@ -6838,7 +6838,7 @@
 7	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-384
-# text = Γιατί λοιπόν πήραν μόνον το πορτοφόλιν, το κινητό και τον υπολογιστή και δεν ενδιαφέρθηκαν να ψάξουν λλίγον παραπέρα;
+# text = Γιατί λοιπόν πήραν μόνον το πορτοφόλιν, το κινητό και τον υπολογιστή και δεν ενδιαφέρθηκαν να ψάξουν λλίγον παραπέρα;
 1	Γιατί	γιατί	ADV	_	PronType=Int	3	advmod	_	_
 2	λοιπόν	λοιπόν	INTJ	_	_	3	discourse	_	_
 3	πήραν	παίρνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6858,7 +6858,7 @@
 17	ψάξουν	ψάχνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	xcomp	_	_
 18	λλίγον	λλίγον	ADV	_	PronType=Ind	19	advmod	_	_
 19	παραπέρα	παραπέρα	ADV	_	PronType=Dem	17	advmod	_	SpaceAfter=No
-20	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+20	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-385
 # text = Και ο οδηγός τον παρακολουθούσεν, για να ξεκαθαρίσει το ωράριον του και να διαλέξει το κατάλληλον σημείον για την εκτέλεση.
@@ -6900,7 +6900,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-387
-# text = «Τι λέει η παροιμία, κυρία Αδριανή;»
+# text = «Τι λέει η παροιμία, κυρία Αδριανή;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_
 3	λέει	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6909,11 +6909,11 @@
 6	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
 7	κυρία	κύριος	ADJ	_	Case=Voc|Gender=Fem|Number=Sing	8	amod	_	_
 8	Αδριανή	Αδριανή	PROPN	_	Case=Voc|Gender=Fem|Number=Sing	3	vocative	_	SpaceAfter=No
-9	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+9	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 10	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-388
-# text = «Μπορώ να το δω από κοντά;»
+# text = «Μπορώ να το δω από κοντά;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μπορώ	μπορώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	SCONJ	_	_	5	mark	_	_
@@ -6921,7 +6921,7 @@
 5	δω	βλέπω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 6	από	από	ADP	_	_	7	case	_	_
 7	κοντά	κοντά	ADV	_	_	5	obl	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+8	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 9	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-389
@@ -6961,25 +6961,25 @@
 23	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-391
-# text = «Έχετε χρόνον για κάποιες ερωτήσεις;»
+# text = «Έχετε χρόνον για κάποιες ερωτήσεις;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Έχετε	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	χρόνον	χρόνος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 4	για	για	ADP	_	_	6	case	_	_
 5	κάποιες	κάποιος	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
 6	ερωτήσεις	ερώτηση	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
-7	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+7	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 8	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-392
-# text = «Και πού θα μας τραπεζώσουν;»
+# text = «Και πού θα μας τραπεζώσουν;»
 1	«	«	PUNCT	_	_	6	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	_	6	cc	_	_
 3	πού	πού	ADV	_	PronType=Int	6	advmod	_	_
 4	θα	θα	AUX	_	Tense=Fut	6	aux	_	_
 5	μας	εγώ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
 6	τραπεζώσουν	τραπεζώννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-7	;	;	PUNCT	_	_	6	punct	_	PunctType=Qest|SpaceAfter=No
+7	;	;	PUNCT	_	_	6	punct	_	PunctType=Qest|SpaceAfter=No
 8	»	»	PUNCT	_	_	6	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-393
@@ -7142,7 +7142,7 @@
 23	.	.	PUNCT	_	_	13	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-401
-# text = «Μπορώ να μάθω το λόγον της επίσκεψης σας;»
+# text = «Μπορώ να μάθω το λόγον της επίσκεψης σας;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μπορώ	μπορώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	SCONJ	_	_	4	mark	_	_
@@ -7152,11 +7152,11 @@
 7	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	επίσκεψης	επίσκεψη	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 9	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
-10	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+10	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 11	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-402
-# text = Τι έκανεν στο κάτω-κάτω;
+# text = Τι έκανεν στο κάτω-κάτω;
 1	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	_
 2	έκανεν	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στο	_	_	_	_	_	_	_	_
@@ -7165,7 +7165,7 @@
 5	κάτω	κάτω	ADV	_	_	3	fixed	_	SpaceAfter=No
 6	—	—	PUNCT	_	_	3	punct	_	PunctType=Dash|SpaceAfter=No
 7	κάτω	κάτω	ADV	_	_	3	fixed	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
+8	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-403
 # text = «Όχι, από την μέρα που έφυγε δεν ξανάρθε και δε θέλει να έρθει».
@@ -7231,11 +7231,11 @@
 5	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-408
-# text = Τι κάννω τώρα;
+# text = Τι κάννω τώρα;
 1	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	_
 2	κάννω	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	τώρα	τώρα	ADV	_	PronType=Dem	2	advmod	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
+4	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-409
 # text = Αφού ομολόγησαν.
@@ -7440,7 +7440,7 @@
 19	.	.	PUNCT	_	_	13	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-423
-# text = «Συγγνώμη που ρωτάω, αλλά γιατί δεν το κάνατε τόσα χρόνια;»
+# text = «Συγγνώμη που ρωτάω, αλλά γιατί δεν το κάνατε τόσα χρόνια;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Συγγνώμη	συγγνώμη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
 3	που	που	SCONJ	_	_	4	mark	_	_
@@ -7453,11 +7453,11 @@
 10	κάνατε	κάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 11	τόσα	τόσος	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	12	det	_	_
 12	χρόνια	χρόνια	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
-13	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+13	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 14	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-424
-# text = «Μαχμούντ, γιατί ’πήρες επάννω σου έναν φόνον, που δεν τον έκανες;»
+# text = «Μαχμούντ, γιατί ’πήρες επάννω σου έναν φόνον, που δεν τον έκανες;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μαχμούντ	Μαχμούντ	PROPN	_	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
@@ -7472,7 +7472,7 @@
 12	δεν	δεν	PART	_	Polarity=Neg	14	advmod	_	_
 13	τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
 14	έκανες	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	SpaceAfter=No
-15	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+15	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 16	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-425
@@ -7807,7 +7807,7 @@
 19	.	.	PUNCT	_	_	15	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-440
-# text = «Πιστεύεις ότι η φωτιά και η έκρηξη ήταν βαλτές;»
+# text = «Πιστεύεις ότι η φωτιά και η έκρηξη ήταν βαλτές;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πιστεύεις	πιστεύκω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ότι	ότι	SCONJ	_	_	10	mark	_	_
@@ -7818,7 +7818,7 @@
 8	έκρηξη	έκρηξη	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
 9	ήταν	είμαι	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 10	βαλτές	βαλτός	ADJ	_	Case=Nom|Gender=Fem|Number=Plur	2	ccomp	_	SpaceAfter=No
-11	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+11	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 12	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-441
@@ -8082,13 +8082,13 @@
 8	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-458
-# text = «Εννοείτε τον Φίλιππο Ζαχαράκη;»
+# text = «Εννοείτε τον Φίλιππο Ζαχαράκη;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Εννοείτε	εννοώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Φίλιππο	Φίλιππος	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 5	Ζαχαράκη	Ζαχαράκης	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-459
@@ -8319,7 +8319,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-473
-# text = «Πώς εντοπίσατε τους δράστες της δολοφονίας του Κωνσταντίνου Λαλόπουλου;»
+# text = «Πώς εντοπίσατε τους δράστες της δολοφονίας του Κωνσταντίνου Λαλόπουλου;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πώς	πώς	ADV	_	PronType=Int	3	advmod	_	_
 3	εντοπίσατε	εντοπίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -8330,7 +8330,7 @@
 8	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Κωνσταντίνου	Κωνσταντίνος	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	Λαλόπουλου	Λαλόπουλος	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
-11	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+11	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 12	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-474
@@ -8369,7 +8369,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-476
-# text = «Σας είπαν αν πρόκειται για ληστεία;»
+# text = «Σας είπαν αν πρόκειται για ληστεία;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Σας	εγώ	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
 3	είπαν	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -8377,7 +8377,7 @@
 5	πρόκειται	πρόκειται	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
 6	για	για	ADP	_	_	7	case	_	_
 7	ληστεία	ληστεία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+8	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 9	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-477
@@ -8407,7 +8407,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-478
-# text = Εμέναν γιατί μ’ έκανες συνεταίρο στο τάμα σου;
+# text = Εμέναν γιατί μ’ έκανες συνεταίρο στο τάμα σου;
 1	Εμέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
 2	γιατί	γιατί	ADV	_	PronType=Int	4	advmod	_	_
 3	μ’	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
@@ -8418,7 +8418,7 @@
 7	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	τάμα	τάμα	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 9	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
-10	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest
+10	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-479
 # text = Του δείχνω με έναν νεύμα το Άουντι.
@@ -8451,7 +8451,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-482
-# text = «Θα μου πείτε επιτέλους τι συμβαίννει;»
+# text = «Θα μου πείτε επιτέλους τι συμβαίννει;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Θα	θα	AUX	_	Tense=Fut	4	aux	_	_
 3	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
@@ -8459,7 +8459,7 @@
 5	επιτέλους	επιτέλους	ADV	_	_	4	advmod	_	_
 6	τι	τι	SCONJ	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	7	nsubj	_	_
 7	συμβαίννει	συμβαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+8	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 9	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-483
@@ -8882,16 +8882,16 @@
 4	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-505
-# text = «Χωρίς άλλα κίνητρα;»
+# text = «Χωρίς άλλα κίνητρα;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Χωρίς	χωρίς	ADP	_	_	4	case	_	_
 3	άλλα	άλλος	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	_
 4	κίνητρα	κίνητρο	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-506
-# text = Έστω και αν βούλιαξαν με δολιοφθορά, τι θα κέρδιζαν αυτοί που τα βούλιαξαν από το φόνον του Χαρδάκου;
+# text = Έστω και αν βούλιαξαν με δολιοφθορά, τι θα κέρδιζαν αυτοί που τα βούλιαξαν από το φόνον του Χαρδάκου;
 1	Έστω	έστω	ADV	_	ExtPos=SCONJ	4	mark	_	_
 2	και	και	CCONJ	_	_	1	fixed	_	_
 3	αν	αν	SCONJ	_	_	1	fixed	_	_
@@ -8911,7 +8911,7 @@
 17	φόνον	φόνος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
 18	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Χαρδάκου	Χαρδάκος	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
-20	;	;	PUNCT	_	_	10	punct	_	PunctType=Qest
+20	;	;	PUNCT	_	_	10	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-507
 # text = Μετά, γυρίζει στον Φάνη και του πετά την σπόντα της.
@@ -9075,12 +9075,12 @@
 15	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-514
-# text = «Πότε άλλαξε περίπου;»
+# text = «Πότε άλλαξε περίπου;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πότε	πότε	ADV	_	PronType=Int	3	advmod	_	_
 3	άλλαξε	αλλάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	περίπου	περίπου	ADV	_	_	3	advmod	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-515
@@ -9109,20 +9109,20 @@
 21	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-516
-# text = «Τι σας είπεν;»
+# text = «Τι σας είπεν;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
 3	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
 4	είπεν	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-517
-# text = Πότε με βοήθησες;
+# text = Πότε με βοήθησες;
 1	Πότε	πότε	ADV	_	PronType=Int	3	advmod	_	_
 2	με	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
 3	βοήθησες	βοηθώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+4	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-518
 # text = Καμιά φορά με κάνεις να σκέφτουμαι ότι με την κρίση περνούσες καλλύττερα.
@@ -9429,12 +9429,12 @@
 12	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-535
-# text = «Τι γιορτάζουμεν σήμμερα;»
+# text = «Τι γιορτάζουμεν σήμμερα;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_
 3	γιορτάζουμεν	γιορτάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	σήμμερα	σήμμερα	ADV	_	_	3	advmod	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-536
@@ -9475,13 +9475,13 @@
 12	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-538
-# text = Τώρα πού βρήκες τα λεφτά;
+# text = Τώρα πού βρήκες τα λεφτά;
 1	Τώρα	τώρα	ADV	_	PronType=Dem	3	advmod	_	_
 2	πού	πού	ADV	_	PronType=Int	3	advmod	_	_
 3	βρήκες	βρίσκω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
 5	λεφτά	λεφτά	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-539
 # text = Αν το πιστόλιν που βρήκαν οι βοηθοί μου είναι το όπλον του εγκλήματος, τότε είναι σχεδόν βέβαιο ότι πρόκειται για ληστεία.
@@ -9790,7 +9790,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-556
-# text = «Μήπως ξέρετε πού είναι ο κύριος Λάμπρος;»
+# text = «Μήπως ξέρετε πού είναι ο κύριος Λάμπρος;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μήπως	μήπως	ADV	_	_	3	advmod	_	_
 3	ξέρετε	ξέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -9799,7 +9799,7 @@
 6	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	κύριος	κύριος	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
 8	Λάμπρος	Λάμπρος	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
-9	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+9	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 10	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-557
@@ -9836,7 +9836,7 @@
 9	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-559
-# text = Γιατί να ασχοληθούμεν με την φτώχεια, όταν είναι μοδάτη;
+# text = Γιατί να ασχοληθούμεν με την φτώχεια, όταν είναι μοδάτη;
 1	Γιατί	γιατί	ADV	_	PronType=Int	3	advmod	_	_
 2	να	να	AUX	_	_	3	aux	_	_
 3	ασχοληθούμεν	ασχολούμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1	0	root	_	_
@@ -9847,7 +9847,7 @@
 8	όταν	όταν	SCONJ	_	_	10	mark	_	_
 9	είναι	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	μοδάτη	μοδάτος	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	3	advcl	_	SpaceAfter=No
-11	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+11	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-560
 # text = Όσον πλησιάζουμεν στο δωμάτιον αρχίζει να φτάννει στα ρουθούνια μας η οσμή από το πτώμα.
@@ -10009,12 +10009,12 @@
 19	.	.	PUNCT	_	_	17	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-569
-# text = «Τι μας νοιάζει;»
+# text = «Τι μας νοιάζει;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	ADV	_	PronType=Int	4	advmod	_	_
 3	μας	εγώ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
 4	νοιάζει	νοιάζει	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-570
@@ -10520,7 +10520,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-593
-# text = «Εδώ δεν τον σκότωσαν όταν τους ενοχλούσεν, και θα τον σκότωναν συνταξιούχο;»
+# text = «Εδώ δεν τον σκότωσαν όταν τους ενοχλούσεν, και θα τον σκότωναν συνταξιούχο;»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Εδώ	εδώ	ADV	_	PronType=Dem	5	advmod	_	_
 3	δεν	δεν	PART	_	Polarity=Neg	5	advmod	_	_
@@ -10535,7 +10535,7 @@
 12	τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	σκότωναν	σκοτώννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	conj	_	_
 14	συνταξιούχο	συνταξιούχος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
-15	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
+15	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 16	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-594
@@ -10632,12 +10632,12 @@
 12	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-599
-# text = «Και τι κάννω;»
+# text = «Και τι κάννω;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	_	4	cc	_	_
 3	τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
 4	κάννω	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-600
@@ -10815,7 +10815,7 @@
 25	.	.	PUNCT	_	_	24	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-609
-# text = «Τι σας κάνει να πιστεύετε ότι ο υπολογιστής εκλάπη;»
+# text = «Τι σας κάνει να πιστεύετε ότι ο υπολογιστής εκλάπη;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	_
 3	σας	εγώ	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
@@ -10826,7 +10826,7 @@
 8	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	υπολογιστής	υπολογιστής	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 10	εκλάπη	κλέβω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	6	ccomp	_	SpaceAfter=No
-11	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+11	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 12	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-610
@@ -10935,7 +10935,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-616
-# text = Μήπως τελικά ευσταθούν οι υποψίες του Σωτηρόπουλου, που από την αρχή έβλεπε να υπάρχει σχέση ανάμεσα στην δολοφονία του Χαρδάκου και στην επιστροφή των ναυτιλιακών εταιρειών;
+# text = Μήπως τελικά ευσταθούν οι υποψίες του Σωτηρόπουλου, που από την αρχή έβλεπε να υπάρχει σχέση ανάμεσα στην δολοφονία του Χαρδάκου και στην επιστροφή των ναυτιλιακών εταιρειών;
 1	Μήπως	μήπως	ADV	_	_	3	advmod	_	_
 2	τελικά	τελικά	ADV	_	_	3	advmod	_	_
 3	ευσταθούν	ευσταθώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -10967,10 +10967,10 @@
 27	των	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 28	ναυτιλιακών	ναυτιλιακός	ADJ	_	Case=Gen|Gender=Fem|Number=Plur	29	amod	_	_
 29	εταιρειών	εταιρεία	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
-30	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
+30	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-617
-# text = «Νομίζετε πως πρέπει να ενημερώσουμεν τον υπαρχηγό;»
+# text = «Νομίζετε πως πρέπει να ενημερώσουμεν τον υπαρχηγό;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Νομίζετε	νομίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	πως	πως	SCONJ	_	_	4	mark	_	_
@@ -10979,7 +10979,7 @@
 6	ενημερώσουμεν	ενημερώννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	4	csubj	_	_
 7	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	υπαρχηγό	υπαρχηγός	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
-9	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+9	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 10	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-618
@@ -11134,12 +11134,12 @@
 21	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-627
-# text = «Πότε το ανακοίνωσε;»
+# text = «Πότε το ανακοίνωσε;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πότε	πότε	ADV	_	PronType=Int	4	advmod	_	_
 3	το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	ανακοίνωσε	ανακοινώννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-628
@@ -11151,19 +11151,19 @@
 5	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-629
-# text = «Πώς δηλαδή;»
+# text = «Πώς δηλαδή;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πώς	πώς	ADV	_	PronType=Int	0	root	_	_
 3	δηλαδή	δηλαδή	CCONJ	_	_	2	cc	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+4	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 5	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-630
-# text = «Τι κάνουμεν;»
+# text = «Τι κάνουμεν;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_
 3	κάνουμεν	κάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+4	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 5	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-631
@@ -11707,7 +11707,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-658
-# text = «Παρατηρήσατε κάποια αλλαγή στην συμπεριφορά του Σωτηρόπουλου τον τελευταίον καιρό;»
+# text = «Παρατηρήσατε κάποια αλλαγή στην συμπεριφορά του Σωτηρόπουλου τον τελευταίον καιρό;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Παρατηρήσατε	παρατηρώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	κάποια	κάποιος	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
@@ -11721,7 +11721,7 @@
 10	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	τελευταίον	τελευταίος	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
 12	καιρό	καιρός	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
-13	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+13	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 14	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-659
@@ -11755,7 +11755,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-661
-# text = Πώς μπήκατε στο σπίτιν του Λαλόπουλου στο Χαλάνδρι;
+# text = Πώς μπήκατε στο σπίτιν του Λαλόπουλου στο Χαλάνδρι;
 1	Πώς	πώς	ADV	_	PronType=Int	2	advmod	_	_
 2	μπήκατε	μπαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στο	_	_	_	_	_	_	_	_
@@ -11768,7 +11768,7 @@
 8	σ	σε	ADP	_	_	10	case	_	_
 9	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Χαλάνδρι	Χαλάνδρι	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
-11	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
+11	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-662
 # text = Τώρα αρχίζουν τα δύσκολα και πρέπει να δω πώς θα του τα σερβίρω.
@@ -11965,7 +11965,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-670
-# text = Η ερώτηση «τι κάνει η αστυνομία;»
+# text = Η ερώτηση «τι κάνει η αστυνομία;»
 1	Η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ερώτηση	ερώτηση	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
@@ -11973,7 +11973,7 @@
 5	κάνει	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	_
 6	η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	αστυνομία	αστυνομία	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+8	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 9	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-671
@@ -12175,7 +12175,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-682
-# text = «Σήμμερα σου ήρθε να φάμε έξω;»
+# text = «Σήμμερα σου ήρθε να φάμε έξω;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Σήμμερα	σήμμερα	ADV	_	_	4	advmod	_	_
 3	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
@@ -12183,7 +12183,7 @@
 5	να	να	SCONJ	_	_	6	mark	_	_
 6	φάμε	τρώω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 7	έξω	έξω	ADV	_	_	6	advmod	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+8	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 9	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-683
@@ -12219,7 +12219,7 @@
 29	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-684
-# text = «Έχετε κάποια δήλωση για το φόνον του εφοπλιστή Στέφανου Χαρδάκου;»
+# text = «Έχετε κάποια δήλωση για το φόνον του εφοπλιστή Στέφανου Χαρδάκου;»
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Έχετε	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	κάποια	κάποιος	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
@@ -12231,7 +12231,7 @@
 9	εφοπλιστή	εφοπλιστής	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	Στέφανου	Στέφανος	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	_
 11	Χαρδάκου	Χαρδάκος	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
-12	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+12	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 13	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-685
@@ -12332,7 +12332,7 @@
 9	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-691
-# text = Τα στελέχη του, όλα ανεξαιρέτως, διατύπωναν την ίδια ερώτηση: «και αν;», δίχως να μπαίννουν σε λεπτομέρειες.
+# text = Τα στελέχη του, όλα ανεξαιρέτως, διατύπωναν την ίδια ερώτηση: «και αν;», δίχως να μπαίννουν σε λεπτομέρειες.
 1	Τα	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
 2	στελέχη	στέλεχος	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
 3	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod	_	SpaceAfter=No
@@ -12348,7 +12348,7 @@
 13	«	«	PUNCT	_	_	8	punct	_	PunctType=Quot|SpaceAfter=No
 14	και	και	CCONJ	_	ExtPos=ADV	8	parataxis	_	_
 15	αν	αν	SCONJ	_	_	14	fixed	_	SpaceAfter=No
-16	;	;	PUNCT	_	_	8	punct	_	PunctType=Qest|SpaceAfter=No
+16	;	;	PUNCT	_	_	8	punct	_	PunctType=Qest|SpaceAfter=No
 17	»	»	PUNCT	_	_	8	punct	_	PunctType=Quot|SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	PunctType=Comm
 19	δίχως	δίχως	ADV	_	_	21	advmod	_	_
@@ -12407,13 +12407,13 @@
 18	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-695
-# text = «Δεν κατάλαβες τι έγινεν;»
+# text = «Δεν κατάλαβες τι έγινεν;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Δεν	δεν	PART	_	Polarity=Neg	3	advmod	_	_
 3	κατάλαβες	καταλαββαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	τι	τι	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	_
 5	έγινεν	γίνουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	3	ccomp	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-696
@@ -12685,12 +12685,12 @@
 21	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-712
-# text = «Τι σας έλεγε;»
+# text = «Τι σας έλεγε;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
 3	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
 4	έλεγε	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-713
@@ -12833,10 +12833,10 @@
 14	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-720
-# text = «Τρελάθηκεν;».
+# text = «Τρελάθηκεν;».
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τρελάθηκεν	τρελαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-3	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
+3	;	;	PUNCT	_	_	2	punct	_	PunctType=Qest|SpaceAfter=No
 4	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
@@ -12884,13 +12884,13 @@
 20	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-724
-# text = Μπορείς να μου πεις γιατί;
+# text = Μπορείς να μου πεις γιατί;
 1	Μπορείς	μπορώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	να	να	SCONJ	_	_	4	mark	_	_
 3	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
 4	πεις	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 5	γιατί	γιατί	ADV	_	PronType=Int	4	advmod	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	1	punct	_	PunctType=Qest
+6	;	;	PUNCT	_	_	1	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-725
 # text = «Πήγες να μας πουλήσεις το παραμύθι για ληστεία, αλλά δεν ήταν ληστεία».
@@ -13006,7 +13006,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = test-GUD-730
-# text = Μήπως ο άντρας σου έφερεν έναν υπολογιστή;
+# text = Μήπως ο άντρας σου έφερεν έναν υπολογιστή;
 1	Μήπως	μήπως	ADV	_	_	5	advmod	_	_
 2	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	άντρας	άντρας	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -13014,10 +13014,10 @@
 5	έφερεν	φέρνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	έναν	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	υπολογιστή	υπολογιστής	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest
+8	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest
 
 # sent_id = test-GUD-731
-# text = «Πού έμενε στην Αθήνα ο Χαρδάκος;»
+# text = «Πού έμενε στην Αθήνα ο Χαρδάκος;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πού	πού	ADV	_	PronType=Int	3	advmod	_	_
 3	έμενε	μένω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13027,11 +13027,11 @@
 6	Αθήνα	Αθήνα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
 7	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Χαρδάκος	Χαρδάκος	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
-9	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+9	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 10	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-732
-# text = «Μήπως έμειναν στο αστυνομικόν τμήμα του Κερατσινίου;»
+# text = «Μήπως έμειναν στο αστυνομικόν τμήμα του Κερατσινίου;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μήπως	μήπως	ADV	_	_	3	advmod	_	_
 3	έμειναν	μένω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13042,7 +13042,7 @@
 7	τμήμα	τμήμα	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 8	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Κερατσινίου	Κερατσίνι	PROPN	_	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
-10	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
+10	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 11	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = test-GUD-733
