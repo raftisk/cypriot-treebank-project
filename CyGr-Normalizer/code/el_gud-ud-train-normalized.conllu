@@ -105,7 +105,7 @@
 20	.	.	PUNCT	_	_	14	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-6
-# text = «Πάντως, δεν υπάρχει τίποτα ύποπτο σ’ αυτές τες εταιρείες»
+# text = «Πάντως, δεν υπάρχει τίποτα ύποπτο σ' αυτές τες εταιρείες»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πάντως	πάντως	ADV	_	_	5	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
@@ -185,9 +185,9 @@
 16	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-10
-# text = «Τζ̆’ εσύ τι είπες;»
+# text = «Τζ̆' εσύ τι είπες;»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
-2	Τζ̆’	και	CCONJ	_	_	5	cc	_	_
+2	Τζ̆'	και	CCONJ	_	_	5	cc	_	_
 3	εσύ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 4	τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	_
 5	είπες	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -279,8 +279,8 @@
 25	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-15
-# text = Καθ’ οδόν προς την κουζίνα χτυπάει το κουδούνιν, και η Αδριανή αλλάζει ρότα για ν’ αννοίξει.
-1	Καθ’	κατά	ADP	_	_	2	case	_	_
+# text = Καθ' οδόν προς την κουζίνα χτυπάει το κουδούνιν, και η Αδριανή αλλάζει ρότα για ν' αννοίξει.
+1	Καθ'	κατά	ADP	_	_	2	case	_	_
 2	οδόν	οδός	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 3	προς	προς	ADP	_	_	5	case	_	_
 4	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -295,7 +295,7 @@
 13	αλλάζει	αλλάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 14	ρότα	ρότα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 15	για	για	ADP	_	ExtPos=SCONJ	17	mark	_	_
-16	ν’	να	SCONJ	_	_	15	fixed	_	_
+16	ν'	να	SCONJ	_	_	15	fixed	_	_
 17	αννοίξει	ανοίγω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
@@ -528,9 +528,9 @@
 27	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-30
-# text = Απ’ ’ ό,τι ξέρω δεν τους δόθηκαν κίνητρα και δεν άλλαξε τίποτα στην πολιτική της Ελλάδας για την εμπορική ναυτιλία.
-1	Απ’	από	ADP	_	_	3	case	_	_
-2	’	’	PUNCT	_	_	1	punct	_	_
+# text = Απ' ' ό,τι ξέρω δεν τους δόθηκαν κίνητρα και δεν άλλαξε τίποτα στην πολιτική της Ελλάδας για την εμπορική ναυτιλία.
+1	Απ'	από	ADP	_	_	3	case	_	_
+2	'	’	PUNCT	_	_	1	punct	_	_
 3	ό,τι	ό,τι	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	4	obl	_	_
 4	ξέρω	ξέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
 5	δεν	δεν	PART	_	Polarity=Neg	7	advmod	_	_
@@ -628,12 +628,12 @@
 7	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-36
-# text = Ππέφτει πάνω μου και μ’ αγκαλιάζει.
+# text = Ππέφτει πάνω μου και μ' αγκαλιάζει.
 1	Ππέφτει	ππέφτω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	πάνω	πάνω	ADV	_	_	1	advmod	_	_
 3	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
 4	και	και	CCONJ	_	_	6	cc	_	_
-5	μ’	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+5	μ'	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 6	αγκαλιάζει	αγκαλιάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
@@ -692,7 +692,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-40
-# text = Αφού αυτοί δεν άκουσαν τίποτα, εσείς είσαστεν στο “καλομελέτα τζ̆’ έρκουνται”.
+# text = Αφού αυτοί δεν άκουσαν τίποτα, εσείς είσαστεν στο “καλομελέτα τζ̆' έρκουνται”.
 1	Αφού	αφού	SCONJ	_	_	4	mark	_	_
 2	αυτοί	αυτός	DET	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	nsubj	_	_
 3	δεν	δεν	PART	_	Polarity=Neg	4	advmod	_	_
@@ -706,7 +706,7 @@
 10	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 11	“	“	PUNCT	_	_	12	punct	_	PunctType=Quot|SpaceAfter=No
 12	καλομελέτα	καλομελετάω	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-13	τζ̆’	και	CCONJ	_	_	14	cc	_	_
+13	τζ̆'	και	CCONJ	_	_	14	cc	_	_
 14	έρκουνται	έρκουμαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	SpaceAfter=No
 15	”	”	PUNCT	_	_	12	punct	_	PunctType=Quot|SpaceAfter=No
 16	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
@@ -1328,7 +1328,7 @@
 # text = «Στο αστυνομικόν τμήμα του Αγίου Παντελεήμονα».
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2-3	Στο	_	_	_	_	_	_	_	_
-2	Σ’	σε	ADP	_	_	5	case	_	_
+2	Σ'	σε	ADP	_	_	5	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 4	αστυνομικόν	αστυνομικός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
 5	τμήμα	τμήμα	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
@@ -1457,14 +1457,14 @@
 6	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-89
-# text = Αν δε διαβάζουν, τότε γιατί ν’ αγοράσουν την εφημερίδα;
+# text = Αν δε διαβάζουν, τότε γιατί ν' αγοράσουν την εφημερίδα;
 1	Αν	αν	SCONJ	_	_	3	mark	_	_
 2	δε	δεν	PART	_	Polarity=Neg	3	advmod	_	_
 3	διαβάζουν	διαβάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	PunctType=Comm
 5	τότε	τότε	ADV	_	PronType=Dem	8	advmod	_	_
 6	γιατί	γιατί	ADV	_	PronType=Int	8	advmod	_	_
-7	ν’	να	AUX	_	_	8	aux	_	_
+7	ν'	να	AUX	_	_	8	aux	_	_
 8	αγοράσουν	αγοράζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 9	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	εφημερίδα	εφημερίδα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
@@ -1525,7 +1525,7 @@
 11	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-93
-# text = «Τον έδωσε σ’ αυτούς που τον έβαλαν να σκοτώσει τον Σωτηρόπουλλον» του απαντώ.
+# text = «Τον έδωσε σ' αυτούς που τον έβαλαν να σκοτώσει τον Σωτηρόπουλλον» του απαντώ.
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 3	έδωσε	δίνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	_
@@ -2763,7 +2763,7 @@
 16	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-165
-# text = Εμείς που εθέλαμεν να σώσουμεν την ανθρωπότητα ’πάθαμεν πολύ χειρότερα.
+# text = Εμείς που εθέλαμεν να σώσουμεν την ανθρωπότητα 'πάθαμεν πολύ χειρότερα.
 1	Εμείς	εγώ	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 2	που	που	PRON	_	Case=Nom|Number=Plur|PronType=Rel	3	nsubj	_	_
 3	εθέλαμεν	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
@@ -2771,7 +2771,7 @@
 5	σώσουμεν	σώζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 6	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	ανθρωπότητα	ανθρωπότητα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
-8	’πάθαμεν	παθθαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	'πάθαμεν	παθθαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	πολύ	πολύ	ADV	_	PronType=Ind	10	advmod	_	_
 10	χειρότερα	κακός	ADJ	_	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
@@ -2780,7 +2780,7 @@
 # text = «Στο δωμάτιον αριστερά, μόλις μπείτε».
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2-3	Στο	_	_	_	_	_	_	_	_
-2	Σ’	σε	ADP	_	_	4	case	_	_
+2	Σ'	σε	ADP	_	_	4	case	_	_
 3	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	δωμάτιον	δωμάτιον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
 5	αριστερά	αριστερά	ADV	_	_	4	advmod	_	SpaceAfter=No
@@ -3123,9 +3123,9 @@
 26	»	»	PUNCT	_	_	7	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-185
-# text = Απ’ ’ ό,τι ξέρω δε ζητήσατε ούτε από εμέναν, αλλά ούτε από τον διευθυντή σας.
-1	Απ’	από	ADP	_	_	3	case	_	_
-2	’	’	PUNCT	_	_	1	punct	_	_
+# text = Απ' ' ό,τι ξέρω δε ζητήσατε ούτε από εμέναν, αλλά ούτε από τον διευθυντή σας.
+1	Απ'	από	ADP	_	_	3	case	_	_
+2	'	’	PUNCT	_	_	1	punct	_	_
 3	ό,τι	ό,τι	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	4	obl	_	_
 4	ξέρω	ξέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
 5	δε	δεν	PART	_	Polarity=Neg	6	advmod	_	_
@@ -3195,7 +3195,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-189
-# text = Το συμπέρασμαν είναι ότι ο Σωτηρόπουλος είχεν πιάσει από κάπου την άκρη του νήματος, αλλά δε θέλησε να έρθει σ’ εμέναν με τες πληροφορίες του, γιατί ήθελεν να κάνει το μεγάλον μπαμ.
+# text = Το συμπέρασμαν είναι ότι ο Σωτηρόπουλος είχεν πιάσει από κάπου την άκρη του νήματος, αλλά δε θέλησε να έρθει σ' εμέναν με τες πληροφορίες του, γιατί ήθελεν να κάνει το μεγάλον μπαμ.
 1	Το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	συμπέρασμαν	συμπέρασμαν	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:outer	_	_
 3	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -3423,13 +3423,13 @@
 9	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-200
-# text = «Αλλά έκανα λάτος, γι’ αυτόν είμαι εντώ».
+# text = «Αλλά έκανα λάτος, γι' αυτόν είμαι εντώ».
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Αλλά	αλλά	CCONJ	_	_	3	cc	_	_
 3	έκανα	κάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	λάτος	λάθος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
-6	γι’	για	ADP	_	ExtPos=CCONJ	9	cc	_	_
+6	γι'	για	ADP	_	ExtPos=CCONJ	9	cc	_	_
 7	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	fixed	_	_
 8	είμαι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	εντώ	εδώ	ADV	_	PronType=Dem	3	conj	_	SpaceAfter=No
@@ -4416,7 +4416,7 @@
 # sent_id = train-GUD-257
 # text = Στην συνέχεια εξαφανίστηκεν και χάθηκαν τα ίχνη του.
 1-2	Στην	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	3	case	_	_
+1	Σ'	σε	ADP	_	_	3	case	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	συνέχεια	συνέχεια	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 4	εξαφανίστηκεν	εξαφανίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -4505,7 +4505,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-265
-# text = Ακολουθώ την σοφία της παροιμίας που λέει «φύλαγε τα ρούχα σου για να ’χεις τα μισά» και ενημερώννω τον Γκίκα, όχι μόνον για την δολοφονία αλλά και για τους ενδοιασμούς μου, αν οι δράστες ήταν πράγματι ληστές, ή αν η ληστεία ήταν στάχτη στα μάτια της αστυνομίας, για να συγκαλυφτεί η εκτέλεση.
+# text = Ακολουθώ την σοφία της παροιμίας που λέει «φύλαγε τα ρούχα σου για να 'χεις τα μισά» και ενημερώννω τον Γκίκα, όχι μόνον για την δολοφονία αλλά και για τους ενδοιασμούς μου, αν οι δράστες ήταν πράγματι ληστές, ή αν η ληστεία ήταν στάχτη στα μάτια της αστυνομίας, για να συγκαλυφτεί η εκτέλεση.
 1	Ακολουθώ	ακολουθώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	σοφία	σοφία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
@@ -4520,7 +4520,7 @@
 12	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	11	nmod	_	_
 13	για	για	ADP	_	ExtPos=SCONJ	15	mark	_	_
 14	να	να	SCONJ	_	_	13	fixed	_	_
-15	’χεις	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+15	'χεις	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
 16	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
 17	μισά	μισός	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	15	obj	_	SpaceAfter=No
 18	»	»	PUNCT	_	_	9	punct	_	PunctType=Quot
@@ -4647,7 +4647,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-270
-# text = Παίρνει μια ανάσα και γυρίζει σ’ εμάς.
+# text = Παίρνει μια ανάσα και γυρίζει σ' εμάς.
 1	Παίρνει	παίρνω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	μια	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ανάσα	ανάσα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
@@ -4658,10 +4658,10 @@
 8	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-271
-# text = «Μ’ ’ ενδιαφέρει και πολύ μάλιστα».
+# text = «Μ' ' ενδιαφέρει και πολύ μάλιστα».
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
-2	Μ’	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
-3	’	’	PUNCT	_	_	2	punct	_	_
+2	Μ'	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+3	'	’	PUNCT	_	_	2	punct	_	_
 4	ενδιαφέρει	ενδιαφέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	και	και	CCONJ	_	_	6	cc	_	_
 6	πολύ	πολύ	ADV	_	PronType=Ind	4	advmod	_	_
@@ -4701,13 +4701,13 @@
 13	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-274
-# text = Ήταν μπροστά, αλλά για ’μέναν κάποιος άλλος έσπασε τον κωδικόν και τους έδειξεν πώς γίνεται για να ξέρουν πώς να το κάνουν, αν γίνει αναπαράσταση.
+# text = Ήταν μπροστά, αλλά για 'μέναν κάποιος άλλος έσπασε τον κωδικόν και τους έδειξεν πώς γίνεται για να ξέρουν πώς να το κάνουν, αν γίνει αναπαράσταση.
 1	Ήταν	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
 2	μπροστά	μπροστά	ADV	_	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
 4	αλλά	αλλά	CCONJ	_	_	9	cc	_	_
 5	για	για	ADP	_	_	6	case	_	_
-6	’μέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+6	'μέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
 7	κάποιος	κάποιος	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
 8	άλλος	άλλος	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
 9	έσπασε	σπάω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -4809,7 +4809,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-279
-# text = Έχουν σπάσει τα νεύρα μου και δεν είναι η κατάλληλη στιγμή για ν’ ακούσω τες εξυπνάδες του.
+# text = Έχουν σπάσει τα νεύρα μου και δεν είναι η κατάλληλη στιγμή για ν' ακούσω τες εξυπνάδες του.
 1	Έχουν	έχω	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	σπάσει	σπάω	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 3	τα	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
@@ -4822,7 +4822,7 @@
 10	κατάλληλη	κατάλληλος	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	11	amod	_	_
 11	στιγμή	στιγμή	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
 12	για	για	ADP	_	ExtPos=SCONJ	14	mark	_	_
-13	ν’	να	SCONJ	_	_	12	fixed	_	_
+13	ν'	να	SCONJ	_	_	12	fixed	_	_
 14	ακούσω	ακούω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	11	advcl	_	_
 15	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	εξυπνάδες	εξυπνάδα	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
@@ -5052,7 +5052,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-294
-# text = Απλά, θέλω να ξέρω τι σ’ έκανεν να πάρεις το φόνον πάνω σου.
+# text = Απλά, θέλω να ξέρω τι σ' έκανεν να πάρεις το φόνον πάνω σου.
 1	Απλά	απλά	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	PunctType=Comm
 3	θέλω	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5080,7 +5080,7 @@
 7	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-296
-# text = Προφανώς, ο Σωτηρόπουλος φοβόταν μήπως διαρρήξουν το διαμέρισμα του και τον πάρουν, γι’ αυτόν τον είχεν πάντα μαζίν του.
+# text = Προφανώς, ο Σωτηρόπουλος φοβόταν μήπως διαρρήξουν το διαμέρισμα του και τον πάρουν, γι' αυτόν τον είχεν πάντα μαζίν του.
 1	Προφανώς	προφανώς	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
 3	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5095,7 +5095,7 @@
 12	τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	πάρουν	παίρνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	PunctType=Comm
-15	γι’	για	ADP	_	ExtPos=CCONJ	18	cc	_	_
+15	γι'	για	ADP	_	ExtPos=CCONJ	18	cc	_	_
 16	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	fixed	_	_
 17	τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 18	είχεν	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
@@ -5164,7 +5164,7 @@
 # sent_id = train-GUD-300
 # text = Στην ζωή μου όμως δεν είδα ποτέ τους μάγους με τα δώρα να μας ππέφτουν από τον ουρανόν.
 1-2	Στην	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	3	case	_	_
+1	Σ'	σε	ADP	_	_	3	case	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ζωή	ζωή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 4	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
@@ -6078,10 +6078,10 @@
 10	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-349
-# text = «Αν παρ’ ελπίδα σκαλώσουμεν, θα τον καλέσω».
+# text = «Αν παρ' ελπίδα σκαλώσουμεν, θα τον καλέσω».
 1	«	«	PUNCT	_	_	9	punct	_	PunctType=Quot|SpaceAfter=No
 2	Αν	αν	SCONJ	_	_	5	mark	_	_
-3	παρ’	παρά	ADP	_	_	4	case	_	_
+3	παρ'	παρά	ADP	_	_	4	case	_	_
 4	ελπίδα	ελπίδα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 5	σκαλώσουμεν	σκαλώννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	PunctType=Comm
@@ -6126,7 +6126,7 @@
 23	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-352
-# text = Με δύο απανωτά ναυάγια και τον Χαρδάκο νεκρό, εμέναν μου μπαίννουν οι ψύλλοι σ’ τ’ αυτιά.
+# text = Με δύο απανωτά ναυάγια και τον Χαρδάκο νεκρό, εμέναν μου μπαίννουν οι ψύλλοι σ' τ' αυτιά.
 1	Με	με	ADP	_	_	4	case	_	_
 2	δύο	δύο	NUM	_	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	4	nummod	_	_
 3	απανωτά	απανωτός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	4	amod	_	_
@@ -6142,7 +6142,7 @@
 13	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	ψύλλοι	ψύλλος	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 15	σ	σε	ADP	_	_	17	case	_	_
-16	τ’	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
+16	τ'	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
 17	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
@@ -6553,7 +6553,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-376
-# text = «Να του τα πεις ακριβώς όπως τα είπες και σ’ εμέναν» με συμβουλεύει.
+# text = «Να του τα πεις ακριβώς όπως τα είπες και σ' εμέναν» με συμβουλεύει.
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Να	να	AUX	_	_	5	aux	_	_
 3	του	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
@@ -6599,13 +6599,13 @@
 16	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-379
-# text = Ενώ στενοχωριέμαι γιατί δε μου ’κοψε να σκεφτώ αυτόν που σκέφτηκεν ο Γκίκας, την ίδια στιγμή χαίρουμαι, επειδή μπορώ να συνεχίσω την έρευνα.
+# text = Ενώ στενοχωριέμαι γιατί δε μου 'κοψε να σκεφτώ αυτόν που σκέφτηκεν ο Γκίκας, την ίδια στιγμή χαίρουμαι, επειδή μπορώ να συνεχίσω την έρευνα.
 1	Ενώ	ενώ	SCONJ	_	_	2	mark	_	_
 2	στενοχωριέμαι	στενοχωρώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	18	advcl	_	_
 3	γιατί	γιατί	SCONJ	_	_	6	mark	_	_
 4	δε	δεν	PART	_	Polarity=Neg	6	advmod	_	_
 5	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
-6	’κοψε	κόβω	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	18	advcl	_	_
+6	'κοψε	κόβω	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	18	advcl	_	_
 7	να	να	SCONJ	_	_	8	mark	_	_
 8	σκεφτώ	σκέφτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Pass	6	xcomp	_	_
 9	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	_
@@ -6662,7 +6662,7 @@
 7	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-383
-# text = Συνήθως η αυστηρή νηστεία περιοριζόταν στην Μεγάλη Εβδομάδα, αλλά φέτος μου ανακοίνωσε πως θα νηστέψουμεν καθ’ όλη την διάρκεια της Σαρακοστής.
+# text = Συνήθως η αυστηρή νηστεία περιοριζόταν στην Μεγάλη Εβδομάδα, αλλά φέτος μου ανακοίνωσε πως θα νηστέψουμεν καθ' όλη την διάρκεια της Σαρακοστής.
 1	Συνήθως	συνήθως	ADV	_	_	5	advmod	_	_
 2	η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	αυστηρή	αυστηρός	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
@@ -6681,7 +6681,7 @@
 15	πως	πως	SCONJ	_	_	17	mark	_	_
 16	θα	θα	AUX	_	Tense=Fut	17	aux	_	_
 17	νηστέψουμεν	νηστεύω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	14	ccomp	_	_
-18	καθ’	κατά	ADP	_	_	21	case	_	_
+18	καθ'	κατά	ADP	_	_	21	case	_	_
 19	όλη	όλος	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	21	det	_	_
 20	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	διάρκεια	διάρκεια	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
@@ -6714,10 +6714,10 @@
 21	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-385
-# text = Κύριε, δώσ’ μου να φάω και δε ρωτάω από πού θα το βρεις αύριον.
+# text = Κύριε, δώσ' μου να φάω και δε ρωτάω από πού θα το βρεις αύριον.
 1	Κύριε	Κύριος	PROPN	_	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	PunctType=Comm
-3	δώσ’	δίνω	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+3	δώσ'	δίνω	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 4	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 5	να	να	SCONJ	_	_	6	mark	_	_
 6	φάω	τρώω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	3	ccomp	_	_
@@ -6814,7 +6814,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-389
-# text = Όταν τελειώννω, με κοιτάζει για λλίγον, τζ̆’ ανοίγει το στόμαν του.
+# text = Όταν τελειώννω, με κοιτάζει για λλίγον, τζ̆' ανοίγει το στόμαν του.
 1	Όταν	όταν	SCONJ	_	_	2	mark	_	_
 2	τελειώννω	τελειώννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
@@ -6823,7 +6823,7 @@
 6	για	για	ADP	_	_	7	case	_	_
 7	λλίγον	λλίγον	ADV	_	PronType=Ind	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	PunctType=Comm
-9	τζ̆’	και	CCONJ	_	_	10	cc	_	_
+9	τζ̆'	και	CCONJ	_	_	10	cc	_	_
 10	ανοίγει	ανοίγω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 11	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	στόμαν	στόμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
@@ -6850,11 +6850,11 @@
 15	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-391
-# text = Έτσι έγινεν και μ’ εμέναν.
+# text = Έτσι έγινεν και μ' εμέναν.
 1	Έτσι	έτσι	ADV	_	_	2	advmod	_	_
 2	έγινεν	γίνουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	και	και	CCONJ	_	_	5	cc	_	_
-4	μ’	με	ADP	_	_	5	case	_	_
+4	μ'	με	ADP	_	_	5	case	_	_
 5	εμέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
@@ -6906,7 +6906,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-396
-# text = «Να γυρίζεις απόγευμαν σπίτιν και να ππέφτεις για ύπνον, είναι αφύσικο για ’σέναν».
+# text = «Να γυρίζεις απόγευμαν σπίτιν και να ππέφτεις για ύπνον, είναι αφύσικο για 'σέναν».
 1	«	«	PUNCT	_	_	13	punct	_	PunctType=Quot|SpaceAfter=No
 2	Να	να	SCONJ	_	_	3	mark	_	_
 3	γυρίζεις	γυρίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	csubj	_	_
@@ -6921,12 +6921,12 @@
 12	είναι	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	αφύσικο	αφύσικος	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 14	για	για	ADP	_	_	15	case	_	_
-15	’σέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+15	'σέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
 16	»	»	PUNCT	_	_	13	punct	_	PunctType=Quot|SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-397
-# text = Τόσον καιρό τρώνε κάθε βράδυν σ’ εμάς και τώρα, που ’φάνηκεν λλίγον φως στην άκρη του τούνελ, αυτοί το πήραν για ηλιοφάνεια και θέλουν να μας κάνουν το τραπέζι.
+# text = Τόσον καιρό τρώνε κάθε βράδυν σ' εμάς και τώρα, που 'φάνηκεν λλίγον φως στην άκρη του τούνελ, αυτοί το πήραν για ηλιοφάνεια και θέλουν να μας κάνουν το τραπέζι.
 1	Τόσον	τόσος	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	καιρό	καιρός	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 3	τρώνε	τρώω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6938,7 +6938,7 @@
 9	τώρα	τώρα	ADV	_	PronType=Dem	23	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	PunctType=Comm
 11	που	που	SCONJ	_	_	12	mark	_	_
-12	’φάνηκεν	φαίνουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	23	advcl	_	_
+12	'φάνηκεν	φαίνουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	23	advcl	_	_
 13	λλίγον	λίγος	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	14	det	_	_
 14	φως	φως	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
 15-16	στην	_	_	_	_	_	_	_	_
@@ -7058,7 +7058,7 @@
 26	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-404
-# text = «Εσύ είσαι χριστιανός και δε θα ’πρεπε να μου κάνεις αυτήν την ερώτηση» μου απαντά σοβαρά.
+# text = «Εσύ είσαι χριστιανός και δε θα 'πρεπε να μου κάνεις αυτήν την ερώτηση» μου απαντά σοβαρά.
 1	«	«	PUNCT	_	_	17	punct	_	PunctType=Quot|SpaceAfter=No
 2	Εσύ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 3	είσαι	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -7066,7 +7066,7 @@
 5	και	και	CCONJ	_	_	8	cc	_	_
 6	δε	δεν	PART	_	Polarity=Neg	8	advmod	_	_
 7	θα	θα	AUX	_	Tense=Fut	8	aux	_	_
-8	’πρεπε	πρέπει	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	conj	_	_
+8	'πρεπε	πρέπει	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	conj	_	_
 9	να	να	SCONJ	_	_	11	mark	_	_
 10	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
 11	κάνεις	κάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	8	csubj	_	_
@@ -7196,9 +7196,9 @@
 24	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-411
-# text = Στα χρόνια της κρίσης το πείραμαν ήταν ως ποιον σημείον μπορούν μια χώρα και ο λαός της ν’ αντέξουν να ζουν με όλον και λιγότερα.
+# text = Στα χρόνια της κρίσης το πείραμαν ήταν ως ποιον σημείον μπορούν μια χώρα και ο λαός της ν' αντέξουν να ζουν με όλον και λιγότερα.
 1-2	Στα	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	3	case	_	_
+1	Σ'	σε	ADP	_	_	3	case	_	_
 2	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
 3	χρόνια	χρόνια	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	_
 4	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -7216,7 +7216,7 @@
 16	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	λαός	λαός	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
 18	της	εγώ	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod	_	_
-19	ν’	να	SCONJ	_	_	20	mark	_	_
+19	ν'	να	SCONJ	_	_	20	mark	_	_
 20	αντέξουν	αντέχω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	xcomp	_	_
 21	να	να	SCONJ	_	_	22	mark	_	_
 22	ζουν	ζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	xcomp	_	_
@@ -7557,7 +7557,7 @@
 19	.	.	PUNCT	_	_	16	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-431
-# text = «Εντάξει, αλλά άλλον να τα διαβάζω και άλλον ν’ ακούω εμέναν να τα λέω».
+# text = «Εντάξει, αλλά άλλον να τα διαβάζω και άλλον ν' ακούω εμέναν να τα λέω».
 1	«	«	PUNCT	_	_	8	punct	_	PunctType=Quot|SpaceAfter=No
 2	Εντάξει	εντάξει	INTJ	_	_	8	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
@@ -7568,7 +7568,7 @@
 8	διαβάζω	διαβάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 9	και	και	CCONJ	_	_	12	cc	_	_
 10	άλλον	άλλος	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	12	nsubj:outer	_	_
-11	ν’	να	AUX	_	_	12	aux	_	_
+11	ν'	να	AUX	_	_	12	aux	_	_
 12	ακούω	ακούω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	conj	_	_
 13	εμέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
 14	να	να	SCONJ	_	_	16	mark	_	_
@@ -7578,7 +7578,7 @@
 18	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-432
-# text = Όταν μπήκα όμως στο διαμέρισμα, είδα ότι η πόρτα της κρεβατοκάμαρας ήταν ανοιχτή τζ̆’ εκεί μου μπήκαν οι ψύλλοι σ’ τ’ αυτιά, γιατί την κλείνω πάντα.
+# text = Όταν μπήκα όμως στο διαμέρισμα, είδα ότι η πόρτα της κρεβατοκάμαρας ήταν ανοιχτή τζ̆' εκεί μου μπήκαν οι ψύλλοι σ' τ' αυτιά, γιατί την κλείνω πάντα.
 1	Όταν	όταν	SCONJ	_	_	2	mark	_	_
 2	μπήκα	μπαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
 3	όμως	όμως	CCONJ	_	_	2	cc	_	_
@@ -7595,14 +7595,14 @@
 13	κρεβατοκάμαρας	κρεβατοκάμαρα	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 14	ήταν	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
 15	ανοιχτή	ανοιχτός	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	8	ccomp	_	_
-16	τζ̆’	και	CCONJ	_	_	19	cc	_	_
+16	τζ̆'	και	CCONJ	_	_	19	cc	_	_
 17	εκεί	εκεί	ADV	_	PronType=Dem	19	advmod	_	_
 18	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	19	obl	_	mwe=1
 19	μπήκαν	μπαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	mwe=1:VID
 20	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	mwe=1
 21	ψύλλοι	ψύλλος	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	mwe=1
 22	σ	σε	ADP	_	_	24	case	_	mwe=1
-23	τ’	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	mwe=1
+23	τ'	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	mwe=1
 24	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	mwe=1|SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	PunctType=Comm
 26	γιατί	γιατί	SCONJ	_	_	28	mark	_	_
@@ -7858,10 +7858,10 @@
 10	;	;	PUNCT	_	_	6	punct	_	PunctType=Qest
 
 # sent_id = train-GUD-449
-# text = Το ίδιον ’σκέφτηκα και εγώ, μόλις άκουσα το δικόν μου να μου τρυπάει τ’ αυτιά.
+# text = Το ίδιον 'σκέφτηκα και εγώ, μόλις άκουσα το δικόν μου να μου τρυπάει τ' αυτιά.
 1	Το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	ίδιον	ίδιος	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Emp	3	obj	_	_
-3	’σκέφτηκα	σκέφτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	'σκέφτηκα	σκέφτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	και	και	CCONJ	_	_	5	cc	_	_
 5	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
@@ -7873,7 +7873,7 @@
 12	να	να	SCONJ	_	_	14	mark	_	_
 13	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
 14	τρυπάει	τρυπώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	_
-15	τ’	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
+15	τ'	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
 16	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
@@ -8040,9 +8040,9 @@
 16	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-460
-# text = «Τζ̆’ εγώ το προτιμώ που είμαστεν όλοι μαζίν».
+# text = «Τζ̆' εγώ το προτιμώ που είμαστεν όλοι μαζίν».
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
-2	Τζ̆’	και	CCONJ	_	_	3	cc	_	_
+2	Τζ̆'	και	CCONJ	_	_	3	cc	_	_
 3	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 5	προτιμώ	προτιμώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -8107,7 +8107,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-465
-# text = «Η δική μου τα φόρτωννε όλα σ’ εσάς, τους δεξιούς δωσίλογους».
+# text = «Η δική μου τα φόρτωννε όλα σ' εσάς, τους δεξιούς δωσίλογους».
 1	«	«	PUNCT	_	_	6	punct	_	PunctType=Quot|SpaceAfter=No
 2	Η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	δική	δικός	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -8167,7 +8167,7 @@
 # text = «Στην υπηρεσία που με φέρατε, έχω κάθε μέραν και μια έκπληξη».
 1	«	«	PUNCT	_	_	9	punct	_	PunctType=Quot|SpaceAfter=No
 2-3	Στην	_	_	_	_	_	_	_	_
-2	Σ’	σε	ADP	_	_	4	case	_	_
+2	Σ'	σε	ADP	_	_	4	case	_	_
 3	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	υπηρεσία	υπηρεσία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 5	που	που	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	7	obl	_	_
@@ -8220,17 +8220,17 @@
 5	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-472
-# text = «Μάθαμεν κάτι που αξίζει να τ’ ακούσετε με τ’ αυτιά σας» μου απαντά ο Βλασόπουλος.
+# text = «Μάθαμεν κάτι που αξίζει να τ' ακούσετε με τ' αυτιά σας» μου απαντά ο Βλασόπουλος.
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μάθαμεν	μαθαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	_
 3	κάτι	κάτι	DET	_	PronType=Ind	2	obj	_	_
 4	που	που	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	dislocated	_	_
 5	αξίζει	αξίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 6	να	να	SCONJ	_	_	8	mark	_	_
-7	τ’	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	τ'	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 8	ακούσετε	ακούω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	csubj	_	_
 9	με	με	ADP	_	_	11	case	_	_
-10	τ’	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
+10	τ'	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 11	αυτιά	αυτί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
 12	σας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	11	nmod	_	SpaceAfter=No
 13	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
@@ -8472,9 +8472,9 @@
 8	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-490
-# text = Γελά μ’ εκείνον το σπαστό γέλιον του.
+# text = Γελά μ' εκείνον το σπαστό γέλιον του.
 1	Γελά	γελώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	μ’	με	ADP	_	_	6	case	_	_
+2	μ'	με	ADP	_	_	6	case	_	_
 3	εκείνον	εκείνος	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
 4	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 5	σπαστό	σπαστός	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	_
@@ -9027,7 +9027,7 @@
 5	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-524
-# text = «Ενώ το να μαγειρεύεις είναι μια απόλαυση τζ̆’ εκεί πάνω τα καταπίνεις πιο εύκολα».
+# text = «Ενώ το να μαγειρεύεις είναι μια απόλαυση τζ̆' εκεί πάνω τα καταπίνεις πιο εύκολα».
 1	«	«	PUNCT	_	_	13	punct	_	PunctType=Quot|SpaceAfter=No
 2	Ενώ	ενώ	SCONJ	_	_	5	mark	_	_
 3	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -9036,7 +9036,7 @@
 6	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	μια	ένας	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	απόλαυση	απόλαυση	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	13	advcl	_	_
-9	τζ̆’	και	CCONJ	_	_	13	cc	_	_
+9	τζ̆'	και	CCONJ	_	_	13	cc	_	_
 10	εκεί	εκεί	ADV	_	ExtPos=ADV|PronType=Dem	13	advmod	_	_
 11	πάνω	πάνω	ADV	_	_	10	fixed	_	_
 12	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
@@ -9181,9 +9181,9 @@
 11	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-533
-# text = «’Σκέφτηκα πως απόψε είναι μια καλή ευκαιρία, μια και έρκουμαι απρόσκλητος».
+# text = «'Σκέφτηκα πως απόψε είναι μια καλή ευκαιρία, μια και έρκουμαι απρόσκλητος».
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
-2	’Σκέφτηκα	σκέπτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	'Σκέφτηκα	σκέπτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	πως	πως	SCONJ	_	_	8	mark	_	_
 4	απόψε	απόψε	ADV	_	_	8	advmod	_	_
 5	είναι	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -9365,13 +9365,13 @@
 7	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-543
-# text = «Δεν είχα καμιά σχέση μ’ αυτόν τον άνθρωπον» μας δηλώννει κοφτά και πάει να κλείσει την πόρταν.
+# text = «Δεν είχα καμιά σχέση μ' αυτόν τον άνθρωπον» μας δηλώννει κοφτά και πάει να κλείσει την πόρταν.
 1	«	«	PUNCT	_	_	12	punct	_	PunctType=Quot|SpaceAfter=No
 2	Δεν	δεν	PART	_	Polarity=Neg	3	advmod	_	_
 3	είχα	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	ccomp	_	_
 4	καμιά	κανένας	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	5	det	_	_
 5	σχέση	σχέση	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-6	μ’	με	ADP	_	_	9	case	_	_
+6	μ'	με	ADP	_	_	9	case	_	_
 7	αυτόν	αυτός	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 8	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	άνθρωπον	άνθρωπος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -9388,7 +9388,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-544
-# text = Δεν υπάρχει όμως Σεργκέι στην Ταϊλάνδη και πρέπει να βρω άκρη απ’ αλλού.
+# text = Δεν υπάρχει όμως Σεργκέι στην Ταϊλάνδη και πρέπει να βρω άκρη απ' αλλού.
 1	Δεν	δεν	PART	_	Polarity=Neg	2	advmod	_	_
 2	υπάρχει	υπάρχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	όμως	όμως	CCONJ	_	_	2	cc	_	_
@@ -9402,12 +9402,12 @@
 10	να	να	SCONJ	_	_	11	mark	_	_
 11	βρω	βρίσκω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	9	csubj	_	_
 12	άκρη	άκρη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
-13	απ’	από	ADP	_	_	14	case	_	_
+13	απ'	από	ADP	_	_	14	case	_	_
 14	αλλού	αλλού	ADV	_	_	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-545
-# text = Αν ο προϊστάμενος μου θέλει να κλείσει τες δύο δολοφονίες σύμφωνα με το τραγούδιν «εσύ στο χώμαν τζ̆’ εγώ στην φυλακή», αυτόν είναι δική του υπόθεση.
+# text = Αν ο προϊστάμενος μου θέλει να κλείσει τες δύο δολοφονίες σύμφωνα με το τραγούδιν «εσύ στο χώμαν τζ̆' εγώ στην φυλακή», αυτόν είναι δική του υπόθεση.
 1	Αν	αν	SCONJ	_	_	5	mark	_	_
 2	ο	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	προϊστάμενος	προϊστάμενος	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -9428,7 +9428,7 @@
 17	σ	σε	ADP	_	_	19	case	_	_
 18	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
 19	χώμαν	χώμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	14	appos	_	_
-20	τζ̆’	και	CCONJ	_	_	24	cc	_	_
+20	τζ̆'	και	CCONJ	_	_	24	cc	_	_
 21	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
 22-23	στην	_	_	_	_	_	_	_	_
 22	σ	σε	ADP	_	_	24	case	_	_
@@ -9644,7 +9644,7 @@
 6	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-558
-# text = Καταλήγω πως θα με βοηθούσεν αν έπαιρνα μια δεύτερη γνώμη, και καταφεύγω στον Στεργιάδη, που έχει γίνει το σωσίβιο μου σ’ αυτήν την υπόθεση.
+# text = Καταλήγω πως θα με βοηθούσεν αν έπαιρνα μια δεύτερη γνώμη, και καταφεύγω στον Στεργιάδη, που έχει γίνει το σωσίβιο μου σ' αυτήν την υπόθεση.
 1	Καταλήγω	καταλήγω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	πως	πως	SCONJ	_	_	5	mark	_	_
 3	θα	θα	AUX	_	Tense=Fut	5	aux	_	_
@@ -9795,13 +9795,13 @@
 14	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-567
-# text = Δεν έχω να τον ρωτήσω τίποτ’ άλλον και σηκώνουμαι.
+# text = Δεν έχω να τον ρωτήσω τίποτ' άλλον και σηκώνουμαι.
 1	Δεν	δεν	PART	_	Polarity=Neg	2	advmod	_	_
 2	έχω	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	SCONJ	_	_	5	mark	_	_
 4	τον	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
 5	ρωτήσω	ρωτώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	xcomp	_	_
-6	τίποτ’	τίποτα	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	7	det	_	_
+6	τίποτ'	τίποτα	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	7	det	_	_
 7	άλλον	άλλος	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	_
 8	και	και	CCONJ	_	_	9	cc	_	_
 9	σηκώνουμαι	σηκώννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	SpaceAfter=No
@@ -9957,11 +9957,11 @@
 14	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-576
-# text = «Θα σου ’λεγα από τες σημειώσεις».
+# text = «Θα σου 'λεγα από τες σημειώσεις».
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Θα	θα	AUX	_	Tense=Fut	4	aux	_	_
 3	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
-4	’λεγα	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
+4	'λεγα	λέω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 5	από	από	ADP	_	_	7	case	_	_
 6	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	σημειώσεις	σημείωση	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
@@ -10273,9 +10273,9 @@
 14	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-593
-# text = «Σ’ ευχαριστώ, που ξόδεψες το χρόνον σου, για να με διαφωτίσεις» λέω στον Σπυριδάκη.
+# text = «Σ' ευχαριστώ, που ξόδεψες το χρόνον σου, για να με διαφωτίσεις» λέω στον Σπυριδάκη.
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
-2	Σ’	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+2	Σ'	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
 3	ευχαριστώ	ευχαριστώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	PunctType=Comm
 5	που	που	SCONJ	_	_	6	mark	_	_
@@ -10502,7 +10502,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-606
-# text = Μάλλον το θύμαν γύρισε να δει ποιος ήθελεν να του μιλήσει και ’δέχτηκεν την σφαίρα στο μέτωπον.
+# text = Μάλλον το θύμαν γύρισε να δει ποιος ήθελεν να του μιλήσει και 'δέχτηκεν την σφαίρα στο μέτωπον.
 1	Μάλλον	μάλλον	ADV	_	_	4	advmod	_	_
 2	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	θύμαν	θύμαν	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
@@ -10515,7 +10515,7 @@
 10	του	εγώ	PRON	_	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 11	μιλήσει	μιλώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	ccomp	_	_
 12	και	και	CCONJ	_	_	13	cc	_	_
-13	’δέχτηκεν	δέχουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	_
+13	'δέχτηκεν	δέχουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	σφαίρα	σφαίρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 16-17	στο	_	_	_	_	_	_	_	_
@@ -10525,10 +10525,10 @@
 19	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-607
-# text = «Μη μ’ ευχαριστείτε, γιατί δε σας διαφώτισα καθόλου» μου απαντά.
+# text = «Μη μ' ευχαριστείτε, γιατί δε σας διαφώτισα καθόλου» μου απαντά.
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Μη	μην	PART	_	Polarity=Neg	4	advmod	_	_
-3	μ’	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+3	μ'	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
 4	ευχαριστείτε	ευχαριστώ	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Pass	13	ccomp	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	PunctType=Comm
 6	γιατί	γιατί	SCONJ	_	_	9	mark	_	_
@@ -10658,10 +10658,10 @@
 19	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-614
-# text = Λοιπόν, ’χάσαμεν και οι δυο, Κώστα.
+# text = Λοιπόν, 'χάσαμεν και οι δυο, Κώστα.
 1	Λοιπόν	λοιπόν	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	PunctType=Comm
-3	’χάσαμεν	χάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	'χάσαμεν	χάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	και	και	CCONJ	_	_	6	cc	_	_
 5	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	δυο	δύο	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nsubj	_	SpaceAfter=No
@@ -10762,7 +10762,7 @@
 5	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest
 
 # sent_id = train-GUD-621
-# text = Δε συμβαίννει όμως να φέρνουν κιβώτια κάθε μέραν, γι’ αυτόν μας κίνησε την περιέργεια.
+# text = Δε συμβαίννει όμως να φέρνουν κιβώτια κάθε μέραν, γι' αυτόν μας κίνησε την περιέργεια.
 1	Δε	δεν	PART	_	Polarity=Neg	2	advmod	_	_
 2	συμβαίννει	συμβαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	όμως	όμως	CCONJ	_	_	2	cc	_	_
@@ -10772,7 +10772,7 @@
 7	κάθε	κάθε	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	8	det	_	_
 8	μέρα	ημέρα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
-10	γι’	για	ADP	_	ExtPos=CCONJ	13	cc	_	_
+10	γι'	για	ADP	_	ExtPos=CCONJ	13	cc	_	_
 11	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	fixed	_	_
 12	μας	εγώ	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	13	obl	_	_
 13	κίνησε	κινώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -10883,9 +10883,9 @@
 12	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-629
-# text = «Τζ̆’ εγώ με τον Ούλιν στο σπίτιν δουλεύκουμεν».
+# text = «Τζ̆' εγώ με τον Ούλιν στο σπίτιν δουλεύκουμεν».
 1	«	«	PUNCT	_	_	10	punct	_	PunctType=Quot|SpaceAfter=No
-2	Τζ̆’	και	CCONJ	_	_	3	cc	_	_
+2	Τζ̆'	και	CCONJ	_	_	3	cc	_	_
 3	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 4	με	με	ADP	_	_	6	case	_	_
 5	τον	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -11184,11 +11184,11 @@
 14	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-646
-# text = Σηκώννεται και σηκωννούμαστεν τζ̆’ εμείς.
+# text = Σηκώννεται και σηκωννούμαστεν τζ̆' εμείς.
 1	Σηκώννεται	σηκώννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	και	και	CCONJ	_	_	3	cc	_	_
 3	σηκωννούμαστεν	σηκώννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	1	conj	_	_
-4	τζ̆’	και	CCONJ	_	_	5	cc	_	_
+4	τζ̆'	και	CCONJ	_	_	5	cc	_	_
 5	εμείς	εγώ	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
@@ -11387,7 +11387,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-660
-# text = Όταν φτάννει στην κλειδαριά του σπιτιού, την πιλατεύει για λλίγον και μετά γυρίζει σ’ εμάς.
+# text = Όταν φτάννει στην κλειδαριά του σπιτιού, την πιλατεύει για λλίγον και μετά γυρίζει σ' εμάς.
 1	Όταν	όταν	SCONJ	_	_	2	mark	_	_
 2	φτάννει	φθάννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 3-4	στην	_	_	_	_	_	_	_	_
@@ -11440,9 +11440,9 @@
 12	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-663
-# text = «’Σκέφτηκα ότι η Μεγαλόχαρη θα μου το αναγνώριζε που παρέσυρα και τον άντραν μου στην οδόν της πίστης και της αρετής».
+# text = «'Σκέφτηκα ότι η Μεγαλόχαρη θα μου το αναγνώριζε που παρέσυρα και τον άντραν μου στην οδόν της πίστης και της αρετής».
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
-2	’Σκέφτηκα	σκέπτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	'Σκέφτηκα	σκέπτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	ότι	ότι	SCONJ	_	_	9	mark	_	_
 4	η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Μεγαλόχαρη	Μεγαλόχαρη	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -11507,7 +11507,7 @@
 # sent_id = train-GUD-667
 # text = Στο μεταξύ παίρνω τηλέφωνον έναν γνωστόν μου στην τροχαία.
 1-2	Στο	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	3	case	_	_
+1	Σ'	σε	ADP	_	_	3	case	_	_
 2	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	μεταξύ	μεταξύ	ADV	_	_	4	obl	_	_
 4	παίρνω	παίρνω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11705,9 +11705,9 @@
 12	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-679
-# text = «Τζ̆’ εγώ λυπάμαι, αλλά δεν αλλάζει τίποτα» του απαντώ.
+# text = «Τζ̆' εγώ λυπάμαι, αλλά δεν αλλάζει τίποτα» του απαντώ.
 1	«	«	PUNCT	_	_	12	punct	_	PunctType=Quot|SpaceAfter=No
-2	Τζ̆’	και	CCONJ	_	_	3	cc	_	_
+2	Τζ̆'	και	CCONJ	_	_	3	cc	_	_
 3	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	λυπάμαι	λυπώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	12	ccomp	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
@@ -11771,11 +11771,11 @@
 22	.	.	PUNCT	_	_	21	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-683
-# text = «Τι περίμενες ν’ ακούσεις, ότι ο Λαλόπουλος ήταν μιζαδόρος;»
+# text = «Τι περίμενες ν' ακούσεις, ότι ο Λαλόπουλος ήταν μιζαδόρος;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τι	τι	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	dislocated	_	_
 3	περίμενες	περιμένω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	ν’	να	SCONJ	_	_	5	mark	_	_
+4	ν'	να	SCONJ	_	_	5	mark	_	_
 5	ακούσεις	ακούω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	PunctType=Comm
 7	ότι	ότι	SCONJ	_	_	11	mark	_	_
@@ -11787,7 +11787,7 @@
 13	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-684
-# text = Ακόμα και σ’ εμάς, που δεν είμαστεν ειδικοί, φαίνεται ότι είναι πανάκριβο, από χρυσόν είκοσι τεσσάρων καρατίων.
+# text = Ακόμα και σ' εμάς, που δεν είμαστεν ειδικοί, φαίνεται ότι είναι πανάκριβο, από χρυσόν είκοσι τεσσάρων καρατίων.
 1	Ακόμα	ακόμα	ADV	_	ExtPos=CCONJ	4	cc	_	_
 2	και	και	CCONJ	_	_	1	fixed	_	_
 3	σ'	σε	ADP	_	_	4	case	_	_
@@ -12250,10 +12250,10 @@
 10	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-708
-# text = Εξάλλου έχω τζ̆’ εγώ τες άκρες μου.
+# text = Εξάλλου έχω τζ̆' εγώ τες άκρες μου.
 1	Εξάλλου	εξάλλου	CCONJ	_	_	2	discourse	_	_
 2	έχω	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	τζ̆’	και	CCONJ	_	_	4	cc	_	_
+3	τζ̆'	και	CCONJ	_	_	4	cc	_	_
 4	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 5	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	άκρες	άκρη	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
@@ -12686,10 +12686,10 @@
 22	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-735
-# text = «Το ’σκέφτηκα και νομίζω ότι δεν πρέπει να πω τίποτα στην μάνα σου».
+# text = «Το 'σκέφτηκα και νομίζω ότι δεν πρέπει να πω τίποτα στην μάνα σου».
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-3	’σκέφτηκα	σκέφτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	'σκέφτηκα	σκέφτουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	και	και	CCONJ	_	_	5	cc	_	_
 5	νομίζω	νομίζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 6	ότι	ότι	SCONJ	_	_	8	mark	_	_
@@ -12760,11 +12760,11 @@
 7	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-740
-# text = «Τα ξέρατε τζ̆’ εσείς;»
+# text = «Τα ξέρατε τζ̆' εσείς;»
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
 3	ξέρατε	ξέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	τζ̆’	και	CCONJ	_	_	5	cc	_	_
+4	τζ̆'	και	CCONJ	_	_	5	cc	_	_
 5	εσείς	εγώ	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
 6	;	;	PUNCT	_	_	3	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
@@ -13143,7 +13143,7 @@
 8	»	»	PUNCT	_	_	3	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-758
-# text = Συνήθως τα καΐκια φέρνουν σ’ εμάς ψάρια, που τα πουλάνε στο μόλον και στην παραλία.
+# text = Συνήθως τα καΐκια φέρνουν σ' εμάς ψάρια, που τα πουλάνε στο μόλον και στην παραλία.
 1	Συνήθως	συνήθως	ADV	_	_	4	advmod	_	_
 2	τα	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
 3	καΐκια	καΐκι	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
@@ -13182,10 +13182,10 @@
 12	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-760
-# text = Δεν τους ’δώσαμεν, και το έκαψαν.
+# text = Δεν τους 'δώσαμεν, και το έκαψαν.
 1	Δεν	δεν	PART	_	Polarity=Neg	3	advmod	_	_
 2	τους	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
-3	’δώσαμεν	δίνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	'δώσαμεν	δίνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	PunctType=Comm
 5	και	και	CCONJ	_	_	7	cc	_	_
 6	το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
@@ -13248,7 +13248,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-764
-# text = Καθόμαστε με την Αδριανή μπροστά στην οθόνη και αφήννουμεν τους δημοσιογράφους να μας περιλούζουν μ’ αυτόν που στα χρόνια της κρίσης, όταν βουλιάζαμεν, μάθαμεν να το λέμεν «success story».
+# text = Καθόμαστε με την Αδριανή μπροστά στην οθόνη και αφήννουμεν τους δημοσιογράφους να μας περιλούζουν μ' αυτόν που στα χρόνια της κρίσης, όταν βουλιάζαμεν, μάθαμεν να το λέμεν «success story».
 1	Καθόμαστε	κάθουμαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	με	με	ADP	_	_	4	case	_	_
 3	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -13265,7 +13265,7 @@
 13	να	να	SCONJ	_	_	15	mark	_	_
 14	μας	εγώ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obj	_	_
 15	περιλούζουν	περιλούζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	xcomp	_	_
-16	μ’	με	ADP	_	_	17	case	_	_
+16	μ'	με	ADP	_	_	17	case	_	_
 17	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	obl	_	_
 18	που	που	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	28	dislocated	_	_
 19-20	στα	_	_	_	_	_	_	_	_
@@ -13350,9 +13350,9 @@
 10	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-769
-# text = Είδα τζ̆’ εσέναν χτες το βράδυν στην τηλεόρασην.
+# text = Είδα τζ̆' εσέναν χτες το βράδυν στην τηλεόρασην.
 1	Είδα	βλέπω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	τζ̆’	και	CCONJ	_	_	3	cc	_	_
+2	τζ̆'	και	CCONJ	_	_	3	cc	_	_
 3	εσέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
 4	χτες	χθες	ADV	_	_	1	advmod	_	_
 5	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
@@ -13364,10 +13364,10 @@
 10	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-770
-# text = Δεν τους ’δώσαμεν και έβαλαν φωτιά.
+# text = Δεν τους 'δώσαμεν και έβαλαν φωτιά.
 1	Δεν	δεν	PART	_	Polarity=Neg	3	advmod	_	_
 2	τους	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
-3	’δώσαμεν	δίνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	'δώσαμεν	δίνω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	και	και	CCONJ	_	_	5	cc	_	_
 5	έβαλαν	βάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 6	φωτιά	φωτιά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
@@ -13530,7 +13530,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-781
-# text = Παίρνω την άνοδο από τες σκάλες, για να έχω λλίγον χρόνον, ώστε να πείσω τον εαυτόν μου να αντιμετωπίσει την συζήτηση με ψυχραιμία και να αποφύγω φωνές και διαμαρτυρίες, που δε θ’ αλλάξουν τίποτα.
+# text = Παίρνω την άνοδο από τες σκάλες, για να έχω λλίγον χρόνον, ώστε να πείσω τον εαυτόν μου να αντιμετωπίσει την συζήτηση με ψυχραιμία και να αποφύγω φωνές και διαμαρτυρίες, που δε θ' αλλάξουν τίποτα.
 1	Παίρνω	παίρνω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	άνοδο	άνοδος	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
@@ -13565,7 +13565,7 @@
 32	,	,	PUNCT	_	_	36	punct	_	PunctType=Comm
 33	που	που	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	36	nsubj	_	_
 34	δε	δεν	PART	_	Polarity=Neg	36	advmod	_	_
-35	θ’	θα	AUX	_	Tense=Fut	36	aux	_	_
+35	θ'	θα	AUX	_	Tense=Fut	36	aux	_	_
 36	αλλάξουν	αλλάζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
 37	τίποτα	τίποτα	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	36	obj	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
@@ -13599,7 +13599,7 @@
 # sent_id = train-GUD-783
 # text = Στο τέλος θα μπει το γνωστόν ερώτημαν: τι κάνει η αστυνομία;
 1-2	Στο	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	3	case	_	_
+1	Σ'	σε	ADP	_	_	3	case	_	_
 2	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	τέλος	τέλος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
 4	θα	θα	AUX	_	Tense=Fut	5	aux	_	_
@@ -13647,11 +13647,11 @@
 12	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-786
-# text = «Από πού ν’ αρχίσω;»
+# text = «Από πού ν' αρχίσω;»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Από	από	ADP	_	_	3	case	_	_
 3	πού	πού	ADV	_	PronType=Int	5	obl	_	_
-4	ν’	να	AUX	_	_	5	aux	_	_
+4	ν'	να	AUX	_	_	5	aux	_	_
 5	αρχίσω	αρχίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 7	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
@@ -13765,14 +13765,14 @@
 7	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-796
-# text = Πήγε το περιπολικόν και τους έπιασεν επ’ αυτοφώρω, την ώραν που το άδειαζαν.
+# text = Πήγε το περιπολικόν και τους έπιασεν επ' αυτοφώρω, την ώραν που το άδειαζαν.
 1	Πήγε	πηγαίννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	περιπολικόν	περιπολικόν	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
 4	και	και	CCONJ	_	_	6	cc	_	_
 5	τους	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 6	έπιασεν	πιάννω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	mwe=1:VID
-7	επ’	επί	ADP	_	ExtPos=ADV	6	advmod	_	mwe=1
+7	επ'	επί	ADP	_	ExtPos=ADV	6	advmod	_	mwe=1
 8	αυτοφώρω	αυτοφώρω	NOUN	_	_	7	fixed	_	mwe=1|SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	PunctType=Comm
 10	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -13797,22 +13797,22 @@
 10	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-798
-# text = Το περιεχόμενον είναι δύο αράδες όλες τζ̆’ όλες.
+# text = Το περιεχόμενον είναι δύο αράδες όλες τζ̆' όλες.
 1	Το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	περιεχόμενον	περιεχόμενον	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 3	είναι	είμαι	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	δύο	δύο	NUM	_	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	5	nummod	_	_
 5	αράδες	αράδα	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 6	όλες	όλος	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_
-7	τζ̆’	και	CCONJ	_	_	8	cc	_	_
+7	τζ̆'	και	CCONJ	_	_	8	cc	_	_
 8	όλες	όλος	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	6	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-799
-# text = Δε θα ’περνούσεν ποτέ από τον νουν μου ότι ο Ζαχαράκης θα ενημέρωννε τον υπαρχηγό για την επίσκεψη μου.
+# text = Δε θα 'περνούσεν ποτέ από τον νουν μου ότι ο Ζαχαράκης θα ενημέρωννε τον υπαρχηγό για την επίσκεψη μου.
 1	Δε	δεν	PART	_	Polarity=Neg	3	advmod	_	_
 2	θα	θα	AUX	_	Tense=Fut	3	aux	_	_
-3	’περνούσεν	περνώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
+3	'περνούσεν	περνώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 4	ποτέ	ποτέ	ADV	_	PronType=Neg	3	advmod	_	_
 5	από	από	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -13913,9 +13913,9 @@
 8	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-805
-# text = Γι ’ αυτόν θέλω να σας διαβεβαιώσω ότι η κόρη σας δουλεύκει σε μια απολύτως νόμιμη επιχείρηση, κύριε αστυνόμε.
+# text = Γι ' αυτόν θέλω να σας διαβεβαιώσω ότι η κόρη σας δουλεύκει σε μια απολύτως νόμιμη επιχείρηση, κύριε αστυνόμε.
 1	Γι	για	ADP	_	_	3	case	_	_
-2	’	’	PUNCT	_	_	1	punct	_	_
+2	'	’	PUNCT	_	_	1	punct	_	_
 3	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
 4	θέλω	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	να	να	SCONJ	_	_	7	mark	_	_
@@ -14001,7 +14001,7 @@
 # sent_id = train-GUD-810
 # text = Στην αστυνομία δουλεύκει ο πατέρας σου, δε δουλεύκει στην πολεοδομία, για να κάνει τα στραβά μάτια στην παράνομη δόμηση.
 1-2	Στην	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	3	case	_	_
+1	Σ'	σε	ADP	_	_	3	case	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	αστυνομία	αστυνομία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 4	δουλεύκει	δουλεύω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14196,9 +14196,9 @@
 7	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-821
-# text = Γι ’ αυτόν οι επιχειρήσεις ενδιαφέρουνται μόνον για τα κέρδη και τίποτ’ άλλον.
+# text = Γι ' αυτόν οι επιχειρήσεις ενδιαφέρουνται μόνον για τα κέρδη και τίποτ' άλλον.
 1	Γι	για	ADP	_	_	3	case	_	_
-2	’	’	PUNCT	_	_	1	punct	_	_
+2	'	’	PUNCT	_	_	1	punct	_	_
 3	αυτόν	αυτός	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
 4	οι	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	επιχειρήσεις	επιχείρηση	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
@@ -14208,7 +14208,7 @@
 9	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
 10	κέρδη	κέρδος	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
 11	και	και	CCONJ	_	_	13	cc	_	_
-12	τίποτ’	τίποτα	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	13	det	_	_
+12	τίποτ'	τίποτα	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	13	det	_	_
 13	άλλον	άλλος	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	10	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
@@ -14328,9 +14328,9 @@
 11	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-829
-# text = Σ’ ’ εμέναν δε μένει τίποτα.
-1	Σ’	σε	ADP	_	_	5	vocative	_	_
-2	’	’	PUNCT	_	_	1	punct	_	_
+# text = Σ' ' εμέναν δε μένει τίποτα.
+1	Σ'	σε	ADP	_	_	5	vocative	_	_
+2	'	’	PUNCT	_	_	1	punct	_	_
 3	εμέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
 4	δε	δεν	PART	_	Polarity=Neg	5	advmod	_	_
 5	μένει	μένω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14466,7 +14466,7 @@
 11	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-837
-# text = «Απλώς εθεώρησα υποχρέωση μου να μιλήσω πρώτα σ’ εσάς».
+# text = «Απλώς εθεώρησα υποχρέωση μου να μιλήσω πρώτα σ' εσάς».
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Απλώς	απλά	ADV	_	_	3	advmod	_	_
 3	εθεώρησα	θεωρώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14687,11 +14687,11 @@
 9	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-852
-# text = «Εντάξει, ’περάσαμεν πολλά, αλλά υπάρχει μια διαφορά» της απαντά η Κατερίνα.
+# text = «Εντάξει, 'περάσαμεν πολλά, αλλά υπάρχει μια διαφορά» της απαντά η Κατερίνα.
 1	«	«	PUNCT	_	_	13	punct	_	PunctType=Quot|SpaceAfter=No
 2	Εντάξει	εντάξει	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	PunctType=Comm
-4	’περάσαμεν	περνώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	_	_
+4	'περάσαμεν	περνώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	_	_
 5	πολλά	πολύς	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	PunctType=Comm
 7	αλλά	αλλά	CCONJ	_	_	8	cc	_	_
@@ -14975,7 +14975,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-869
-# text = Κανείς δε μου είπεν ότι θα μείνω εφ’ όρου ζωής στο Ανθρωποκτονιών.
+# text = Κανείς δε μου είπεν ότι θα μείνω εφ' όρου ζωής στο Ανθρωποκτονιών.
 1	Κανείς	κανένας	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	4	nsubj	_	_
 2	δε	δεν	PART	_	Polarity=Neg	4	advmod	_	_
 3	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
@@ -14983,7 +14983,7 @@
 5	ότι	ότι	SCONJ	_	_	7	mark	_	_
 6	θα	θα	AUX	_	Tense=Fut	7	aux	_	_
 7	μείνω	μένω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	4	ccomp	_	_
-8	εφ’	επί	ADP	_	_	9	case	_	_
+8	εφ'	επί	ADP	_	_	9	case	_	_
 9	όρου	όρος	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
 10	ζωής	ζωή	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 11-12	στο	_	_	_	_	_	_	_	_
@@ -15141,7 +15141,7 @@
 4	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-880
-# text = «Και πού θα βρείτε τα λεφτά για ν’ αγοράσετε;»
+# text = «Και πού θα βρείτε τα λεφτά για ν' αγοράσετε;»
 1	«	«	PUNCT	_	_	5	punct	_	PunctType=Quot|SpaceAfter=No
 2	Και	και	CCONJ	_	_	5	cc	_	_
 3	πού	πού	ADV	_	PronType=Int	5	advmod	_	_
@@ -15150,7 +15150,7 @@
 6	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
 7	λεφτά	λεφτά	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
 8	για	για	ADP	_	ExtPos=SCONJ	10	mark	_	_
-9	ν’	να	SCONJ	_	_	8	fixed	_	_
+9	ν'	να	SCONJ	_	_	8	fixed	_	_
 10	αγοράσετε	αγοράζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
 11	;	;	PUNCT	_	_	5	punct	_	PunctType=Qest|SpaceAfter=No
 12	»	»	PUNCT	_	_	5	punct	_	PunctType=Quot
@@ -15328,7 +15328,7 @@
 # sent_id = train-GUD-892
 # text = Στες δυο προηγούμενες δολοφονίες, οι δολοφόνοι ήταν αυτοί που ομολόγησαν.
 1-2	Στες	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	5	case	_	_
+1	Σ'	σε	ADP	_	_	5	case	_	_
 2	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 3	δυο	δύο	NUM	_	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	5	nummod	_	_
 4	προηγούμενες	προηγούμενος	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	_
@@ -15345,7 +15345,7 @@
 # sent_id = train-GUD-893
 # text = Στην Ελλάδα το καππέλλον του βασιλιά είναι την μια μέρα για αρχοντιά, την άλλην για ζητιανιά.
 1-2	Στην	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	3	case	_	_
+1	Σ'	σε	ADP	_	_	3	case	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Ελλάδα	Ελλάδα	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
 4	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -15420,9 +15420,9 @@
 5	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-898
-# text = Σ’ ’ αυτές τες περιπτώσεις ήθελεν να είναι τελείως μόνος στο γραφείον».
-1	Σ’	σε	ADP	_	_	5	case	_	_
-2	’	’	PUNCT	_	_	1	punct	_	_
+# text = Σ' ' αυτές τες περιπτώσεις ήθελεν να είναι τελείως μόνος στο γραφείον».
+1	Σ'	σε	ADP	_	_	5	case	_	_
+2	'	’	PUNCT	_	_	1	punct	_	_
 3	αυτές	αυτός	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
 4	τες	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	περιπτώσεις	περίπτωση	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	_
@@ -15439,10 +15439,10 @@
 15	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-899
-# text = «Είπα τζ̆’ εγώ, πως τώρα που πήρατε αύξηση θα είσαστεν πιο γενναιόδωρος».
+# text = «Είπα τζ̆' εγώ, πως τώρα που πήρατε αύξηση θα είσαστεν πιο γενναιόδωρος».
 1	«	«	PUNCT	_	_	2	punct	_	PunctType=Quot|SpaceAfter=No
 2	Είπα	λέω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	τζ̆’	και	CCONJ	_	_	4	cc	_	_
+3	τζ̆'	και	CCONJ	_	_	4	cc	_	_
 4	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	PunctType=Comm
 6	πως	πως	SCONJ	_	_	14	mark	_	_
@@ -15510,7 +15510,7 @@
 12	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-903
-# text = Η Εγγλέζα με το παιδίν δεν ξανάρθαν από τότε που χώρισαν και το σπίτιν είναι κλειστό απ’ ό,τι βλέπω.
+# text = Η Εγγλέζα με το παιδίν δεν ξανάρθαν από τότε που χώρισαν και το σπίτιν είναι κλειστό απ' ό,τι βλέπω.
 1	Η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Εγγλέζα	Εγγλέζος	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	με	με	ADP	_	_	5	case	_	_
@@ -15527,7 +15527,7 @@
 14	σπίτιν	σπίτιν	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
 15	είναι	είμαι	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 16	κλειστό	κλειστός	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
-17	απ’	από	ADP	_	_	19	mark	_	_
+17	απ'	από	ADP	_	_	19	mark	_	_
 18	ό,τι	ό,τι	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	19	obj	_	_
 19	βλέπω	βλέπω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
@@ -15581,7 +15581,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-907
-# text = Ακόμα και αν τον εντοπίσουμεν, είναι ζήτημαν αν θα θθυμάται έναν τόσον ασήμαντο γι’ αυτόν περιστατικόν μέσα στην φασαρία της λαχαναγοράς.
+# text = Ακόμα και αν τον εντοπίσουμεν, είναι ζήτημαν αν θα θθυμάται έναν τόσον ασήμαντο γι' αυτόν περιστατικόν μέσα στην φασαρία της λαχαναγοράς.
 1	Ακόμα	ακόμα	ADV	_	ExtPos=SCONJ	5	mark	_	_
 2	και	και	CCONJ	_	_	1	fixed	_	_
 3	αν	αν	SCONJ	_	_	1	fixed	_	_
@@ -15596,7 +15596,7 @@
 12	έναν	ένας	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 13	τόσον	τόσος	DET	_	PronType=Dem	14	det	_	_
 14	ασήμαντο	ασήμαντος	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	17	amod	_	_
-15	γι’	για	ADP	_	_	16	case	_	_
+15	γι'	για	ADP	_	_	16	case	_	_
 16	αυτόν	αυτός	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	nmod	_	_
 17	περιστατικόν	περιστατικόν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 18	μέσα	μέσα	ADV	_	_	11	advmod	_	_
@@ -16033,7 +16033,7 @@
 # sent_id = train-GUD-934
 # text = Στο κάτω-κάτω το άλλα να λες και άλλα να κάνεις ήταν κάτι σαν όρκος πίστης των ελληνικών κομμάτων.
 1-2	Στο	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	ExtPos=ADV	9	advmod	_	_
+1	Σ'	σε	ADP	_	ExtPos=ADV	9	advmod	_	_
 2	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	1	fixed	_	_
 3	κάτω	κάτω	ADV	_	_	1	fixed	_	SpaceAfter=No
 4	—	—	PUNCT	_	_	1	punct	_	PunctType=Dash|SpaceAfter=No
@@ -16131,7 +16131,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-940
-# text = Από την άλλην, δίνω τόσον βάρος σ’ αυτά που είπεν ο Ούλιν;
+# text = Από την άλλην, δίνω τόσον βάρος σ' αυτά που είπεν ο Ούλιν;
 1	Από	από	ADP	_	ExtPos=CCONJ	5	cc	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	fixed	_	_
 3	άλλη	άλλος	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	1	fixed	_	SpaceAfter=No
@@ -16509,12 +16509,12 @@
 12	.	.	PUNCT	_	_	8	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-965
-# text = Έπαιξεν το ρόλον τού αντ’ αυτού, γιατί ο πραγματικός εκτελεστής δεν έπρεπεν να ππέσει στα χέρια της αστυνομίας, έστω και από ατύχημα.
+# text = Έπαιξεν το ρόλον τού αντ' αυτού, γιατί ο πραγματικός εκτελεστής δεν έπρεπεν να ππέσει στα χέρια της αστυνομίας, έστω και από ατύχημα.
 1	Έπαιξεν	παίζω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	ρόλον	ρόλος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
 4	τού	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	αντ’	αντί	ADP	_	ExtPos=ADJ	3	amod	_	_
+5	αντ'	αντί	ADP	_	ExtPos=ADJ	3	amod	_	_
 6	αυτού	αυτός	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	fixed	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	PunctType=Comm
 8	γιατί	γιατί	SCONJ	_	_	13	mark	_	_
@@ -16607,7 +16607,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-970
-# text = «Θα το δώσω σ’ έναν φίλον μου, Γερμανόν, που δουλεύκει στην γερμανική πρεσβεία».
+# text = «Θα το δώσω σ' έναν φίλον μου, Γερμανόν, που δουλεύκει στην γερμανική πρεσβεία».
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Θα	θα	AUX	_	Tense=Fut	4	aux	_	_
 3	το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
@@ -16644,7 +16644,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-972
-# text = «Με κολοβούς μισθούς μας βάζανε να κυνηγάμε τον κόσμον, που τζ̆’ αυτός είχεν πετσοκομμένον εισόδημα» λέει ένας άλλος.
+# text = «Με κολοβούς μισθούς μας βάζανε να κυνηγάμε τον κόσμον, που τζ̆' αυτός είχεν πετσοκομμένον εισόδημα» λέει ένας άλλος.
 1	«	«	PUNCT	_	_	19	punct	_	PunctType=Quot|SpaceAfter=No
 2	Με	με	ADP	_	_	4	case	_	_
 3	κολοβούς	κολοβός	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	_
@@ -16657,7 +16657,7 @@
 10	κόσμον	κόσμος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	PunctType=Comm
 12	που	που	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
-13	τζ̆’	και	CCONJ	_	_	14	cc	_	_
+13	τζ̆'	και	CCONJ	_	_	14	cc	_	_
 14	αυτός	αυτός	DET	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nmod	_	_
 15	είχεν	έχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 16	πετσοκομμένον	πετσοκομμένος	VERB	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	17	amod	_	_
@@ -16721,7 +16721,7 @@
 # sent_id = train-GUD-977
 # text = Στην κάτω πλευρά της πλατείας και στην Φιλελλήνων τα κορναρίσματα ξεκουφαίννουν.
 1-2	Στην	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	4	case	_	_
+1	Σ'	σε	ADP	_	_	4	case	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	κάτω	κάτω	ADV	_	_	4	advmod	_	_
 4	πλευρά	πλευρά	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
@@ -16747,7 +16747,7 @@
 6	»	»	PUNCT	_	_	2	punct	_	PunctType=Quot
 
 # sent_id = train-GUD-979
-# text = «Κάποιος ήταν μαζίν σας, που σας βοήθησε ν’ αννοίξετε την πόρταν» τους λέω.
+# text = «Κάποιος ήταν μαζίν σας, που σας βοήθησε ν' αννοίξετε την πόρταν» τους λέω.
 1	«	«	PUNCT	_	_	16	punct	_	PunctType=Quot|SpaceAfter=No
 2	Κάποιος	κάποιος	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	dislocated	_	_
 3	ήταν	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -16757,7 +16757,7 @@
 7	που	που	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
 8	σας	εγώ	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	9	obj	_	_
 9	βοήθησε	βοηθώ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
-10	ν’	να	SCONJ	_	_	11	mark	_	_
+10	ν'	να	SCONJ	_	_	11	mark	_	_
 11	αννοίξετε	ανοίγω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	9	xcomp	_	_
 12	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	πόρτα	πόρτα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
@@ -17060,9 +17060,9 @@
 6	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-998
-# text = Γι ’ αυτόν υπάρχει η ασφάλεια.
+# text = Γι ' αυτόν υπάρχει η ασφάλεια.
 1	Γι	για	ADP	_	_	3	case	_	_
-2	’	’	PUNCT	_	_	1	punct	_	_
+2	'	’	PUNCT	_	_	1	punct	_	_
 3	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
 4	υπάρχει	υπάρχω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	η	ο	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -17118,8 +17118,8 @@
 10	.	.	PUNCT	_	_	7	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1002
-# text = Γι’ αυτόν και ερχόμαστε εναλλάξ μισή ώρα νωρίτερα κάθε πρωίν, για ν’ αννοίξουμεν τα γραφεία.
-1	Γι’	για	ADP	_	ExtPos=CCONJ	4	cc	_	_
+# text = Γι' αυτόν και ερχόμαστε εναλλάξ μισή ώρα νωρίτερα κάθε πρωίν, για ν' αννοίξουμεν τα γραφεία.
+1	Γι'	για	ADP	_	ExtPos=CCONJ	4	cc	_	_
 2	αυτόν	αυτός	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	fixed	_	_
 3	και	και	CCONJ	_	_	4	cc	_	_
 4	ερχόμαστε	έρκουμαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -17131,7 +17131,7 @@
 10	πρωίν	πρωίν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	PunctType=Comm
 12	για	για	ADP	_	ExtPos=SCONJ	14	mark	_	_
-13	ν’	να	SCONJ	_	_	12	fixed	_	_
+13	ν'	να	SCONJ	_	_	12	fixed	_	_
 14	αννοίξουμεν	ανοίγω	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	4	advcl	_	_
 15	τα	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
 16	γραφεία	γραφείον	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
@@ -17194,7 +17194,7 @@
 28	ψυχραιμία	ψυχραιμία	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
 29	μου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod	_	_
 30-31	Στο	_	_	_	_	_	_	_	_
-30	Σ’	σε	ADP	_	_	32	case	_	_
+30	Σ'	σε	ADP	_	_	32	case	_	_
 31	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
 32	κάθισμα	κάθισμα	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	35	obl	_	_
 33	του	ο	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -17239,7 +17239,7 @@
 30	.	.	PUNCT	_	_	18	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1007
-# text = Αλλάζω αμέσως θέμαν, και τους αναπτύσσω την θεωρία μου σχετικά με την εκτέλεση του Λαλόπουλου και τα στοιχεία που με οδήγησαν σ’ αυτήν.
+# text = Αλλάζω αμέσως θέμαν, και τους αναπτύσσω την θεωρία μου σχετικά με την εκτέλεση του Λαλόπουλου και τα στοιχεία που με οδήγησαν σ' αυτήν.
 1	Αλλάζω	αλλάζω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	αμέσως	αμέσως	ADV	_	_	1	advmod	_	_
 3	θέμαν	θέμαν	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No
@@ -17333,11 +17333,11 @@
 9	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1012
-# text = Θα ανέβαιννα έτσι τζ̆’ αλλιώς για να του πω το Χριστός Ανέστη.
+# text = Θα ανέβαιννα έτσι τζ̆' αλλιώς για να του πω το Χριστός Ανέστη.
 1	Θα	θα	AUX	_	Tense=Fut	2	aux	_	_
 2	ανέβαιννα	ανεβαίννω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 3	έτσι	έτσι	ADV	_	ExtPos=ADV	2	advmod	_	_
-4	τζ̆’	και	CCONJ	_	_	3	fixed	_	_
+4	τζ̆'	και	CCONJ	_	_	3	fixed	_	_
 5	αλλιώς	αλλιώς	ADV	_	_	3	fixed	_	_
 6	για	για	ADP	_	ExtPos=SCONJ	9	mark	_	_
 7	να	να	SCONJ	_	_	6	fixed	_	_
@@ -17510,12 +17510,12 @@
 19	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1021
-# text = Εξάλλου, δε σου ’χω κάνει καμιά σπουδαία αποκάλυψη.
+# text = Εξάλλου, δε σου 'χω κάνει καμιά σπουδαία αποκάλυψη.
 1	Εξάλλου	εξάλλου	CCONJ	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	PunctType=Comm
 3	δε	δεν	PART	_	Polarity=Neg	6	advmod	_	_
 4	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
-5	’χω	έχω	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	'χω	έχω	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	κάνει	κάννω	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 7	καμιά	κανένας	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	9	det	_	_
 8	σπουδαία	σπουδαίος	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
@@ -17523,11 +17523,11 @@
 10	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1022
-# text = «Πώς σου ’ρθε;»
+# text = «Πώς σου 'ρθε;»
 1	«	«	PUNCT	_	_	4	punct	_	PunctType=Quot|SpaceAfter=No
 2	Πώς	πώς	ADV	_	PronType=Int	4	advmod	_	_
 3	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
-4	’ρθε	έρκουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	'ρθε	έρκουμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	;	;	PUNCT	_	_	4	punct	_	PunctType=Qest|SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	PunctType=Quot
 
@@ -17617,12 +17617,12 @@
 15	.	.	PUNCT	_	_	9	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1029
-# text = Όχι να την πλένω τζ̆’ αποπάννω.
+# text = Όχι να την πλένω τζ̆' αποπάννω.
 1	Όχι	όχι	PART	_	Polarity=Neg	4	advmod	_	_
 2	να	να	AUX	_	_	4	aux	_	_
 3	την	εγώ	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	πλένω	πλένω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
-5	τζ̆’	και	CCONJ	_	_	6	cc	_	_
+5	τζ̆'	και	CCONJ	_	_	6	cc	_	_
 6	αποπάννω	αποπάννω	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	PunctType=Peri
 
@@ -17827,7 +17827,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1043
-# text = «Όταν ήθελεν να κάνει προσωπικά τηλεφωνήματα, που δεν έπρεπεν να τ’ ακούσει κανέναν ξένον αυτί».
+# text = «Όταν ήθελεν να κάνει προσωπικά τηλεφωνήματα, που δεν έπρεπεν να τ' ακούσει κανέναν ξένον αυτί».
 1	«	«	PUNCT	_	_	3	punct	_	PunctType=Quot|SpaceAfter=No
 2	Όταν	όταν	SCONJ	_	_	3	mark	_	_
 3	ήθελεν	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -17840,7 +17840,7 @@
 10	δεν	δεν	PART	_	Polarity=Neg	11	advmod	_	_
 11	έπρεπεν	πρέπει	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 12	να	να	SCONJ	_	_	14	mark	_	_
-13	τ’	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	14	obl	_	_
+13	τ'	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	14	obl	_	_
 14	ακούσει	ακούω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	csubj	_	_
 15	κανέναν	κανένας	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	17	det	_	_
 16	ξένον	ξένος	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	17	amod	_	_
@@ -17891,8 +17891,8 @@
 21	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1046
-# text = Τζ̆’ εγώ δε θέλω σχόλια πίσω από την πλάτη μου σε έναν ανδροκρατούμενον σώμαν.
-1	Τζ̆’	και	CCONJ	_	_	2	cc	_	_
+# text = Τζ̆' εγώ δε θέλω σχόλια πίσω από την πλάτη μου σε έναν ανδροκρατούμενον σώμαν.
+1	Τζ̆'	και	CCONJ	_	_	2	cc	_	_
 2	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	δε	δεν	PART	_	Polarity=Neg	4	advmod	_	_
 4	θέλω	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -17938,7 +17938,7 @@
 # sent_id = train-GUD-1048
 # text = Στην Ακτή Κονδύλη.
 1-2	Στην	_	_	_	_	_	_	_	_
-1	Σ’	σε	ADP	_	_	3	case	_	_
+1	Σ'	σε	ADP	_	_	3	case	_	_
 2	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Ακτή	ακτή	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
 4	Κονδύλη	Κονδύλη	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	3	flat	_	SpaceAfter=No
@@ -18323,10 +18323,10 @@
 14	.	.	PUNCT	_	_	5	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1069
-# text = «Ήθελα τζ̆’ εγώ να σας μιλήσω, αλλά έπρεπεν να τελειώσω πρώτα με τα τυπικά της έρευνας» του απαντώ, ενώ σκέφτουμαι ότι δεν ξέφυγα τελικά από την εύκολη δικαιολογία.
+# text = «Ήθελα τζ̆' εγώ να σας μιλήσω, αλλά έπρεπεν να τελειώσω πρώτα με τα τυπικά της έρευνας» του απαντώ, ενώ σκέφτουμαι ότι δεν ξέφυγα τελικά από την εύκολη δικαιολογία.
 1	«	«	PUNCT	_	_	21	punct	_	PunctType=Quot|SpaceAfter=No
 2	Ήθελα	θέλω	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	21	ccomp	_	_
-3	τζ̆’	και	CCONJ	_	_	4	cc	_	_
+3	τζ̆'	και	CCONJ	_	_	4	cc	_	_
 4	εγώ	εγώ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 5	να	να	SCONJ	_	_	7	mark	_	_
 6	σας	εγώ	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Prs	7	obj	_	_
@@ -18371,7 +18371,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	PunctType=Peri
 
 # sent_id = train-GUD-1071
-# text = Πρέπει να κοιμήθηκα έναν δεκάωρο περίπου, που για ’μέναν είναι το απόλυτο θαύμα.
+# text = Πρέπει να κοιμήθηκα έναν δεκάωρο περίπου, που για 'μέναν είναι το απόλυτο θαύμα.
 1	Πρέπει	πρέπει	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	να	να	SCONJ	_	_	3	mark	_	_
 3	κοιμήθηκα	τζ̆οιμούμαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	1	csubj	_	_
@@ -18381,7 +18381,7 @@
 7	,	,	PUNCT	_	_	14	punct	_	PunctType=Comm
 8	που	που	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	nsubj	_	_
 9	για	για	ADP	_	_	10	case	_	_
-10	’μέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+10	'μέναν	εγώ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
 11	είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 13	απόλυτο	απόλυτος	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	14	amod	_	_
