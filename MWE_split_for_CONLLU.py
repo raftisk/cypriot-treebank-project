@@ -30,7 +30,7 @@ MWE_MAP = {
 
 
 def process_conllu(input_filepath, output_filepath):
-    """Splits all multiword expressions in a given text file.
+    """Splits all multiword expressions in a given file.
     Parameters: input_filepath(.conllu)
     Returns: output_filepath(.conllu)
     """
