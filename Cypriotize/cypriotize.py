@@ -229,7 +229,8 @@ def ligos_llios(s):
 @rule
 def final_nu(s):
     for t in s.find(upos={'NOUN', 'DET', 'ADJ'},
-                    feats={'Case': 'Acc', 'Gender': 'Neut'},
+                    feats=[{'Case':'Acc', 'Number':'Sing'},
+                           {'Case':'Nom', 'Number':'Sing', 'Gender':'Neut'}],
                     form=R(r'[ιίοό]$'),
                     not_=dict(feats={'PronType': 'Art'}),
                     mwt=False):
