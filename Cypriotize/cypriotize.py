@@ -8,6 +8,8 @@ import argparse, difflib, re, sys
 from collections import Counter
 from datetime import datetime
 
+import unicodedata
+
 R = re.compile  # shorthand for regex filters:  form=R(r'^κ')
 UPOS = set('ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X'.split())
 
@@ -157,13 +159,22 @@ def validate(s):
 
 # ───────────────────────────── helpers for rules ─────────────────────────────
 RULES = []
-def rule(f): RULES.append(f); return f          # rules run in the order they are defined, on every sentence
 
-def keep_case(old, new): return new[0].upper() + new[1:] if old[:1].isupper() else new
+def rule(f):
+    RULES.append(f)
+    return f          # rules run in the order they are defined, on every sentence
+
+def keep_case(old, new):
+    return new[0].upper() + new[1:] if old[:1].isupper() else new
+
+def is_accented(t):
+    """True if the syllable carries a greek accent mark."""
+    return "\u0301" in unicodedata.normalize("NFD", t)
 
 def lex(s, old_lemma, new, **crit):
     """Replace every token whose lemma is `old_lemma` by `new` (sets form AND lemma, keeps capitalisation)."""
-    for t in s.find(lemma=old_lemma, **crit): t.form, t.lemma = keep_case(t.form, new), new
+    for t in s.find(lemma=old_lemma, **crit):
+        t.form, t.lemma = keep_case(t.form, new), new
 
 
 # ───────────────────────────── RULES SECTION ─────────────────────────────
@@ -176,14 +187,53 @@ def den(s): lex(s, 'δεν', 'εν', upos='PART')
 @rule
 def tha(s): lex(s, 'θα', 'εννά')
 
+@rule
+def oxi(s): lex(s, 'όχι', 'όι')
+
+@rule
+def apo(s): lex(s, 'από', 'που', mwt=False)
+
+@rule
+def ante(s): lex(s, 'άντε', 'άτε')
+
+@rule
+def adv_poly(s): lex(s, 'πολύ', 'πολλά', upos='ADV')
+
+@rule
+def adv_tora(s): lex(s, 'τώρα', 'τωρά', upos='ADV')
+
+#@rule
+#def adv_poly(s): lex(s, 'πολύ', 'πολλά', upos='ADV')
+
+
+
 FRONT = r'(?:[εέιίηήυύ]|[αεου][ιί])'                   # front vowels: ε ι η υ αι ει οι υι (accented or not)
 KAPPA = R(rf'(?<![γκσΓΚΣ])[κΚ](?={FRONT})')            # κ before a front vowel; not in γκ, κκ, σκ  (ASSUMPTION: edit me)
+
 
 @rule
 def palatal_k(s):
     for t in s.find(not_=dict(upos='PROPN'), mwt=False):   # names untouched; words inside MWTs untouched (exceptions live here)
         sub = lambda x: KAPPA.sub(lambda m: keep_case(m.group(), 'τζ̆'), x)
         t.form, t.lemma = sub(t.form), sub(t.lemma)
+
+LIGO = R(rf"^λ[ιί]γ")
+
+@rule
+def ligos_llios(s):
+    for t in s.find(lemma={"λίγος", "λίγο"}, upos={'DET', "ADV"}):
+        sub = lambda x: LIGO.sub(lambda m: keep_case(m.group(), 'λλι' if not is_accented(m.group()) else 'λλί'), x)
+        t.form, t.lemma = sub(t.form), sub(t.lemma)
+
+
+@rule
+def final_nu(s):
+    for t in s.find(upos={'NOUN', 'DET', 'ADJ'},
+                    feats={'Case': 'Acc', 'Gender': 'Neut'},
+                    form=R(r'[ιίοό]$'),
+                    not_=dict(feats={'PronType': 'Art'}),
+                    mwt=False):
+        t.form += 'ν'
 
 
 # ── clitics go after the verb:  μου το είπε → είπε το μου ──────────────────
