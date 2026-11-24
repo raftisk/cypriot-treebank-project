@@ -41,3 +41,24 @@
 30	της	ο	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Αδριανής	Αδριανή	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
+
+
+# sent_id = test-GUD-52
+# text = Το σκέφτεται λίγο.
+1	Το	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	σκέφτεται	σκέφτομαι	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	λίγο	λίγο	ADV	_	PronType=Ind	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
+
+
+# sent_id = test-GUD-122
+# text = Είναι το λιγότερο που μπορούμε να της προσφέρουμε.
+1	Είναι	είμαι	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	το	ο	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	λιγότερο	λίγος	DET	_	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
+4	που	που	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	dislocated	_	_
+5	μπορούμε	μπορώ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+6	να	να	SCONJ	_	_	8	mark	_	_
+7	της	εγώ	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	προσφέρουμε	προσφέρω	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	PunctType=Peri
